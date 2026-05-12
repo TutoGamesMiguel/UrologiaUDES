@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página académica interactiva sobre equipos quirúrgicos en urología para estudiantes de instrumentación quirúrgica.">
+    <title>Equipos Quirúrgicos en Urología</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container" aria-label="Navegación principal">
+            <a class="brand" href="index.html" aria-label="Ir a inicio">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 64 64" role="img" aria-label="Logo del proyecto">
+                        <circle cx="32" cy="32" r="30" fill="var(--azul-pastel)"></circle>
+                        <path d="M20 37L37 20c1-1 2.5-1 3.5 0l3.5 3.5c1 1 1 2.5 0 3.5L27.5 43.5 20 44l1-7Z" fill="var(--rosa-acento)"></path>
+                        <path d="M24.5 40.5l-1.5 1.5c-.4.4-.4 1 0 1.4l2.1 2.1c.4.4 1 .4 1.4 0l1.5-1.5" fill="none" stroke="var(--rosa-acento)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </span>
+                <span class="brand-text">
+                    <strong>UroInstrumentación</strong>
+                </span>
+            </a>
+
+            <button class="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <div class="nav-panel" id="primary-navigation">
+                <a class="nav-link active" href="index.html">Inicio</a>
+                <a class="nav-link" href="planeamientos.html">Planeamientos</a>
+                <a class="nav-link" href="equipos.html">Equipos</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero hero-home">
+            <div class="hero-content container fade-in">
+                <h1>Planeamientos y Equipos quirúrgicos para aprender, reconocer y aplicar en Urología</h1>
+                <p>
+                    Una página interactiva para estudiantes universitarios con planeamientos y equipos especializados,
+                    organizada para facilitar el estudio visual y la consulta rápida.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="equipos.html">Ver Equipos</a>
+                    <a class="btn btn-secondary" href="planeamientos.html">Planeamientos</a>
+                </div>
+            </div>
+
+            <div class="hero-shapes" aria-hidden="true">
+                <span class="shape shape-one"></span>
+                <span class="shape shape-two"></span>
+                <span class="shape shape-three"></span>
+            </div>
+        </section>
+
+        <section class="sections-grid section">
+            <div class="container">
+                <h2 class="section-title fade-in">Explora el recurso</h2>
+                <div class="cards-grid">
+                    <article class="card section-card fade-in">
+                        <i data-lucide="clipboard-list" class="card-icon" aria-hidden="true"></i>
+                        <h3>Planeamientos</h3>
+                        <p>Revisa las etapas de planeación, organización y ejecución del proceso quirúrgico en urología.</p>
+                        <a class="btn btn-secondary" href="planeamientos.html">Abrir sección</a>
+                    </article>
+
+                    <article class="card section-card fade-in">
+                        <i data-lucide="stethoscope" class="card-icon" aria-hidden="true"></i>
+                        <h3>Equipos quirúrgicos</h3>
+                        <p>Explora el instrumental, filtra por categoría y consulta usos clínicos de cada equipo con detalle.</p>
+                        <a class="btn btn-secondary" href="equipos.html">Ver equipos</a>
+                    </article>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Equipos Quirúrgicos en Urología · Instrumentación Quirúrgica · 2026</p>
+            <p>UDES - Universidad de Santander</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Volver arriba">
+        <i data-lucide="arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+</html>

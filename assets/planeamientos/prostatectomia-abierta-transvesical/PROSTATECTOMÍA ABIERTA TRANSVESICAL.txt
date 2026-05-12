@@ -1,0 +1,731 @@
+﻿PROGRAMA DE INSTRUMENTACION QUIRURGICA
+	PLANEAMIENTO QUIRURGICO PRACTICA FORMATIVA
+IQX-FT-003-BUC
+	Versión: 01
+	
+
+
+
+
+
+
+
+
+
+NOMBRE DEL ESTUDIANTE:
+4 SEMESTRE 2026A
+	CÓDIGO:
+	NIVEL DE PRÁCTICA:
+	NOMBRE DEL DOCENTE :
+SAMUEL PALACIO PEÑA 
+	ESCENARIO DE PRÁCTICA:
+	NOTA:
+
+
+	ESPECIALIDAD:
+UROLOGIA
+	CIRUJANO:
+	FECHA:
+	NOMBRE DEL PACIENTE:
+	NÚMERO HISTORIA CLÍNICA:
+
+
+	EDAD DEL PX:
+	PROCEDIMIENTO QUIRÚRGICO A REALIZAR: 
+PROSTATECTOMÍA ABIERTA TRANSVESICAL
+	PROCESO DE INSTRUMENTACIÓN QUIRÚRGICA
+
+
+	1. ETAPA DE PLANEACIÓN:
+
+
+	
+
+   1. Objetivo Quirúrgico: (Hacer descripción)
+
+
+Extirpar de forma completa el adenoma prostático de gran volumen a través de un abordaje transverso abierto para eliminar la obstrucción del tracto urinario inferior. 
+
+
+   2. Anatomía y fisiología: (Hacer gráfico y descripción).
+
+
+ANATOMIA 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Es una glándula accesoria del sistema reproductor masculino. Es del tamaño de una nuez, y se localiza alrededor de la porción prostática de la uretra (uretra prostática). Anatómicamente, la próstata está compuesta por un istmo, un lóbulo derecho y un lóbulo izquierdo.
+
+
+1. ISTMO: Se encuentra anterior a la uretra. Está compuesto principalmente por tejido fibroso y muscular, con poco o nulo tejido glandular.
+
+
+2. LÓBULO IZQUIERDO Y DERECHO: Están separados anteriormente por el istmo, y posteriormente por un surco longitudinal que se extiende sobre la línea media de la cara posterior de la próstata. Cada lóbulo está dividido en cuatro lobulillos, con base en sus relaciones anatómicas con el conducto eyaculador y la uretra prostática, que son los siguientes:
+
+
+* Lobulillo inferoposterior: inferior a la uretra y posterior al conducto eyaculador.
+* Lobulillo inferolateral: posicionado lateralmente a la uretra.
+* Lobulillo superomedial: por debajo del lobulillo inferoposterior y alrededor del conducto eyaculador.
+* Lobulillo anteromedial: inferior al lobulillo inferolateral y lateral a la porción proximal de la uretra prostática.
+
+
+La próstata consta a su vez de una base, vértice, cara anterior, cara posterior y unas caras inferolaterales. Y a su vez se divide en zonas:  una zona central, una zona periférica, zona transicional y estroma fibromuscular anterior
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Zona central: se encuentra en la base de la próstata, envolviendo los conductos eyaculadores y se conforma por las glándulas submucosas periuretrales
+2.  Zona transicional: es corta y rodea la porción proximal de la uretra prostática superior al colículo seminal, está formada por las glándulas mucosas periuretrales.
+3.  Zona periférica: Se compone por las glándulas prostáticas principales
+
+
+
+
+VASCULARIZACION
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+La fuente principal de irrigación arterial de la próstata es:
+
+
+* Arteria pudenda interna, con algunas contribuciones adicionales de las arterias vesical inferior y rectal media
+
+
+
+
+DRENAJE VENOSO  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+El drenaje venoso se realiza a través del plexo venoso prostático, que conduce la sangre hacia las venas ilíacas internas.
+
+
+INERVACIÓN
+
+
+Esta inervada por las fibras parasimpáticas de los nervios esplácnicos pélvicos del plexo prostático, que reciben sus fibras del plexo hipogástrico inferior (para erección y efecto secretomotor de acinos), el plexo hipogástrico inferior a su vez recibe fibras simpáticas preganglionares del plexo hipogástrico superior para brindar inervación motora a los músculos lisos del estroma glandular (para eyaculación y contracción muscular lisa).
+
+
+FISIOLOGÍA 
+
+
+Su función es la de producir el fluido prostático, que, en combinación con el esperma proveniente de los testículos, componen el semen y a su vez la función principal del fluido prostático es activar a las células espermáticas, por lo que asiste en el proceso general de la reproducción.
+
+
+1.3. Lista de chequeo
+
+
+INSTRUMENTAL 
+	EQUIPOS /  DISPOSITIVOS MEDICO
+	
+
+SUTURAS Y AGUJAS
+	FARMACOS Y SOLUCIONES
+	
+
+Canasta general 
+
+
+Canasta de urología
+
+
+Separador de Judd-Mason
+
+
+Pinza Heany
+
+
+Rochester Pean
+
+
+Valva suprapúbica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+Paquete de ropa 
+
+
+Dren de Jackson-Pratt
+
+
+Pala larga del electrobisturí 
+
+
+Aseptojeringa 
+
+
+Cánula de Yankauer
+
+
+Electrobisturí
+
+
+Consola del electro
+
+
+Caucho de succión 
+
+
+Hoja de bisturí #15 - #20
+
+
+Mango de bisturí 3 y 4
+
+
+Jeringa de 10cc
+
+
+Cystoflo 
+
+
+Guantes 
+
+
+Frasco de patología
+
+
+Equipo de venoclisis
+
+
+Compresas y apósitos
+
+
+Sonda Foley de 3 vías 22-24 
+
+
+Equipo de irrigación en Y
+	
+
+PIEL: 
+Polipropileno 2/0 Aguja curva cortante 3/8 de círculo 
+
+
+TEJIDO CELULAR SUBCUTÁNEO: Poliglactina 910 2/0 Aguja curva redonda ½ de círculo
+
+
+FASCIA: Poliglactina 910 0 -1 Aguja curva redonda ½ de círculo 
+
+
+LECHO PROSTÁTICO: 
+Poliglactina 910 0- 2/0 Aguja curva redonda 1/2 de círculo 
+
+
+seda 2/0 precortada 
+	
+
+Solución Salina 
+
+
+Lidocaina jalea 
+
+
+Surgicel
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+2. ETAPA DE ORGANIZACIÓN:
+
+
+   1. Arreglos de mesas de mayo y reserva (realizar esquema).
+
+
+
+
+MESA DE MAYO 
+  
+
+
+
+  
+  
+  
+
+
+
+
+
+ Pinza Pean-Rochester Rectas Hemostatica Longitud 18 Cms. Cat: 12.310.18  Dimeda - Aleman. 
+
+  
+  
+
+ Pinza De Diseccion Con Garra 20 Cms. Cat: 10.120.20 Dimeda - Aleman 
+  
+  
+
+ Pinza Pean-Rochester Curva Hemostatica Longitud 24 Cms. Cat: 12.311.24  Dimeda - Aleman 
+  
+
+  
+
+  
+  
+
+ Pinza Adson Rectas Hemostatica De 18.5 Cms. Dimeda 
+ Pinza de Diseccion con Dientes - ORTOSSUR OAXACA 
+
+
+
+  
+
+
+
+  
+  
+ Pinza de Disección Larga BADER - Dentaltix 
+ TECNIDENTAL - Pinza Kelly Recta Hemostática 14CMS Superdent 
+
+  
+  
+
+
+
+  
+
+  
+ Mango Para Bisturi No. 3 Cat: 06.103.00 Dimeda - Aleman 
+  
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   MESA DE RESERVA 
+
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+ POLIPROPILENO 5/0 A-C 3/8 19mm 75c MEIYI 
+ Polyglactin 910 (Vicryl) 2680-01 Sutura 1, MCR 37, 1/2 de círculo, 70 –  Coinmed 
+
+
+
+  
+ Cánula De Aspiración Yankauer, 10 mm, Long. 29 cm, 11 1/2" 
+
+  
+  
+
+
+
+  
+  
+
+ Pinza Foerster Curva Estriada 20 Cm Cat: 16.171.20 Dimeda - Aleman Pinza  Porta Esponjas 
+  
+
+  
+  
+ Sonda Nelaton Nª 16 
+  
+
+ ESPÁTULA O VALVA MALEABLE 25MM X 33CM 
+ EQUIPO DE VENOCLISIS MACROGOTEO 
+ Sonda foley 3 vías #22x30 CAJAX10 
+  
+ Separador Deaver Pequeno De 19 Mm. Ancho 180 Mm. Longitud Cat: 18.180.19  Dimeda - Aleman 
+ Bolsa para Drenaje Urinario (CISTOFLO) 2000 ml – Caldas Médicas 
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.2. Posición del paciente (Nombre y gráfico):
+
+
+Posición Decúbito supino 
+
+
+                                                                                                                                                                                                                                                                                                                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+2.3. Ubicación del Equipo Quirúrgico (realizar gráfico):
+
+
+
+
+  
+
+  
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+	
+
+3. ETAPA DE EJECUCION:
+
+
+
+
+1. Anestesia (escribir el tipo de anestesia): Anestesia Raquídea
+
+
+2. Incisión (escribir el tipo de abordaje y el nombre de la incisión): Incisión mediana infraumbilical 
+
+
+3. Proceso Quirúrgico (Describir los pasos principales de la técnica médico quirúrgica con el instrumental a usar).
+
+
+TECNICA QUIRURGICA
+	INSTRUMENTAL
+	Incisión mediana infraumbilical
+	Mango de bisturí 4 
+Hoja de bisturí 20 
+	Hemostasia 
+	Pinza Kelly curva 
+Lapicero del electrobisturí 
+	Visualización, incisión de la fascia, músculos rectos y divulsión de estos 
+	Pinza Kelly curva 
+Lapicero del electrobisturí 
+	Visualización de la vejiga 
+	
+
+	Reparos a los lados de la vejiga 
+	Seda 2/0 o 3/0  aguja ½ círculo redonda
+	Tracción de la vejiga e incisión 
+	Pinza Allix
+Mango de bisturí 4 largo 
+Hoja de bisturí 15 
+	Aspiración de la vejiga 
+	Cánula de Yankauer 
+	Visualización del cuello vesical 
+	Separador de Deaver ancho 
+	Sección y resección de la mucosa prostática y glándula 
+	Electrobisturí con pala larga
+	Circuncidados de la próstata y extracción 
+	Tijeras de Metzembaum 
+	Sutura del lecho prostatico 
+	Portaagujas largo 
+Disección sin garra
+Poliglactin 910 0- 2/0 aguja ½ redonda 
+	Colocación de la sonda en el cuello vesical 
+	Sonda Foley 22x30 tres vías
+Jeringa de 10 cc
+Cystoflo
+Equipo de venoclisis
+Solución salina de 100 cc
+	Dren por contrabertura 
+	Cystoflo
+	Sonda para cistostomía 
+	Sonda Foley 22x30 tres vías
+Jeringa 10 cc
+Cystoflo 
+	Cierre por planos y curación 
+	Portaagujas mediano 
+Pinza de disección con garra 
+Separador de Farabeuf 
+Pinza de disección Adson con garra 
+Poliglactin 910 2/0 aguja medio circulo redonda 
+Polipropileno 3/0 aguja curva cortante

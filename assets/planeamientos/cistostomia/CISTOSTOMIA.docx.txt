@@ -1,0 +1,519 @@
+﻿PLANEAMIENTO QUIRURGICO PRACTICA FORMATIVA
+IQX-FT-003-BUC
+	Versión: 01
+	
+
+
+
+
+
+
+
+
+
+NOMBRE DEL ESTUDIANTE:
+
+
+	CÓDIGO:
+	NIVEL DE PRÁCTICA:
+	NOMBRE DEL DOCENTE :
+Samuel Palacio Peña
+	ESCENARIO DE PRÁCTICA:
+	NOTA:
+
+
+	ESPECIALIDAD:
+Urología
+	CIRUJANO:
+	FECHA:
+	NOMBRE DEL PACIENTE:
+	NÚMERO HISTORIA CLÍNICA:
+
+
+	EDAD DEL PX:
+	PROCEDIMIENTO QUIRÚRGICO A REALIZAR:
+CISTOSTOMÍA
+	PROCESO DE INSTRUMENTACIÓN QUIRÚRGICA
+
+
+	* ETAPA DE PLANEACIÓN:
+
+
+	
+
+1.1. OBJETIVO QUIRÚRGICO: (HACER DESCRIPCIÓN)
+
+
+Este procedimiento consiste en colocar un catéter en la vejiga, a través de la pared del abdomen, para drenar la orina directamente hacia el exterior y así evitar el daño renal.
+
+
+1.2. ANATOMÍA Y FISIOLOGÍA: (HACER GRÁFICO Y DESCRIPCIÓN).
+
+
+ANATOMÍA      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+La vejiga es un órgano muscular hueco y distensible, situado en la cavidad pelviana, por detrás de la sínfisis del pubis. En los hombres, se encuentra por delante del recto y en la mujer es anterior a la vagina e inferior al útero. Con una capacidad de la vejiga oscila en promedio entre 700 y 800 Ml.
+
+
+La vejiga posee 3 porciones:
+* Cuerpo: Dónde la orina es recolectada.
+* Fondo (Base): Contiene al trígono vesical.
+* Trígono Vesical:  Donde se localiza la uretra. 
+A su vez se compone por 3 capas:
+ Diagrama
+
+El contenido generado por IA puede ser incorrecto. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Capa Serosa:  Se compone de tejido conectivo alveolar.
+* Capa Muscular: Formada por 3 capas de fibras musculares lisas: Longitudinal interna, circular media, longitudinal externa.
+* Capa Mucosa:  Compuesta por epitelio de transición y una lámina propia subyacente.
+
+
+IRRIGACIÓN.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Es drenada por las venas ilíacas internas, y tanto en hombres como en mujeres, los vasos linfáticos de las caras supero laterales de la vejiga desembocan en los ganglios linfáticos ilíacos externos
+
+
+INERVACION
+      Involucra el sistema nervioso simpático y parasimpático 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Las fibras simpáticas presinápticas para la vejiga urinaria son conducidas desde los niveles torácicos inferiores y lumbares superiores de la médula espinal a través de los nervios esplácnicos lumbares pasando por el tronco simpático lumbar, plexo hipogástrico superior y nervios hipogástricos hacia los plexos vesicales (pélvicos). Es un subplexo del plexo hipogástrico inferior, de ahí envían fibras autónomas postsinápticas a las paredes de la vejiga urinaria.
+2. Las fibras parasimpáticas presinápticas para la vejiga urinaria se originan en las neuronas de los segmentos sacros de la médula espinal S2-S4 y pasan desde los  ramos  anteriores de los nervios espinales  sacros ,a  través de los  nervios esplénicos pélvicos  y los  plexos hipogástricos inferiores, hasta la  vejiga urinaria.
+
+
+RELACIONES DE LA VEJIGA:
+
+
+* PARTE ANTERIOR:
+
+
+* Sínfisis del pubis
+* Espacio prevesical de Retzius.
+* Músculos de la pared abdominal
+* Fascia umbilicoprevesical
+* Uraco
+* Vasos umbilicales obliterados
+
+
+* PARTE INFERIOR:
+* Músculo elevador del ano
+* Músculos internos de la pelvis 
+
+
+* PARTE POSTERIOR:
+* Tiene el fondo de saco vésico rectal de Douglas y la Ampolla rectal.
+
+
+* PARTE SUPERIOR:
+* Uréteres, Conductos Deferentes y Vesículas Seminales.
+
+
+
+
+FISIOLOGIA  Diagrama
+
+El contenido generado por IA puede ser incorrecto. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Los músculos de la vejiga que permiten el control voluntario de la micción y permiten 2 funciones: 1) la sensación que permite que reconozcas que tu vejiga está llena y debe ser vaciada y 2) el control motor que permite que puedas orinar voluntariamente.
+Primero, como la pared vesical se estira cuando está llena o próxima a su máxima capacidad, existen señales que son transmitidas a través del sistema nervioso parasimpático para contraer el músculo detrusor, el cual es una capa de la pared vesical constituida por fibras de músculo liso que son ordenadas en fascículos longitudinales, circulares o en espiral, esta señal estimulará a la vejiga para expulsar orina a través de la uretra, luego, estas sensaciones dentro de la vejiga serán transmitidas al sistema nervioso central (SNC) por medio de fibras aferentes viscerales generales (AVG). Mientras las fibras aferentes en la cara superior de la vejiga siguen el curso de los nervios simpáticos eferentes hasta el SNC, las fibras aferentes en la porción inferior siguen a las fibras parasimpáticas eferentes.
+
+
+
+
+
+
+
+
+
+
+
+
+1.3. LISTA DE CHEQUEO:
+
+
+
+
+INSTRUMENTAL 
+	EQUIPOS /  DISPOSITIVOS MEDICO
+	
+
+SUTURAS Y AGUJAS
+	FARMACOS Y SOLUCIONES
+	* Canasta de Plastia
+* Sonda acanalada 
+	* Paquete de ropa
+* Hoja #11
+* Catéter de 30 cm calibre 14
+* Jeringa 50 ml
+* Sonda foley 18Fr
+* Guantes
+* Gasas
+* Electrobisturí
+* Cistoflo
+* Jeringa 10 ml
+* Caucho de succión
+* Micropore 
+
+
+
+
+
+
+	Piel: Polipropileno 3/0 con aguja ⅜ de círculo cortante con aguja de 27 mm 
+	Solución salina 
+Lidocaína 1%
+Agua esteril (balón de sonda foley)
+
+
+	
+
+
+
+	
+
+* ETAPA DE ORGANIZACIÓN:
+
+
+   * ARREGLOS DE MESAS DE MAYO Y RESERVA (REALIZAR ESQUEMA).
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+2.2. POSICIÓN DEL PACIENTE (NOMBRE Y GRÁFICO):
+
+
+Decúbito supino + Rodillo de sabana bajo la cadera
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+2.3. UBICACIÓN DEL EQUIPO QUIRÚRGICO (REALIZAR GRÁFICO):
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+* ETAPA DE EJECUCION:
+
+
+* ANESTESIA (ESCRIBIR EL TIPO DE ANESTESIA): Anestesia general 
+ Vectores de Anestesia General - Descarga vectores gratis de gran calidad |  Freepik 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* INCISIÓN (ESCRIBIR EL TIPO DE ABORDAJE Y EL NOMBRE DE LA INCISIÓN):
+Se realiza una incisión supra púbica infra abdominal transversal de 2-3cm
+
+
+* PROCESO QUIRÚRGICO (DESCRIBIR LOS PASOS PRINCIPALES DE LA TÉCNICA MÉDICO QUIRÚRGICA CON EL INSTRUMENTAL A USAR).
+
+
+
+
+TÉCNICA QUIRÚRGICA
+	INSTRUMENTACIÓN
+	Se hace una incisión de 2-3 cm en la región suprapúbica de manera transversal
+
+
+	Mango de bisturí #3
+Hoja de bisturí #11
+	Se introduce el catéter a través de la incisión, con una inclinación caudal de 60°
+	Catéter calibre 14
+Jeringa de 50cc
+	Se atraviesa la aponeurosis y penetr en la vejiga distendida, se aspira orina para comprobar que la punta de catéter haya penetrado la vejiga
+	
+
+	Se divulsionan las capas del tejido hasta llegar a la pared de la vejiga, se coloca la sonda acanalada sobre la sonda Foley para permitir el paso de esta
+	Sonda Acanalada
+Sonda Foley
+	Estando colocada la sonda Foley se infla el balón de esta con agua estéril
+	Sonda Foley
+Agua Estéril
+	Se fija la sonda a la piel para asegurar su posición, se sutra alrededor a la incisión para proteger la entrada y evitar el riesgo de infección
+	Polipropileno 3/0 cc ⅜ de circulo
+	Se conecta la sonda Foley con el cystoflo, se verifica retorno, se clampea bolsa de drenaje urinario
+	Cystoflo
+	Se hace limpieza del sitio operatorio y curación
+	Gasas
+Micropore
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	FORMATO DE INFORME SEMANAL DE LA PRACTICA FORMATIVA
+  FORMATO RECORD DE ASISTENCIA A CIRUGIA - PRACTICA FORMATIVA                                                                                                                                                                                          IQX-FT-024-UDES

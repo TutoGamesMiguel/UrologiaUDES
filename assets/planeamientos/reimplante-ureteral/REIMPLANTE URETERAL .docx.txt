@@ -1,0 +1,476 @@
+﻿PROGRAMA DE INSTRUMENTACION QUIRURGICA
+	PLANEAMIENTO QUIRURGICO PRACTICA FORMATIVA
+IQX-FT-003-BUC
+	Versión: 01
+	
+
+
+
+
+
+
+
+
+
+NOMBRE DEL ESTUDIANTE:
+4to Semestre 2025A
+	CÓDIGO:
+	NIVEL DE PRÁCTICA:
+	NOMBRE DEL DOCENTE :
+Samuel Humberto Palacio Peña
+	ESCENARIO DE PRÁCTICA:
+	NOTA:
+
+
+	ESPECIALIDAD:
+
+
+	CIRUJANO:
+	FECHA:
+	NOMBRE DEL PACIENTE:
+	NÚMERO HISTORIA CLÍNICA:
+
+
+	EDAD DEL PX:
+	PROCEDIMIENTO QUIRÚRGICO A REALIZAR:  REIMPLANTE URETERAL 
+	PROCESO DE INSTRUMENTACIÓN QUIRÚRGICA
+
+
+	* ETAPA DE PLANEACIÓN:
+
+
+	
+
+1.1. Objetivo Quirúrgico: (Hacer descripción)
+
+
+El reimplante uretral es una cirugía que corrige el flujo de orina a través de los uréteres (conductos por donde la orina
+desciende desde el riñón hasta la vejiga) 
+
+
+1.2. Anatomía y fisiología: (Hacer gráfico y descripción).
+
+
+Los uréteres son tubos largos y delgados formados de músculo liso. En los adultos, los uréteres miden 25-30 cm de largo, aproximadamente la longitud de una regla de 12 pulgadas. 
+
+
+Los uréteres empujan cada pequeña cantidad de orina en forma de ondas de contracción, a baja presión. En la vejiga, cada uréter atraviesa la pared de la vejiga por una abertura que se cierra cuando la vejiga se contrae para evitar que la orina retroceda.
+
+
+          
+
+
+Capas
+
+
+El uréter está compuesto por tres capas principales organizadas de adentro hacia afuera. La capa más interna es la mucosa, formada por un epitelio de transición (urotelio) que permite la distensión, y una lámina propia de tejido conectivo. Esta capa está en contacto directo con la orina. La siguiente es la capa muscular, compuesta por músculo liso dispuesto en dos capas: una longitudinal interna y una circular externa; en el tercio inferior del uréter puede haber una tercera capa longitudinal externa. Esta capa es responsable del movimiento peristáltico que impulsa la orina hacia la vejiga. Finalmente, la capa más externa es la adventicia, constituida por tejido conectivo laxo que contiene vasos sanguíneos, linfáticos y nervios, y que fija el uréter a las estructuras circundantes.
+ Imagen 
+
+
+
+Irrigación uréter
+
+
+La irrigación del uréter es segmentaria y proviene de varias arterias a lo largo de su trayecto desde el riñón hasta la vejiga. En el tercio superior, el uréter recibe ramas de la arteria renal; en el tercio medio, es irrigado por ramas de la arteria gonadal (testicular u ovárica), de la aorta abdominal y, en algunos casos, de la arteria iliaca común; en el tercio inferior, la irrigación proviene principalmente de ramas de la arteria iliaca interna, como la arteria vesical superior, arteria uterina en mujeres o la arteria vesical inferior en hombres. Las ramas arteriales forman una red en la adventicia del uréter antes de penetrar hacia las capas internas. Esta irrigación segmentaria es importante clínicamente, especialmente en cirugías, ya que el uréter depende de múltiples fuentes vasculares a lo largo de su trayecto.
+
+
+
+
+  
+
+
+
+Inervación
+
+
+La inervación del uréter es proporcionada por fibras nerviosas del sistema nervioso autónomo, tanto simpáticas como parasimpáticas. Las fibras simpáticas provienen de los plexos renal, aórtico, hipogástrico superior e ,inferior, y tienen un papel en la modulación del dolor y del tono del músculo liso ureteral. Las fibras parasimpáticas se originan principalmente en el nervio vago (para la parte superior del uréter) y en los nervios esplácnicos pélvicos (S2-S4) para el tercio inferior. La transmisión del dolor ureteral viaja a través de las fibras simpáticas hasta los ganglios espinales toracolumbares (T10-L2), lo que explica por qué el dolor por cólico renal puede irradiarse a la espalda, flanco, abdomen o incluso a los genitales.
+
+
+  
+
+
+
+
+
+Drenaje Linfático uréter
+
+
+  
+
+
+
+
+
+FISIOLOGÍA
+
+
+La fisiología del uréter se basa en su función principal de transportar la orina desde la pelvis renal hasta la vejiga urinaria de manera continua y controlada. Este proceso se realiza mediante contracciones peristálticas del músculo liso ureteral, las cuales son rítmicas y espontáneas, iniciadas por células marcapaso ubicadas cerca de la pelvis renal. Las ondas peristálticas se producen entre 1 y 5 veces por minuto, dependiendo del volumen de orina. El uréter está compuesto por una capa muscular con disposición longitudinal interna y circular externa (y una capa longitudinal externa en el tercio distal), lo que permite un movimiento eficaz de la orina. Su control es autónomo, con inervación simpática que regula el tono del músculo liso y transmite el dolor, e inervación parasimpática que estimula la actividad contráctil. Además, el urotelio, un epitelio de transición que recubre el interior del uréter, actúa como barrera impermeable y detecta el estiramiento, ayudando a regular las contracciones. Finalmente, en su porción terminal, el uréter atraviesa de forma oblicua la pared de la vejiga, formando un mecanismo valvular que evita el reflujo de orina hacia los uréteres cuando la vejiga se llena.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.3. Lista de chequeo:
+
+
+
+
+
+
+INSTRUMENTAL 
+	EQUIPOS /  DISPOSITIVOS MEDICO
+	
+
+SUTURAS Y AGUJAS
+	FARMACOS Y SOLUCIONES
+	Canasta general
+
+
+Canasta vascular 
+
+
+Canasta de tórax 
+
+
+Separadores de vena 
+
+
+Lima 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Paquete de ropa
+
+
+Electrobisturí Pera 
+
+
+Caucho de succión 
+
+
+Dren en cigarrillo 
+
+
+Compresas Guantes 
+
+
+Sonda nasogástrica 6 y 
+8 
+
+
+Torundas 
+
+
+Hojas de bisturí 15 y 20 
+
+
+Gasas 
+
+
+Apósitos  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Piel: Polipropileno 2/0 o 3/0 con aguja ⅜ de circulo cortante con aguja de 27 mm. 
+
+
+TCS: Poliglactina 910 2/0 con aguja ½ circulo redonda de 27 mm 
+
+
+Fascia y musculo: Poliglactina 910 1 o 0 con aguja ½ circulo redonda de 37 mm. Catgut cromado 4/0 o 5/0 con aguja 1⁄2 circulo redonda. 
+	Solución salina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+* ETAPA DE ORGANIZACIÓN:
+
+
+   * Arreglos de mesas de mayo y reserva (realizar esquema).
+
+
+MESA DE MAYO
+
+
+  
+
+
+
+
+
+MESA DE RESERVA
+
+
+  
+
+
+
+
+
+
+
+
+
+2.2. Posición del paciente (Nombre y gráfico):
+
+
+Decúbito supino 
+  
+
+
+
+
+
+	
+
+2.3. Ubicación del Equipo Quirúrgico (realizar gráfico):
+
+
+  
+                                                 
+
+
+	
+
+* ETAPA DE EJECUCIÓN:
+
+
+
+
+
+
+* Anestesia (escribir el tipo de anestesia):
+
+
+Anestesia General
+
+
+
+
+
+
+* Incisión (escribir el tipo de abordaje y el nombre de la incisión):
+
+
+incisión de Pfannestiel 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Proceso Quirúrgico (Describir los pasos principales de la técnica médico quirúrgica con el instrumental a usar).
+
+
+TÉCNICA QUIRÚRGICA
+	Incisión Pfannenstiel  aproximadamente de 2 cm por encima de la sínfisis del pubis 
+	Se incide la piel con el bisturí y el tejido celular subcutáneo con el electrobisturí para exponer la fascia del músculo recto que se separan en la línea media, es decir, de manera vertical.
+	Se incide en la vejiga de manera vertical y en la cúpula vesical se introduce una gasa o compresa húmeda 
+	Se reposiciona el auto retractor para visualizar el trígono vesical, se identifican los meatos y se introduce una sonda de 4 fr y se fija a la mucosa vesical 
+	Se separa el uréter de la pared vesical alrededor del meato usando el electrobisturí y las tijeras 
+	Se movilizan completamente o una porción suficiente del uréter y se sutura el defecto. 
+	Creación del trayecto submucoso, Colocación del uréter, Reimplantación unilateral o bilateral 
+	El uréter se coloca en el ángulo superior del hiato que se ha ampliado previamente, se hace creación de un trayecto submucoso en dirección al cuello, creación de un nuevo trayecto submucoso y de un nuevo hiato 
+	Introducción del uréter a través del nuevo hiato
+ Introducción del uréter en el trayecto submucoso 
+Inserción del uréter en su lugar de inicio y cierre del orificio mucoso 
+	Terminando de realizar la anastomosis, cerramos vejiga, primero sutura absorbible (3/0) para el segundo plano de la vejiga de igual manera. Sutura absorbible 3/0 
+Colocamos drenes de contrabertura, aproximamos los músculos, cierre de fascia Poliglactina 910 2/0 o 1 Dren Simple 3/0 o sutura absorbible y monofilamento 3/0 para piel. 
+Se deja sonda Foley por la uretra/cistostomía 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Técnica de cohen
+	1) Incisión del collarete mucoso
+2) Disección ureteral
+3) Creación del trayecto submucoso
+4) Colocación del uréter
+5) Reimplantación unilateral
+6) Reimplantación bilateral 
+	
+
+Técnica de transposición técnica
+de Glenn Anderson 
+	1) Técnica Glenn Anderson
+2) Disección ureteral por vía endovesical
+3) Disección de la mucosa alrededor del
+antiguo meato
+4) El uréter se coloca en el ángulo
+superior del hiato que se ha ampliado
+de forma intencionada
+5) Creación de un trayecto submucoso
+en dirección al cuello
+Aspecto final
+
+
+	
+
+
+
+Técnica de politano - leadbetter 
+	1) Incisión del collarete mucoso
+2) Disección ureteral
+3) Creación del trayecto submucoso
+4) Colocación del uréter
+5) Reimplantación unilateral
+6) Reimplantación bilateral 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	FORMATO DE INFORME SEMANAL DE LA PRACTICA FORMATIVA
+  FORMATO RECORD DE ASISTENCIA A CIRUGIA - PRACTICA FORMATIVA                                                                                                                                                                                          IQX-FT-024-UDES

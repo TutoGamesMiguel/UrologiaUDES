@@ -1,0 +1,623 @@
+﻿PLANEAMIENTO QUIRURGICO PRACTICA FORMATIVA
+IQX-FT-003-BUC
+	Versión: 01
+	
+
+
+
+
+
+
+
+
+
+NOMBRE DEL ESTUDIANTE:
+
+
+	CÓDIGO:
+	NIVEL DE PRÁCTICA:
+	NOMBRE DEL DOCENTE :
+Samuel Palacio Peña
+	ESCENARIO DE PRÁCTICA:
+	NOTA:
+
+
+	ESPECIALIDAD:
+Urología
+	CIRUJANO:
+	FECHA:
+	NOMBRE DEL PACIENTE:
+	NÚMERO HISTORIA CLÍNICA:
+
+
+	EDAD DEL PX:
+	PROCEDIMIENTO QUIRÚRGICO A REALIZAR:
+CISTECTOMÍA PARCIAL
+	PROCESO DE INSTRUMENTACIÓN QUIRÚRGICA
+
+
+	* ETAPA DE PLANEACIÓN:
+
+
+	
+
+1.1. OBJETIVO QUIRÚRGICO: (HACER DESCRIPCIÓN)
+
+
+Procedimiento mediante el cual se extirpa parte de la vejiga y se reconstruye de nuevo, preservando la integridad vesical como reservorio de la orina. 
+
+
+1.2. ANATOMÍA Y FISIOLOGÍA: (HACER GRÁFICO Y DESCRIPCIÓN).
+
+
+ANATOMÍA      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+La vejiga es un órgano muscular hueco y distensible, situado en la cavidad pelviana, por detrás de la sínfisis del pubis. En los hombres, se encuentra por delante del recto y en la mujer es anterior a la vagina e inferior al útero. Con una capacidad de la vejiga oscila en promedio entre 700 y 800 Ml.
+
+
+La vejiga posee 3 porciones:
+* Cuerpo: Dónde la orina es recolectada.
+* Fondo (Base): Contiene al trígono vesical.
+* Trígono Vesical:  Donde se localiza la uretra. 
+A su vez se compone por 3 capas:
+ Diagrama
+
+El contenido generado por IA puede ser incorrecto. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Capa Serosa:  Se compone de tejido conectivo alveolar.
+* Capa Muscular: Formada por 3 capas de fibras musculares lisas: Longitudinal interna, circular media, longitudinal externa.
+* Capa Mucosa:  Compuesta por epitelio de transición y una lámina propia subyacente.
+
+
+IRRIGACIÓN.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Es drenada por las venas ilíacas internas, y tanto en hombres como en mujeres, los vasos linfáticos de las caras supero laterales de la vejiga desembocan en los ganglios linfáticos ilíacos externos
+
+
+INERVACION
+      Involucra el sistema nervioso simpático y parasimpático 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Las fibras simpáticas presinápticas para la vejiga urinaria son conducidas desde los niveles torácicos inferiores y lumbares superiores de la médula espinal a través de los nervios esplácnicos lumbares pasando por el tronco simpático lumbar, plexo hipogástrico superior y nervios hipogástricos hacia los plexos vesicales (pélvicos). Es un subplexo del plexo hipogástrico inferior, de ahí envían fibras autónomas postsinápticas a las paredes de la vejiga urinaria.
+2. Las fibras parasimpáticas presinápticas para la vejiga urinaria se originan en las neuronas de los segmentos sacros de la médula espinal S2-S4 y pasan desde los  ramos  anteriores de los nervios espinales  sacros ,a  través de los  nervios esplénicos pélvicos  y los  plexos hipogástricos inferiores, hasta la  vejiga urinaria.
+
+
+RELACIONES DE LA VEJIGA:
+
+
+* PARTE ANTERIOR:
+
+
+* Sínfisis del pubis
+* Espacio prevesical de Retzius.
+* Músculos de la pared abdominal
+* Fascia umbilicoprevesical
+* Uraco
+* Vasos umbilicales obliterados
+
+
+* PARTE INFERIOR:
+* Músculo elevador del ano
+* Músculos internos de la pelvis 
+
+
+* PARTE POSTERIOR:
+* Tiene el fondo de saco vésico rectal de Douglas y la Ampolla rectal.
+
+
+* PARTE SUPERIOR:
+* Uréteres, Conductos Deferentes y Vesículas Seminales.
+
+
+
+
+FISIOLOGIA  Diagrama
+
+El contenido generado por IA puede ser incorrecto. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Los músculos de la vejiga que permiten el control voluntario de la micción y permiten 2 funciones: 1) la sensación que permite que reconozcas que tu vejiga está llena y debe ser vaciada y 2) el control motor que permite que puedas orinar voluntariamente.
+Primero, como la pared vesical se estira cuando está llena o próxima a su máxima capacidad, existen señales que son transmitidas a través del sistema nervioso parasimpático para contraer el músculo detrusor, el cual es una capa de la pared vesical constituida por fibras de músculo liso que son ordenadas en fascículos longitudinales, circulares o en espiral, esta señal estimulará a la vejiga para expulsar orina a través de la uretra, luego, estas sensaciones dentro de la vejiga serán transmitidas al sistema nervioso central (SNC) por medio de fibras aferentes viscerales generales (AVG). Mientras las fibras aferentes en la cara superior de la vejiga siguen el curso de los nervios simpáticos eferentes hasta el SNC, las fibras aferentes en la porción inferior siguen a las fibras parasimpáticas eferentes.
+
+
+
+
+
+
+
+
+
+
+
+
+1.3. LISTA DE CHEQUEO:
+
+
+
+
+INSTRUMENTAL 
+	EQUIPOS /  DISPOSITIVOS MEDICO
+	
+
+SUTURAS Y AGUJAS
+	FARMACOS Y SOLUCIONES
+	Equipo de general
+Equipo vascular
+Clamps Intestinales
+
+
+	* Paquete de ropa
+* Sonda Foley 22 x 30
+* Jeringa de 20 cc
+* Gasas
+* Caucho de succión
+* Asepto jeringa
+* Torundas
+* Hoja de bisturí #15- #20
+* Lapicero de electrobisturí
+* Guantes
+* Cistofló
+* Equipo de venoclisis
+* Sonda nelaton 
+
+
+	PIEL: Polipropileno 3/0
+aguja curva cortante 3/8
+de círculo.
+TCS: Catgut cromado
+3/0 aguja redonda medio
+círculo.
+FASCIA: Poliglactin 0 o 1 aguja curva redonda de ½ de círculo.
+Seda 2/0 o 3/0
+precortadas.
+Poliglactina 910 3/0 para
+anastomosis.
+
+
+	Solución salina 
+
+
+	
+
+
+
+	
+
+* ETAPA DE ORGANIZACIÓN:
+
+
+   * ARREGLOS DE MESAS DE MAYO Y RESERVA (REALIZAR ESQUEMA).
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.2. POSICIÓN DEL PACIENTE (NOMBRE Y GRÁFICO):
+
+
+Decúbito supino  con un ligero Trendelenburg 
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+2.3. UBICACIÓN DEL EQUIPO QUIRÚRGICO (REALIZAR GRÁFICO):
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+* ETAPA DE EJECUCION:
+
+
+* ANESTESIA (ESCRIBIR EL TIPO DE ANESTESIA): Anestesia general o raquídea
+ Vectores de Anestesia General - Descarga vectores gratis de gran calidad |  Freepik 
+ Anestesia epidural o anestesia raquídea: cuál es mejor y en qué casos se  utilizan | Estilo de Vida Madres | Univision 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* INCISIÓN (ESCRIBIR EL TIPO DE ABORDAJE Y EL NOMBRE DE LA INCISIÓN):
+
+
+Abordaje: El abordaje puede ser abierto o mínimamente invasivo para extirpar un tumor vesical, dejando un margen de seguridad de aproximadamente y incisión de Pfannenstiel 
+
+
+* PROCESO QUIRÚRGICO (DESCRIBIR LOS PASOS PRINCIPALES DE LA TÉCNICA MÉDICO QUIRÚRGICA CON EL INSTRUMENTAL A USAR).
+
+
+
+
+TÉCNICA QUIRÚRGICA
+	INSTRUMENTACIÓN
+	Incisión en línea media desde la sínfisis del
+pubis hasta la proximidad del ombligo
+
+
+	mango de bisturí 3
+hoja de bisturí 15 
+	Se incide la fascia muscular del recto
+verticalmente
+
+
+	Tijera de Mayo 
+	Para ello se abre el peritoneo próximo al
+ombligo, en dirección vertical.
+	Electrobisturí 
+	Se colocan dos suturas de referencia sobre la
+pared vesical alejadas de la localización del
+tumor.
+
+
+	Suturas 
+	Se aísla la vejiga de los bordes de la herida
+mediante cubiertas plásticas para reducir el
+riesgo de un implante tumoral.
+
+
+	Cubiertas plásticas estériles 
+	Se abre la vejiga entre las suturas mediante
+una incisión longitudinal
+
+
+	Electrobisturí
+Allix
+
+
+	Se localiza el tumor en la mucosa vesical 
+	
+
+	Se realiza una incisión circunferencial
+alrededor de él, con un margen de seguridad
+no inferior a 2 cm y abarcando la totalidad del
+espesor de la pared vesical
+
+
+	Mango de bisturí 4 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+Si el tumor está a menos de 2 cm del meato
+ureteral, se reseca el mismo y se procede a
+realizar un reimplante con cateterización del
+mismo.
+
+
+	
+
+	Se cierra la vejiga en dos planos; mucosa
+y la capa sero-muscular
+
+
+	ác. poliglicólico (DEXON®) de 4/0, 5/0 y
+3/0 
+	Se coloca una sonda uretral de 20 F y un
+drenaje perivesical.
+
+
+	Sonda Ureteral 
+	
+
+
+
+
+
+	FORMATO DE INFORME SEMANAL DE LA PRACTICA FORMATIVA
+  FORMATO RECORD DE ASISTENCIA A CIRUGIA - PRACTICA FORMATIVA                                                                                                                                                                                          IQX-FT-024-UDES

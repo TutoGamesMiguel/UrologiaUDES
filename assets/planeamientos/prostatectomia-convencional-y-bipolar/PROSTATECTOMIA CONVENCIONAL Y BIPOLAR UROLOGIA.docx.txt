@@ -1,0 +1,691 @@
+﻿PROGRAMA DE INSTRUMENTACIÓN QUIRÚRGICA
+	PLANEAMIENTO QUIRÚRGICO FORMATIVA
+IQX-FT-003-BUC
+	Versión: 1
+	
+
+
+
+ NOMBRE DEL ESTUDIANTE:
+4Semestre 2026A
+
+
+	CÓDIGO:
+
+
+	NIVEL DE PRACTICA.
+	NOMBRE DEL DOCENTE:
+Samuel Humberto Palacio Peña
+	ESCENARIO DE PRÁCTICA:
+
+
+	NOTA:
+
+
+	ESPECIALIDAD:
+Urología
+	CIRUJANO
+
+
+	FECHA:
+ 
+	NOMBRE DEL PACIENTE: 
+	NÚMERO HISTORIA CLÍNICA:
+	EDAD DEL PX:
+ 
+	PROCEDIMIENTO QUIRÚRGICO PARA REALIZAR:
+PROSTATECTOMÍA CONVENCIONAL Y BIPOLAR
+	PROCESO DE INSTRUMENTACIÓN QUIRÚRGICA
+
+
+	1. ETAPA DE PLANEACIÓN:
+
+
+	   1. Objetivo quirúrgico (Hacer descripción)
+Eliminar el tejido prostático obstructivo mediante abordaje endoscópico para restablecer la función miccional normal del paciente.
+
+
+
+
+   2. Anatomía y fisiología (Hacer gráfico y descripción 
+
+
+ANATOMIA
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Es una glándula accesoria del sistema reproductor masculino. Es del tamaño de una nuez, y se localiza alrededor de la porción prostática de la uretra (uretra prostática). Anatómicamente, la próstata está compuesta por un istmo, un lóbulo derecho y un lóbulo izquierdo.
+
+
+1. ISTMO: Se encuentra anterior a la uretra. Está compuesto principalmente por tejido fibroso y muscular, con poco o nulo tejido glandular.
+
+
+2. LOBULO IZQUIERDO Y DERECHO: Están separados anteriormente por el istmo, y posteriormente por un surco longitudinal que se extiende sobre la línea media de la cara posterior de la próstata. Cada lóbulo está dividido en cuatro lobulillos, con base en sus relaciones anatómicas con el conducto eyaculador y la uretra prostática, que son los siguientes:
+* Lobulillo inferoposterior: inferior a la uretra y posterior al conducto eyaculador.
+* Lobulillo inferolateral: posicionado lateralmente a la uretra.
+* Lobulillo superomedial: por debajo del lobulillo inferoposterior y alrededor del conducto eyaculador.
+* Lobulillo anteromedial: inferior al lobulillo inferolateral y lateral a la porción proximal de la uretra prostática.
+La próstata consta a su vez de una base, vertice, cara anterior, cara posterior y unas caras inferolaterales. Y a su vez se divide en zonas:  una zona central, una zona periférica, zona transicional y estroma fibromuscular anterior
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Zona central: se encuentra en la base de la próstata, envolviendo los conductos eyaculadores y se conforma por las glándulas submucosas periuretrales
+2.  Zona transicional: es corta y rodea la porción proximal de la uretra prostática superior al colículo seminal, está formada por las glándulas mucosas periuretrales.
+3.  Zona periférica: Se compone por las glándulas prostáticas principales
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+VASCULARIZACION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+La fuente principal de irrigación arterial de la próstata es:
+* Arteria pudenda interna, con algunas contribuciones adicionales de las arterias vesical inferior y rectal media
+
+
+INERVACION
+
+
+Esta inervada por las fibras parasimpáticas de los nervios esplácnicos pélvicos del plexo prostático, que reciben sus fibras del plexo hipogástrico inferior (para erección y efecto secretomotor de acinos), el plexo hipogástrico inferior a su vez recibe fibras simpáticas preganglionares del plexo hipogástrico superior para brindar inervación motora a los músculos lisos del estroma glandular (para eyaculación y contracción muscular lisa).
+
+
+FISIOLOGIA 
+
+
+Su función es la de producir el fluido prostático, que, en combinación con el esperma proveniente de los testículos, componen el semen y a su vez la función principal del fluido prostático es activar a las células espermáticas, por lo que asiste en el proceso general de la reproducción.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+1.3. Lista de chequeo:
+
+
+
+
+INSTRUMENTAL 
+	EQUIPOS / DISPOSITIVOS MEDICO
+	
+
+SUTURAS Y AGUJAS
+
+
+	FARMACOS Y SOLUCIONES
+	
+
+Resectoscopio Sonda 
+
+
+Óptica de 30° de alta definición  (Monopolar/Bipolar) 
+
+
+Asa de coagulación 
+ 
+Cámara con cabezal de video
+
+
+Cable de Fibra Óptica (Fuente de luz) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Sonda Foley de 3 vías (22 o 24 Fr)
+ Paquete de ropa general
+Compresas
+Sabana
+Bata accesoria
+Guantes
+Gasas
+Canula de Yankawer
+ Set de irrigación en "Y" (Alto flujo) 
+Evacuador de Ellik o Jeringa de Toomey 
+ Cystoflo 
+ Placa de electrobisturí (Solo si es Monopolar)
+Cable de corriente (Alta frecuencia)  Frasco para Patología con Formol 
+	
+
+
+
+	Bolsas de Glicina o Salino (3000cc) 
+Lidocaina jalea
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. ETAPA DE ORGANIZACIÓN:
+
+
+   1. Arreglos de reserva (realizar esquema).
+
+
+Como tal no se lleva mesa de mayo, sino una de reserva
+
+
+                                             703fig1 
+
+
+
+
+Componentes del Resectoscopio:
+
+
+Camisa (vaina) del resectoscopio con su obturador.
+
+
+Elemento de trabajo (Iglesias o Nesbit).
+
+
+Ópticas (0° y 30°).
+
+
+Asas de energía: Asa de corte y asa de coagulación (debidamente protegidas para que no se doblen).
+
+
+Accesorios:
+
+
+Cable de fibra óptica.
+
+
+Cable de alta frecuencia (monopolar o bipolar).
+
+
+Lidocaína en jalea (en una jeringa de 10cc o jeringa prellenada).
+
+
+Evacuación:
+
+
+Evacuador de Ellik o jeringa de Toomey llena de líquido de irrigación.
+
+
+Insumos:
+
+
+Gasas pequeñas para limpieza de la óptica.
+
+
+Sonda Foley de 3 vías (lista para el final).
+	2.2. Posición del paciente (Nombre y gráfico): 
+
+
+Litotomía
+
+
+
+
+
+
+
+
+                                IMG_256 
+  
+
+
+
+
+
+
+
+
+
+
+2.3 Ubicación del Equipo Quirúrgico (realizar gráfico)
+
+
+
+
+
+
+
+
+
+
+                                  IMG_256 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. 2. ETAPA DE EJECUCION:
+1. Anestesia (escribir el tipo de anestesia):   
+Raquídea
+2. Abordaje (escribir el tipo de abordaje y el nombre de la incisión):  
+
+
+Abordaje Transuretral
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	3. Proceso Quirúrgico (Describir los pasos principales de la técnica médico-quirúrgica con el instrumental a usar).
+
+
+TÉCNICA QUIRÚRGICA
+	INSTRUMENTACIÓN
+	1.Lubricar con jalea de lidocaína. Verificar fuente de luz y cámara
+	Óptica de 0° o 30°, puente de cistoscopia y vaina.
+	2.Introducción bajo visión directa o a ciegas según cirujano.
+	Camisa de resectoscopio (24-26 Fr) y obturador.
+	3.Identificar el veru montanum y cuello vesical.
+	Elemento de trabajo (Iglesias), Óptica y Asa de corte.
+	4.Convencional: Usar Glicina.
+Bipolar: Usar Solución Salina.
+
+
+	 Asa de corte (U), Unidad electroquirúrgica.
+	5.Controlar vasos sangrantes para mantener la visibilidad.
+	Asa de coagulación o Asa "Roller Ball". 
+	6.Aspirar los "chips" de próstata del interior de la vejiga.
+	Evacuador de Ellik o Jeringa de Toomey.
+	7.Conteo de líquidos (balance hídrico) para evitar síndrome de RTU.
+	Camisa del resectoscopio y óptica.
+	
+
+8.Inflar balón (30-50cc) e iniciar irrigación continua (cistoclisis).
+	 Sonda Foley de 3 vías (22-24 Fr).
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	 
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	 
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	FORMATO DE INFORME SEMANAL DE LA PRACTICA FORMATIVA
+  FORMATO RECORD DE ASISTENCIA A CIRUGIA - PRACTICA FORMATIVA                                                                                                                                                                                          IQX-FT-024-UDES
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRMA ESTUDIANTE: ________________________
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRMA DOCENTE: __________________________

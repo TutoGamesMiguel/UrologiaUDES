@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Estructura preliminar de la sección de planeamientos quirúrgicos en urología.">
+	<title>Planeamientos Quirúrgicos</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar container" aria-label="Navegación principal">
+			<a class="brand" href="index.html" aria-label="Ir a inicio">
+				<span class="brand-mark" aria-hidden="true">
+					<svg viewBox="0 0 64 64" role="img" aria-label="Logo del proyecto">
+						<circle cx="32" cy="32" r="30" fill="var(--azul-pastel)"></circle>
+						<path d="M20 37L37 20c1-1 2.5-1 3.5 0l3.5 3.5c1 1 1 2.5 0 3.5L27.5 43.5 20 44l1-7Z" fill="var(--rosa-acento)"></path>
+						<path d="M24.5 40.5l-1.5 1.5c-.4.4-.4 1 0 1.4l2.1 2.1c.4.4 1 .4 1.4 0l1.5-1.5" fill="none" stroke="var(--rosa-acento)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+					</svg>
+				</span>
+				<span class="brand-text">
+					<strong>UroInstrumentación</strong>
+				</span>
+			</a>
+
+			<button class="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation">
+				<i data-lucide="menu"></i>
+			</button>
+
+			<div class="nav-panel" id="primary-navigation">
+				<a class="nav-link" href="index.html">Inicio</a>
+				<a class="nav-link active" href="planeamientos.html">Planeamientos</a>
+				<a class="nav-link" href="equipos.html">Equipos</a>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section class="page-hero page-hero-soft">
+			<div class="container page-hero-content fade-in">
+				<h1>Planeamientos Quirúrgicos</h1>
+				<p>
+					Explora los planeamientos quirúrgicos organizados por órgano para entender las etapas de preparación, ejecución y cuidado postoperatorio en urología.
+				</p>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container content-stack">
+				<article class="card fade-in">
+					<h2 class="section-title">Introducción</h2>
+					<p>
+						<strong>Planeamiento quirúrgico en urología</strong> es un proceso sistemático que involucra la planificación detallada de intervenciones quirúrgicas específicas para tratar condiciones urológicas.
+					</p>
+					<p>
+						<strong> </strong>Este proceso abarca desde la evaluación preoperatoria, la selección de técnicas y abordajes, hasta la organización de recursos y el manejo postoperatorio, con el objetivo de optimizar los resultados clínicos y garantizar la seguridad del paciente.
+					</p>
+				</article>
+
+				<section class="sections-grid section" aria-label="Planeamientos por órgano">
+					<div class="container">
+						<h2 class="section-title fade-in">Planeamientos por órgano</h2>
+
+						<div class="filter-row fade-in" role="tablist" aria-label="Filtrar por órgano">
+							<button class="filter-btn active" type="button" data-organ="Todos">Todos</button>
+							<button class="filter-btn" type="button" data-organ="Riñón">Riñón</button>
+							<button class="filter-btn" type="button" data-organ="Pelvis renal">Pelvis renal</button>
+							<button class="filter-btn" type="button" data-organ="Uréter">Uréter</button>
+							<button class="filter-btn" type="button" data-organ="Vejiga">Vejiga</button>
+							<button class="filter-btn" type="button" data-organ="Testículo">Testículo</button>
+							<button class="filter-btn" type="button" data-organ="Pene">Pene</button>
+							<button class="filter-btn" type="button" data-organ="Próstata">Próstata</button>
+						</div>
+
+						<div class="equipos-grid fade-in" role="region" aria-live="polite">
+							<article class="card organ-card fade-in" data-organ="Riñón">
+								<h3>Nefrectomía radical</h3>
+								<p class="muted">Resección quirúrgica en bloque del riñón afectado y tejidos perirrenales para el tratamiento de tumores renales malignos.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Riñón" data-planeamiento-id="2">
+								<h3>Nefrectomía parcial</h3>
+								<p class="muted">Resección en cuña o parcial del tejido renal para conservar función en lesiones localizadas.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Pelvis renal" data-planeamiento-id="13">
+								<h3>Ureteroscopia flexible con láser Holmium</h3>
+								<p class="muted">Acceso al uréter y riñón con fragmentación láser y apoyo radiológico.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Pelvis renal" data-planeamiento-id="21">
+								<h3>Pieloplastia</h3>
+								<p class="muted">Reconstrucción quirúrgica de la unión pieloureteral para corregir estenosis y obstru ción urinaria.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Uréter" data-planeamiento-id="22">
+								<h3>Pieloplastia</h3>
+								<p class="muted">Resolución de estenosis pieloureteral mediante resección, espatulación y anastomosis laparoscópica.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Uréter" data-planeamiento-id="4">
+								<h3>Uretroplastia</h3>
+								<p class="muted">Reparación ureteral con abordaje lateral, reconstrucción y manejo segmentario del uréter.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Uréter" data-planeamiento-id="23">
+								<h3>Reimplante ureteral</h3>
+								<p class="muted">Reimplantación del uréter en la vejiga mediante técnica de neocistoplastia con incisión de Pfannestiel y anastomosis ureteral para corregir estenosis o daño ureteral.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+
+
+							<article class="card organ-card fade-in" data-organ="Vejiga" data-planeamiento-id="9">
+								<h3>Cistopexia</h3>
+								<p class="muted">Fijación vesical con soporte uretral mediante malla y suspensión del cuello vesical.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Vejiga" data-planeamiento-id="37">
+								<h3>Cistectomía total</h3>
+								<p class="muted">Exéresis completa de la vejiga con reorganización de la instrumentación y la posición del paciente.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Vejiga" data-planeamiento-id="24">
+								<h3>Cistectomía radical</h3>
+								<p class="muted">Resección radical de la vejiga para tratamiento oncológico, con abordaje abdominal abdominopélvico abierto.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Vejiga" data-planeamiento-id="25">
+								<h3>Cistectomía parcial</h3>
+								<p class="muted">Resección segmentaria de la vejiga con reconstrucción y preservación vesical.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Vejiga" data-planeamiento-id="26">
+								<h3>Cistostomía</h3>
+								<p class="muted">Drenaje transvesical mediante colocación de catéter percutáneo para evitar daño renal.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Testículo" data-planeamiento-id="12">
+								<h3>Vasectomía</h3>
+								<p class="muted">Interrupción y oclusión de los conductos deferentes con abordaje escrotal.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Testículo" data-planeamiento-id="15">
+								<h3>Varicocelectomía</h3>
+								<p class="muted">Ligadura de venas espermáticas con abordaje inguinal y control del plexo pampiniforme.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Testículo" data-planeamiento-id="16">
+								<h3>Torsión Testicular</h3>
+								<p class="muted">Emergencia quirúrgica para restaurar el flujo sanguíneo y preservar la viabilidad testicular.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Testículo" data-planeamiento-id="17">
+								<h3>Orquidopexia</h3>
+								<p class="muted">Descenso y fijación testicular para corregir criptorquidia y prevenir torsiones futuras.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Testículo" data-planeamiento-id="18">
+								<h3>Orquiectomía</h3>
+								<p class="muted">Resección testicular por abordaje inguinal con control vascular y cierre por planos.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+						<article class="card organ-card fade-in" data-organ="Testículo" data-planeamiento-id="19">
+							<h3>Hidrocelectomía</h3>
+							<p class="muted">Corrección quirúrgica del hidrocele con drenaje y manejo del saco hidrocelar.</p>
+							<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+						</article>						
+						
+						<article class="card organ-card fade-in" data-organ="Testículo" data-planeamiento-id="20">
+							<h3>Epididectomía</h3>
+							<p class="muted">Extirpación parcial o total del epidídimo para prevención de abscesos por quistes.</p>
+							<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+						</article>							
+						
+						<article class="card organ-card fade-in" data-organ="Pene" data-planeamiento-id="7">
+								<h3>Priapismo</h3>
+								<p class="muted">Emergencia quirúrgica para tratar la erección prolongada y prevenir daño tisular.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+						<article class="card organ-card fade-in" data-organ="Pene" data-planeamiento-id="27">
+								<h3>Hipospadias</h3>
+								<p class="muted">Corrección de la posición del meato uretral y reconstrucción de la uretra para restaurar función y estética.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+						<article class="card organ-card fade-in" data-organ="Pene" data-planeamiento-id="28">
+								<h3>Enfermedad de Peyronie</h3>
+								<p class="muted">Corrección quirúrgica de la curvatura peneana causada por tejido cicatrizal fibroso.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+						<article class="card organ-card fade-in" data-organ="Pene" data-planeamiento-id="29">
+								<h3>Circuncisión</h3>
+								<p class="muted">Resección del prepucio para exponer el glande y corregir indicaciones médicas o funcionales.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+						<article class="card organ-card fade-in" data-organ="Pene" data-planeamiento-id="30">
+								<h3>Cáncer de pene</h3>
+								<p class="muted">Extirpación quirúrgica del prepucio del pene por lesión tumoral en prepucio o glande.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+						<article class="card organ-card fade-in" data-organ="Próstata" data-planeamiento-id="31">
+								<h3>Prostatectomía suprapúbica</h3>
+								<p class="muted">Acceso al adenoma prostático mediante una incisión directa en la cápsula prostática anterior sin entrar en la vejiga.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+					<article class="card organ-card fade-in" data-organ="Próstata" data-planeamiento-id="32">
+							<h3>Prostatectomía radical con linfadenectomía</h3>
+							<p class="muted">Resección completa de la próstata y vesículas seminales con linfadenectomía pélvica para control oncológico local.</p>
+							<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+						</article>
+
+					<article class="card organ-card fade-in" data-organ="Próstata" data-planeamiento-id="33">
+							<h3>Prostatectomía convencional y bipolar</h3>
+							<p class="muted">Eliminación del tejido prostático obstructivo mediante abordaje endoscópico para restablecer la función miccional normal.</p>
+							<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+						</article>
+						<article class="card organ-card fade-in" data-organ="Próstata" data-planeamiento-id="34">
+							<h3>Prostatectomía abierta transvesical</h3>
+							<p class="muted">Acceso al adenoma prostático mediante una incisión directa en la cápsula prostática anterior sin entrar en la vejiga.</p>
+							<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+						</article>
+
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<p>Equipos Quirúrgicos en Urología · Instrumentación Quirúrgica · 2026</p>
+			<p>UDES - Universidad de Santander</p>
+		</div>
+	</footer>
+
+	<button class="back-to-top" type="button" aria-label="Volver arriba">
+		<i data-lucide="arrow-up" aria-hidden="true"></i>
+	</button>
+
+	<!-- Modal (reutiliza estilos existentes) -->
+	<div class="modal" role="dialog" aria-hidden="true" aria-modal="true">
+		<div class="modal-overlay" data-close-modal></div>
+		<div class="modal-content" role="document">
+			<button class="modal-close" aria-label="Cerrar" data-close-modal>
+				<i data-lucide="x"></i>
+			</button>
+			<article class="modal-article">
+
+				<header class="modal-header">
+					<span class="modal-badge">Planeamientos</span>
+					<h2 class="modal-title"></h2>
+				</header>
+				<section class="modal-section">
+					<div class="modal-description"></div>
+				</section>
+				<section class="modal-section">
+					<p class="modal-usage muted"></p>
+				</section>
+			</article>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>

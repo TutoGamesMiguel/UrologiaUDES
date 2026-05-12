@@ -1,0 +1,524 @@
+﻿PROGRAMA DE INSTRUMENTACION QUIRURGICA
+	PLANEAMIENTO QUIRURGICO PRACTICA FORMATIVA
+IQX-FT-003-BUC
+	Versión: 01
+	
+
+
+
+
+
+
+
+
+
+NOMBRE DEL ESTUDIANTE:
+
+
+	CÓDIGO:
+	NIVEL DE PRÁCTICA:
+	NOMBRE DEL DOCENTE:
+SAMUEL PALACIO
+	ESCENARIO DE PRÁCTICA:
+	NOTA:
+
+
+	ESPECIALIDAD:
+UROLOGÍA
+	CIRUJANO:
+	FECHA:
+	NOMBRE DEL PACIENTE:
+	NÚMERO HISTORIA CLÍNICA:
+
+
+	EDAD DEL PX:
+	PROCEDIMIENTO QUIRÚRGICO A REALIZAR:  ENFERMEDAD DE PEYRONIE
+
+
+	PROCESO DE INSTRUMENTACIÓN QUIRÚRGICA
+
+
+	* ETAPA DE PLANEACIÓN:
+
+
+	
+
+1.1. Objetivo Quirúrgico: (Hacer descripción)
+
+
+Es una afección no cancerosa que resulta de tejido cicatrizal fibroso que se forma en el pene y causa erecciones curvas y dolorosas 
+
+
+
+
+1.2. Anatomía y fisiología: (Hacer gráfico y descripción).
+
+
+ANATOMÍA  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+El pene es un órgano externo del aparato reproductor masculino compuesto por varias estructuras anatómicas, En su base se encuentra la raíz, que conecta el pene a la pelvis; el cuerpo es la parte media, compuesta por dos cuerpos cavernosos y un cuerpo esponjoso, los cuerpos cavernosos son tejidos cilíndricos que se llenan de sangre para provocar una erección que se extiende hasta el glande, o punta del pene, el glande es la cabeza expandida en el extremo distal del pene, con un orificio uretral externo en su punta. La parte externa mide 8 a 10 cm de largo y 3 cm de diámetro cuando está flácido (sin erección); las dimensiones típicas de un pene erecto son de 13 a 18 cm de largo y 4 cm de diámetro. 
+ Aparato reproductor masculino - Escolar - ABC Color 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Genitales Externos: 
+- Pene (compuesto por 2 cuerpos cavernosos y 1 cuerpo esponjoso) que se encuentra recubierto por el prepucio. Su cabeza se llama glande 
+- Escroto que recubre los testículos 
+Genitales Internos: 
+- Testículos: forman las células sexuales o gametos (espermatozoides) 
+- Epidídimo: donde se entrenan los espermatozoides 
+- Conducto deferente: Transportan los espermatozoides 
+- Vesículas Seminales y Próstata: Les dan alimento a los espermatozoides. 
+- Uretra: Transportan los espermatozoides hacia el exterior a través del pene 
+ Anatomía del pene - Dr. Peinado cirujano urólogo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+El pene está irrigado por ramas de la arteria pudenda interna, que a su vez es una rama de la arteria ilíaca interna. La sangre sale del pene por venas. 
+ARTERIAS QUE IRRIGAN EL PENE
+* Arteria peneana común: Rama de la arteria pudenda interna que irriga las estructuras profundas del pene 
+* Arteria bulbo uretral: Irriga el bulbo, uretra, cuerpo esponjoso y glande 
+* Arteria dorsal del pene: Irriga el glande, cuerpo esponjoso y uretra 
+* Arteria cavernosa: Irriga los cuerpos cavernosos, que se llenan de sangre durante la erección 
+* Arteria del bulbo del pene: Irriga la porción posterior del cuerpo cavernoso y las glándulas bulbo uretrales 
+
+
+VENAS QUE DRENAN EL PENE 
+Vena pudenda externa superficial, Vena dorsal profunda del pene. 
+Función de las arterias en la erección
+* Durante la erección, las arterias se dilatan para aumentar el flujo sanguíneo al pene 
+* La sangre llena los cuerpos cavernosos, lo que produce la erección 
+
+
+INERVACIÓN DEL PENE 
+* Los nervios pudendos y los nervios cavernosos son los responsables de la inervación del pene
+* Los nervios pudendos se encargan de la inervación motora y sensitiva
+* Los nervios cavernosos son los responsables de la función eréctil
+
+
+FISIOLOGÍA
+La erección es un proceso neurovascular con fases:
+* Estimulación: Estímulos sensoriales o mentales activan el sistema parasimpático (S2-S4).
+* Liberación de óxido nítrico (NO): El NO relaja el músculo liso de los cuerpos cavernosos.
+* Vasodilatación: Aumento del flujo sanguíneo hacia los cuerpos cavernosos.
+* Compresión venosa: La sangre queda atrapada al comprimirse las venas, produciendo la erección.
+
+
+Fisiología de la eyaculación: Tiene dos fases:
+* Emisión (control simpático): transporte del semen hacia la uretra prostática.
+* Expulsión (control somático): contracciones rítmicas del músculo bulbo cavernoso y otros músculos perineales.
+
+
+6. Relajación (Detumescencia)
+* Tras la eyaculación, se activa el sistema simpático.
+* La vasoconstricción reduce el flujo sanguíneo, y el pene retorna a su estado flácido.
+
+
+1.3. Lista de chequeo:
+
+
+
+
+
+
+INSTRUMENTAL 
+	EQUIPOS /  DISPOSITIVOS MEDICO
+	
+
+SUTURAS Y AGUJAS
+	FÁRMACOS Y SOLUCIONES
+	
+
+Canasta infantil o mediana
+
+
+
+
+
+
+
+
+
+
+
+
+	Paquete de ropa
+Gasas
+Compresas
+Hoja #20
+Aseptojeringa
+Guantes
+Electrobisturí
+Sonda Foley
+Dren de penrose
+Caucho de succión
+Canula de yankawer
+
+
+	Uretra: 
+Polidioxanona 5/0 o 6/0
+Piel:
+Polipropileno 3/0 ⅜ circulo cortante
+Seda precortada 3/0
+	Solución salina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+* ETAPA DE ORGANIZACIÓN:
+
+
+   * Arreglos de mesas de mayo y reserva (realizar esquema).
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.2. Posición del paciente (Nombre y gráfico):
+
+
+Decúbito supino
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+2.3. Ubicación del Equipo Quirúrgico (realizar gráfico):
+
+
+
+
+ C:\Users\usuario\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\9B8619251A19057CFF70779273E95AA6\Imagen de WhatsApp 2025-04-19 a las 18.38.41_2c8c36e6.jpg 
+
+	
+
+* ETAPA DE EJECUCION:
+
+
+
+
+* Anestesia (escribir el tipo de anestesia): Anestesia Regional 
+
+
+
+
+ 
+ Anestesia epidural o anestesia raquídea: cuál es mejor y en qué casos se  utilizan | Estilo de Vida Madres | Univision 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Incisión (escribir el tipo de abordaje y el nombre de la incisión):  Se realiza una incisión longitudinal sobre la placa uretral (en el tejido donde debería estar la uretra). Esto permite que se forme una nueva uretra al tubularizar la placa, alineándola en el centro.
+
+
+
+
+         
+
+
+
+
+* Proceso Quirúrgico (Describir los pasos principales de la técnica médico quirúrgica con el instrumental a usar).
+
+
+TÉCNICA
+	INSTRUMENTAL
+	Torniquete en la base del pene con un drenaje
+ajustado con una pinza y erección artificial
+inyectando suero fisiológico con una aguja en un
+cuerpo cavernoso 
+	Pinza kocher 
+Dren de Penrose 
+Suero fisiológico
+Aguja de mariposa 21G 
+	Una vez apreciada la dirección de la curvatura, la
+corrección se realiza en el lado opuesto. Si la
+incurvación es dorsal se realiza ventralmente a
+ambos lados de la uretra y si es ventral se realiza
+dorsalmente en ambos cuerpos cavernosos.
+
+
+	
+
+	Incisión longitudinal bilateral en la fascia de Buck.
+En plicaturas dorsales se rechazar bien el paquete
+vasculonervioso hacia la línea media 
+	
+
+	Colocación en ambos lados de pinzas aplicando la
+albugínea. Con la erección artificial se comprueba la
+corrección de la incurvación y si es necesario se
+realizan plicaturas adicionales con más pinzas 
+
+
+	Ganchos de piel
+Portaagujas
+Pinza Allis 
+	Por cada pinza de Allis se dan 3 puntos invertidos
+de prolene. 
+	Prolene 3/0 con aguja triangular 
+	Se provoca una nueva erección artificial para
+asegurar la corrección de la incurvación.
+
+
+	
+
+
+
+	Técnica de Yachia: incisión longitudinal de 1 cm en
+la albugínea (sin resección) que se sutura
+transversalmente
+	
+
+	Técnica de Duckett: 2 incisiones en la albugínea
+paralelas y transversales de 4 a 6 mm separadas
+por 8 mm. Sutura con puntos invertidos de los
+bordes más alejados de cada incisión enterrando el
+puente de tejido que queda en medio
+	
+
+	Cierre de las incisiones longitudinales de la fascia
+de Buck con sutura absorbible 
+
+
+	Vicryl 4/0 
+	Tras cubrir de nuevo el pene con la piel se cierra el
+dartos y piel con sutura absorbible
+
+
+	Vicryl 4/0 
+	Se coloca una Sonda uretral, vendaje del pene con
+el glande al descubierto para controlar coloración y
+pene en alto. No se dejan drenajes.
+	Sonda Foley
+ Apósito

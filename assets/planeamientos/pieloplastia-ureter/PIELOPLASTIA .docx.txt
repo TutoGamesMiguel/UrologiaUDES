@@ -1,0 +1,387 @@
+﻿PROGRAMA DE INSTRUMENTACION QUIRURGICA
+	PLANEAMIENTO QUIRURGICO PRACTICA FORMATIVA
+IQX-FT-003-BUC
+	Versión: 01
+	
+
+
+
+
+
+
+
+
+
+NOMBRE DEL ESTUDIANTE:
+4to Semestre 2025A
+	CÓDIGO:
+	NIVEL DE PRÁCTICA:
+	NOMBRE DEL DOCENTE :
+Samuel Humberto Palacio Peña
+	ESCENARIO DE PRÁCTICA:
+	NOTA:
+
+
+	ESPECIALIDAD:
+
+
+	CIRUJANO:
+	FECHA:
+	NOMBRE DEL PACIENTE:
+	NÚMERO HISTORIA CLÍNICA:
+
+
+	EDAD DEL PX:
+	PROCEDIMIENTO QUIRÚRGICO A REALIZAR:  PIELOPLASTIA 
+
+
+	PROCESO DE INSTRUMENTACIÓN QUIRÚRGICA
+
+
+	* ETAPA DE PLANEACIÓN:
+
+
+	
+
+1.1. Objetivo Quirúrgico: (Hacer descripción)
+
+
+La pieloplastia es una intervención quirúrgica que tiene como finalidad resolver la estenosis o estrechez pieloureteral, es decir, en la zona por la que la orina sale del riñón hacia el uréter.
+ 
+1.2. Anatomía y fisiología: (Hacer gráfico y descripción).
+
+
+Los uréteres son tubos largos y delgados formados de músculo liso. En los adultos, los uréteres miden 25-30 cm de largo, aproximadamente la longitud de una regla de 12 pulgadas. 
+
+
+Los uréteres empujan cada pequeña cantidad de orina en forma de ondas de contracción, a baja presión. En la vejiga, cada uréter atraviesa la pared de la vejiga por una abertura que se cierra cuando la vejiga se contrae para evitar que la orina retroceda.
+
+
+          
+
+
+Capas
+
+
+El uréter está compuesto por tres capas principales organizadas de adentro hacia afuera. La capa más interna es la mucosa, formada por un epitelio de transición (urotelio) que permite la distensión, y una lámina propia de tejido conectivo. Esta capa está en contacto directo con la orina. La siguiente es la capa muscular, compuesta por músculo liso dispuesto en dos capas: una longitudinal interna y una circular externa; en el tercio inferior del uréter puede haber una tercera capa longitudinal externa. Esta capa es responsable del movimiento peristáltico que impulsa la orina hacia la vejiga. Finalmente, la capa más externa es la adventicia, constituida por tejido conectivo laxo que contiene vasos sanguíneos, linfáticos y nervios, y que fija el uréter a las estructuras circundantes.
+ Imagen 
+
+
+
+Irrigación uréter
+
+
+La irrigación del uréter es segmentaria y proviene de varias arterias a lo largo de su trayecto desde el riñón hasta la vejiga. En el tercio superior, el uréter recibe ramas de la arteria renal; en el tercio medio, es irrigado por ramas de la arteria gonadal (testicular u ovárica), de la aorta abdominal y, en algunos casos, de la arteria iliaca común; en el tercio inferior, la irrigación proviene principalmente de ramas de la arteria iliaca interna, como la arteria vesical superior, arteria uterina en mujeres o la arteria vesical inferior en hombres. Las ramas arteriales forman una red en la adventicia del uréter antes de penetrar hacia las capas internas. Esta irrigación segmentaria es importante clínicamente, especialmente en cirugías, ya que el uréter depende de múltiples fuentes vasculares a lo largo de su trayecto.
+
+
+
+
+  
+
+
+
+Inervación
+
+
+La inervación del uréter es proporcionada por fibras nerviosas del sistema nervioso autónomo, tanto simpáticas como parasimpáticas. Las fibras simpáticas provienen de los plexos renal, aórtico, hipogástrico superior e inferior, y tienen un papel en la modulación del dolor y del tono del músculo liso ureteral. Las fibras parasimpáticas se originan principalmente en el nervio vago (para la parte superior del uréter) y en los nervios esplácnicos pélvicos (S2-S4) para el tercio inferior. La transmisión del dolor ureteral viaja a través de las fibras simpáticas hasta los ganglios espinales toracolumbares (T10-L2), lo que explica por qué el dolor por cólico renal puede irradiarse a la espalda, flanco, abdomen o incluso a los genitales.
+
+
+  
+
+
+
+Drenaje Linfático uréter
+
+
+  
+
+
+
+
+
+FISIOLOGÍA
+
+
+La fisiología del uréter se basa en su función principal de transportar la orina desde la pelvis renal hasta la vejiga urinaria de manera continua y controlada. Este proceso se realiza mediante contracciones peristálticas del músculo liso ureteral, las cuales son rítmicas y espontáneas, iniciadas por células marcapaso ubicadas cerca de la pelvis renal. Las ondas peristálticas se producen entre 1 y 5 veces por minuto, dependiendo del volumen de orina. El uréter está compuesto por una capa muscular con disposición longitudinal interna y circular externa (y una capa longitudinal externa en el tercio distal), lo que permite un movimiento eficaz de la orina. Su control es autónomo, con inervación simpática que regula el tono del músculo liso y transmite el dolor, e inervación parasimpática que estimula la actividad contráctil. Además, el urotelio, un epitelio de transición que recubre el interior del uréter, actúa como barrera impermeable y detecta el estiramiento, ayudando a regular las contracciones. Finalmente, en su porción terminal, el uréter atraviesa de forma oblicua la pared de la vejiga, formando un mecanismo valvular que evita el reflujo de orina hacia los uréteres cuando la vejiga se llena.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.3. Lista de chequeo:
+
+
+
+
+
+
+INSTRUMENTAL 
+	EQUIPOS /  DISPOSITIVOS MEDICO
+	
+
+SUTURAS Y AGUJAS
+	FARMACOS Y SOLUCIONES
+	Canasta de Laparoscopia /Urología
+
+
+Canasta general
+
+
+Set de irrigación succión
+
+
+Electro de laparoscopia. 
+
+
+Lente de 30° X 10 mm 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Paquete de ropa
+
+
+Torre de laparoscopia
+
+
+Clip Hemolok 10mm y 5 Mm 
+
+
+Catéter doble J 6x26. 
+
+
+Caucho Succión 
+
+
+Equipo de macrogoteo 
+para irrigación 
+
+
+Lápiz Electro 
+
+
+Aguja de veress. 
+
+
+3 Trocar De 5-10mm. 
+
+
+Funda para la cámara 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Piel: Polipropileno 2/0 o 3/0 con aguja ⅜ de circulo cortante con aguja de 27 mm.
+
+
+Pieloplastia: Polidioxanona o polipropileno 5/0 o 6/0 con aguja 1⁄2 circulo redonda 
+	Solución salina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+* ETAPA DE ORGANIZACIÓN:
+
+
+   * Arreglos de mesas de mayo y reserva (realizar esquema).
+
+
+MESA DE MAYO
+
+
+  
+
+
+
+
+
+MESA DE RESERVA
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.2. Posición del paciente (Nombre y gráfico):
+
+
+Decúbito lateral 
+  
+
+
+
+
+
+	
+
+2.3. Ubicación del Equipo Quirúrgico (realizar gráfico):
+
+
+  
+                                                 
+
+
+	
+
+* ETAPA DE EJECUCIÓN:
+
+
+
+
+* Anestesia (escribir el tipo de anestesia):
+
+
+Anestesia General
+
+
+
+
+* Incisión (escribir el tipo de abordaje y el nombre de la incisión):
+
+
+subcostal lateral 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Proceso Quirúrgico (Describir los pasos principales de la técnica médico quirúrgica con el instrumental a usar).
+
+
+TÉCNICA QUIRÚRGICA
+	Se realiza neumoperitoneo con aguja de Veress  a 15 mm  hg y una técnica de tres trocares: un trocar de 12 mm para la óptica de 30 grados pararrectal y paraumbilical y 2 trocares de la región subcostal y la fosa ilíaca de 12 y 5 mm.
+ la posición del crocar de 12 mm corresponde a la mano dominante del cirujano 
+	El acceso es directo a la unión pieloureteral, tanto a derecha como a izquierda. En el
+lado derecho se accede fácilmente a la zona del ángulo hepático del colon y en el lado
+izquierdo hacemos un acceso trans mesocólico, descrito previamente por nosotros.
+	No colocamos el catéter ureteral doble j previamente porque la hidronefrosis permite la facil identificación de la pelvis renal. se secciona el  mesenterio del colon Y seca la pelvis ureteral y el uréter, logrando la fácil identificación y preservación de los vasos polares si existen. 
+	Antes de la sección de la pelvis renal colocamos una sutura de Prolene 2-0, con aguja
+recta, por vía percutánea, con lo cual traccionamos el borde medial de la pelvis, lo que
+facilitará la sutura posterior. Se secciona la pelvis renal en forma oblicua, separando el
+uréter, y si existen vasos polares la anastomosis
+se hará anterior a ellos. Se espátula el uréter por su cara lateral y se procede a la
+anastomosis del borde posterior.
+	En este momento se coloca el cateter doble j  6 FR por vía percutánea  (se punciona la pared de la con la cánula venosa 14 G, a través de la cual se avanza una guía hidrofílica de forma anterógrada, sobre la cual se desliza el tutor ureteral) 
+	Luego se realiza la sutura de la cara anterior, en ambos casos con Monocryl 4-0, con
+agua RB-1. Se deja drenaje aspirativo por contrabertura.
+	La Sonda vesical es retirada a las 24 horas y el drenaje al día siguiente si no hay filtración el tutor ureteral doble J se retira por  cistoscopia flexible ambulatoria entre 2 y 4 semanas 
+	
+
+	FORMATO DE INFORME SEMANAL DE LA PRACTICA FORMATIVA
+  FORMATO RECORD DE ASISTENCIA A CIRUGIA - PRACTICA FORMATIVA                                                                                                                                                                                          IQX-FT-024-UDES

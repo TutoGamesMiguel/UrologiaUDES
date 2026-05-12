@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo interactivo de equipos quirúrgicos en urología. Explora, busca y consulta información detallada sobre instrumental especializado.">
+    <title>Equipos Quirúrgicos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container" aria-label="Navegación principal">
+        <a class="brand" href="index.html" aria-label="Ir a inicio">
+            <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img" aria-label="Logo del proyecto">
+                <circle cx="32" cy="32" r="30" fill="var(--azul-pastel)"></circle>
+                <path d="M20 37L37 20c1-1 2.5-1 3.5 0l3.5 3.5c1 1 1 2.5 0 3.5L27.5 43.5 20 44l1-7Z" fill="var(--rosa-acento)"></path>
+                <path d="M24.5 40.5l-1.5 1.5c-.4.4-.4 1 0 1.4l2.1 2.1c.4.4 1 .4 1.4 0l1.5-1.5" fill="none" stroke="var(--rosa-acento)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            </span>
+            <span class="brand-text">
+            <strong>UroInstrumentación</strong>
+            </span>
+        </a>
+
+        <button class="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation">
+            <i data-lucide="menu"></i>
+        </button>
+
+        <div class="nav-panel" id="primary-navigation">
+            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="planeamientos.html">Planeamientos</a>
+            <a class="nav-link active" href="equipos.html">Equipos</a>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero page-hero-soft">
+        <div class="container page-hero-content fade-in">
+            <span class="hero-kicker">Consulta y explora</span>
+            <h1>Equipos Quirúrgicos</h1>
+            <p>
+            Catálogo de instrumental urológico. Busca, filtra por familia y consulta detalles completos de cada variante.
+            </p>
+        </div>
+        </section>
+
+        <section class="section equipos-section">
+        <div class="container">
+            <div class="search-bar fade-in">
+            <i data-lucide="search" class="search-icon" aria-hidden="true"></i>
+            <input
+                type="search"
+                placeholder="Buscar equipos por nombre o variante..."
+                aria-label="Buscar equipos quirúrgicos"
+            >
+            </div>
+
+            <div class="filter-row fade-in">
+            <button class="filter-btn active" type="button" data-category="Todos">Todos</button>
+            <button class="filter-btn" type="button" data-category="Cistoscopio">Cistoscopio</button>
+            <button class="filter-btn" type="button" data-category="Láser Holmium">Láser Holmium</button>
+            <button class="filter-btn" type="button" data-category="Láser Thulium">Láser Thulium</button>
+            <button class="filter-btn" type="button" data-category="Litotriptor mecánico">Litotriptor mecánico</button>
+            <button class="filter-btn" type="button" data-category="Morcelador de próstata">Morcelador de próstata</button>
+            <button class="filter-btn" type="button" data-category="Nefroscopio">Nefroscopio</button>
+            <button class="filter-btn" type="button" data-category="Resectoscopio">Resectoscopio</button>
+            <button class="filter-btn" type="button" data-category="Ureteroscopio">Ureteroscopio</button>
+            <button class="filter-btn" type="button" data-category="Uretrotomo">Uretrotomo</button>
+            </div>
+
+            <div class="equipos-grid fade-in" role="region" aria-label="Equipos quirúrgicos">
+            <!-- Se llena con JavaScript -->
+            </div>
+
+            <div class="empty-state fade-in" hidden>
+            <i data-lucide="inbox" aria-hidden="true"></i>
+            <h3>No se encontraron equipos</h3>
+            <p>Intenta con otros términos de búsqueda o elige una categoría diferente.</p>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+        <p>Equipos Quirúrgicos en Urología · Instrumentación Quirúrgica · 2026</p>
+        <p>UDES - Universidad de Santander</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Volver arriba">
+        <i data-lucide="arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <div class="modal" role="dialog" aria-hidden="true" aria-modal="true">
+        <div class="modal-overlay" data-close-modal></div>
+        <div class="modal-content">
+        <button class="modal-close" type="button" aria-label="Cerrar modal" data-close-modal>
+            <i data-lucide="x" aria-hidden="true"></i>
+        </button>
+
+        <article class="modal-article">
+            <div class="modal-image-wrapper">
+            <img class="modal-image" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f4f4f4' width='100' height='100'/%3E%3C/svg%3E" alt="Placeholder" role="presentation">
+            </div>
+
+            <div class="modal-body">
+            <div class="modal-header">
+                <span class="modal-badge">Categoría</span>
+                <h2 class="modal-title">Nombre del equipo</h2>
+            </div>
+
+            <section class="modal-section">
+                <h3>Definición</h3>
+                <p class="modal-definition">Definición del equipo.</p>
+            </section>
+
+            <section class="modal-section">
+                <h3>Características</h3>
+                <ul class="modal-list modal-characteristics"></ul>
+            </section>
+
+            <section class="modal-section">
+                <h3>Partes</h3>
+                <ul class="modal-list modal-parts"></ul>
+            </section>
+
+            <section class="modal-section">
+                <h3>Usos</h3>
+                <ul class="modal-list modal-uses"></ul>
+            </section>
+
+            <section class="modal-section">
+                <h3>Funcionamiento</h3>
+                <p class="modal-functioning">Funcionamiento del equipo.</p>
+            </section>
+
+            <button class="btn btn-secondary" type="button" data-close-modal>
+                <i data-lucide="x" aria-hidden="true"></i>
+                Cerrar
+            </button>
+            </div>
+        </article>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
