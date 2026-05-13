@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio académico de urología. Descargar o visualizar presentación del portafolio profesional.">
+    <title>Portafolio - Urología</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <style>
+        .portafolio-hero {
+            padding: 60px 20px;
+            background: var(--fondo-hero);
+        }
+
+        .portafolio-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin: 3rem auto;
+            max-width: 1100px;
+        }
+
+        .portafolio-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .portafolio-viewer {
+            background: #f5f5f5;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            min-height: 600px;
+        }
+
+        #pdfContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            padding: 20px;
+        }
+
+        .pdf-page {
+            max-width: 100%;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .pdf-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: var(--gris-claro);
+            border-top: 1px solid #e0e0e0;
+            flex-wrap: wrap;
+        }
+
+        .pdf-info {
+            font-size: 0.9rem;
+            color: var(--texto-muted);
+            min-width: 150px;
+            text-align: center;
+        }
+
+        .pdf-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1.2rem;
+            background: var(--azul-pastel);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: var(--texto);
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .pdf-btn:hover {
+            background: var(--azul-acento);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(122, 174, 232, 0.3);
+        }
+
+        .pdf-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .portafolio-info {
+            background: var(--gris-claro);
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem auto;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .portafolio-info h3 {
+            color: var(--azul-acento);
+            margin-top: 0;
+        }
+
+        @media (max-width: 768px) {
+            .portafolio-viewer {
+                min-height: 400px;
+            }
+
+            .pdf-controls {
+                flex-direction: column;
+            }
+
+            .pdf-info {
+                min-width: auto;
+            }
+
+            #pdfContainer {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container" aria-label="Navegación principal">
+            <a class="brand" href="index.html" aria-label="Ir a inicio">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 64 64" role="img" aria-label="Logo del proyecto">
+                        <circle cx="32" cy="32" r="30" fill="var(--azul-pastel)"></circle>
+                        <path d="M20 37L37 20c1-1 2.5-1 3.5 0l3.5 3.5c1 1 1 2.5 0 3.5L27.5 43.5 20 44l1-7Z" fill="var(--rosa-acento)"></path>
+                        <path d="M24.5 40.5l-1.5 1.5c-.4.4-.4 1 0 1.4l2.1 2.1c.4.4 1 .4 1.4 0l1.5-1.5" fill="none" stroke="var(--rosa-acento)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </span>
+                <span class="brand-text">
+                    <strong>UroInstrumentación</strong>
+                </span>
+            </a>
+
+            <button class="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <div class="nav-panel" id="primary-navigation">
+                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link" href="planeamientos.html">Planeamientos</a>
+                <a class="nav-link" href="equipos.html">Equipos</a>
+                <a class="nav-link active" href="portafolio.html">Portafolio</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portafolio-hero">
+            <div class="container fade-in">
+                <h1>Portafolio de Urología</h1>
+                <p style="font-size: 1.1rem; color: var(--texto-muted); margin-top: 1rem;">
+                    Presentación completa del portafolio académico especializado en urología y cirugía urológica.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="portafolio-container container">
+                <div class="portafolio-actions">
+                    <button class="btn btn-primary" id="downloadBtn" onclick="downloadPDF()">
+                        <i data-lucide="download" style="width: 18px; height: 18px;"></i>
+                        Descargar PDF
+                    </button>
+                    <button class="btn btn-secondary" id="fullscreenBtn" onclick="toggleFullscreen()">
+                        <i data-lucide="maximize-2" style="width: 18px; height: 18px;"></i>
+                        Pantalla Completa
+                    </button>
+                </div>
+
+                <div class="portafolio-viewer">
+                    <div id="pdfContainer"></div>
+                    <div class="pdf-controls">
+                        <button class="pdf-btn" id="prevBtn" onclick="previousPage()" title="Página anterior">
+                            <i data-lucide="chevron-left" style="width: 18px; height: 18px;"></i>
+                            Anterior
+                        </button>
+                        <div class="pdf-info">
+                            <span id="pageInfo">Cargando...</span>
+                        </div>
+                        <button class="pdf-btn" id="nextBtn" onclick="nextPage()" title="Página siguiente">
+                            Siguiente
+                            <i data-lucide="chevron-right" style="width: 18px; height: 18px;"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="portafolio-info">
+                    <h3>💡 Consejos de visualización</h3>
+                    <p>
+                        Puedes navegar por las páginas usando los botones de anterior y siguiente, descargar el PDF completo, 
+                        o visualizarlo en pantalla completa para una mejor experiencia. El PDF contiene toda la documentación 
+                        académica del portafolio de urología.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Equipos Quirúrgicos en Urología · Instrumentación Quirúrgica · 2026</p>
+            <p>UDES - Universidad de Santander</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Volver arriba">
+        <i data-lucide="arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="main.js"></script>
+    <script>
+        let pdfDoc = null;
+        let currentPage = 1;
+        const pdfPath = 'assets/portafolio/Portafolio de urologia_compressed.pdf';
+
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+        // Cargar el PDF
+        async function loadPDF() {
+            try {
+                pdfDoc = await pdfjsLib.getDocument(pdfPath).promise;
+                renderPage(currentPage);
+                updatePageInfo();
+            } catch (error) {
+                console.error('Error al cargar el PDF:', error);
+                document.getElementById('pdfContainer').innerHTML = 
+                    '<p style="color: #e89aaa; padding: 2rem; text-align: center;">Error al cargar el PDF. Por favor, intenta descargar el archivo.</p>';
+            }
+        }
+
+        // Renderizar una página
+        async function renderPage(pageNum) {
+            if (!pdfDoc) return;
+
+            try {
+                const page = await pdfDoc.getPage(pageNum);
+                const viewport = page.getViewport({ scale: 1.5 });
+
+                const canvas = document.createElement('canvas');
+                canvas.className = 'pdf-page';
+                const context = canvas.getContext('2d');
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+
+                await page.render({
+                    canvasContext: context,
+                    viewport: viewport
+                }).promise;
+
+                const container = document.getElementById('pdfContainer');
+                container.innerHTML = '';
+                container.appendChild(canvas);
+
+                updatePageInfo();
+            } catch (error) {
+                console.error('Error al renderizar la página:', error);
+            }
+        }
+
+        // Actualizar información de página
+        function updatePageInfo() {
+            if (pdfDoc) {
+                document.getElementById('pageInfo').textContent = 
+                    `Página ${currentPage} de ${pdfDoc.numPages}`;
+                
+                document.getElementById('prevBtn').disabled = currentPage <= 1;
+                document.getElementById('nextBtn').disabled = currentPage >= pdfDoc.numPages;
+            }
+        }
+
+        // Navegación
+        function nextPage() {
+            if (pdfDoc && currentPage < pdfDoc.numPages) {
+                currentPage++;
+                renderPage(currentPage);
+            }
+        }
+
+        function previousPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                renderPage(currentPage);
+            }
+        }
+
+        // Descargar PDF
+        function downloadPDF() {
+            const link = document.createElement('a');
+            link.href = pdfPath;
+            link.download = 'Portafolio_de_urologia.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Pantalla completa
+        function toggleFullscreen() {
+            const viewer = document.querySelector('.portafolio-viewer');
+            if (!document.fullscreenElement) {
+                viewer.requestFullscreen().catch(err => {
+                    console.error('Error al entrar en pantalla completa:', err);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        }
+
+        // Cargar el PDF al iniciar
+        document.addEventListener('DOMContentLoaded', loadPDF);
+
+        // Permitir navegación con teclas
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextPage();
+            if (e.key === 'ArrowLeft') previousPage();
+        });
+    </script>
+</body>
+</html>
