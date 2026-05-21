@@ -1,0 +1,323 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cistoscopio flexible",
+        "categoria": "Cistoscopio",
+        "variante": "Flexible",
+        "descripcion_corta": "Exploración vesical menos invasiva, con mayor comodidad para el paciente.",
+        "definicion": "Instrumento delgado, largo y flexible usado para observar el interior de la vejiga y la uretra.",
+        "caracteristicas": [
+            "Tubo flexible que facilita el paso por la uretra.",
+            "Cámara y fuente de luz en la punta para visualización en tiempo real.",
+            "Canal de trabajo para tomar muestras o introducir accesorios.",
+            "Suele emplearse con anestesia local o sedación ligera según el caso."
+        ],
+        "partes": [
+            "Mango o empuñadura",
+            "Tubo flexible",
+            "Sistema óptico/cámara",
+            "Fuente de luz",
+            "Canal de trabajo"
+        ],
+        "usos": [
+            "Cistoscopia diagnóstica",
+            "Toma de biopsias",
+            "Evaluación de hematuria",
+            "Inspección de uretra y vejiga"
+        ],
+        "funcionamiento": "La luz viaja por fibras ópticas hasta la punta, ilumina el campo y la imagen se transmite a una cámara o sistema óptico para observar la vejiga y la uretra en tiempo real.",
+        "mainImage": "./assets/instrumentos/cistoscopio-flexible/main.jpg",
+        "partsImage": "./assets/instrumentos/cistoscopio-flexible/partes.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Cistoscopio semirrígido",
+        "categoria": "Cistoscopio",
+        "variante": "Semirrígido",
+        "descripcion_corta": "Mayor precisión y estabilidad para exploraciones y procedimientos transuretrales.",
+        "definicion": "Instrumento tubular metálico, no totalmente flexible, que permite exploración y tratamiento endoscópico del tracto urinario inferior.",
+        "caracteristicas": [
+            "Estructura rígida o semirrígida con mayor durabilidad.",
+            "Ofrece visión estable y directa.",
+            "Permite introducir instrumental de trabajo por su canal.",
+            "Puede ser más incómodo que el flexible, pero facilita ciertos procedimientos."
+        ],
+        "partes": [
+            "Mango",
+            "Tubo semirrígido",
+            "Óptica",
+            "Sistema de irrigación",
+            "Canal de trabajo"
+        ],
+        "usos": [
+            "Exploración vesical",
+            "Extracción de cuerpos extraños",
+            "Procedimientos endoscópicos del tracto urinario inferior"
+        ],
+        "funcionamiento": "Se introduce por la uretra bajo visión directa; el sistema óptico y la irrigación permiten identificar la cavidad y maniobrar instrumentos por el canal de trabajo.",
+        "mainImage": "./assets/instrumentos/cistoscopio-semirrigido/main.png",
+        "partsImage": "./assets/instrumentos/cistoscopio-semirrigido/partes.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Láser Holmium",
+        "categoria": "Láser Holmium",
+        "variante": "Equipo láser",
+        "descripcion_corta": "Láser pulsado de alta precisión para fragmentar cálculos y cortar tejido.",
+        "definicion": "Láser médico-quirúrgico con longitud de onda cercana a 2.1 micrómetros, altamente absorbida por el agua y los tejidos húmedos.",
+        "caracteristicas": [
+            "Emisión pulsada de alta energía.",
+            "Penetración superficial mínima y buen control térmico.",
+            "Compatible con fibras ópticas flexibles.",
+            "Permite ajustar energía, frecuencia y duración del pulso desde consola."
+        ],
+        "partes": [
+            "Unidad generadora",
+            "Consola de control",
+            "Sistema de enfriamiento",
+            "Fibra óptica",
+            "Pedal de activación"
+        ],
+        "usos": [
+            "Litotricia",
+            "Enucleación prostática",
+            "Vaporización y corte de tejidos",
+            "Procedimientos mínimamente invasivos"
+        ],
+        "funcionamiento": "Un medio activo dopado con holmio recibe energía y genera pulsos láser que, al contacto con el tejido o cálculo, producen fragmentación, vaporización o corte con mínima zona térmica.",
+        "mainImage": "./assets/instrumentos/laser-holmium/main.png",
+        "partsImage": "./assets/instrumentos/laser-holmium/partes.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Láser Thulium",
+        "categoria": "Láser Thulium",
+        "variante": "Equipo láser",
+        "descripcion_corta": "Láser de emisión continua útil para corte fino y vaporización controlada.",
+        "definicion": "Tecnología láser utilizada en urología que emite de forma continua y ofrece un corte más eficaz, con menor identificación de planos quirúrgicos frente al Holmium.",
+        "caracteristicas": [
+            "Emisión continua.",
+            "Buena potencia para corte y vaporización.",
+            "Longitud de onda alrededor de 1940-2013 nm según el sistema.",
+            "Disparo frontal o lateral según el equipo."
+        ],
+        "partes": [
+            "Unidad principal",
+            "Consola de programación",
+            "Fibra óptica",
+            "Sistema de refrigeración",
+            "Pedal"
+        ],
+        "usos": [
+            "Vaporización prostática",
+            "Corte tisular fino",
+            "Tratamiento endoscópico en urología"
+        ],
+        "funcionamiento": "La energía se transmite por una fibra dopada con tulio; el haz continuo interactúa con el tejido produciendo corte, vaporización y coagulación en función de la potencia seleccionada.",
+        "mainImage": "./assets/instrumentos/laser-thulium/main.jpg",
+        "partsImage": "./assets/instrumentos/laser-thulium/partes.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Litotriptor mecánico",
+        "categoria": "Litotriptor mecánico",
+        "variante": "Manual",
+        "descripcion_corta": "Dispositivo manual para fragmentar cálculos por compresión o corte mecánico.",
+        "definicion": "Instrumento quirúrgico manual empleado en urología para romper cálculos localizados en vejiga, uréteres o riñones mediante acción mecánica directa.",
+        "caracteristicas": [
+            "No requiere energía eléctrica.",
+            "Se usa por canal de trabajo endoscópico.",
+            "Construcción resistente y esterilizable.",
+            "Diseño compacto y de maniobra precisa."
+        ],
+        "partes": [
+            "Mango o sistema de palanca",
+            "Eje",
+            "Mandíbulas o pinzas distales",
+            "Cesta o mecanismo de fragmentación"
+        ],
+        "usos": [
+            "Fragmentación de cálculos vesicales",
+            "Tratamiento endoscópico de litos ureterales",
+            "Extracción de fragmentos"
+        ],
+        "funcionamiento": "El cirujano introduce el instrumento hasta el cálculo y acciona el mecanismo distal; las mandíbulas lo sujetan y aplican fuerza mecánica para fragmentarlo.",
+        "mainImage": "./assets/instrumentos/litotriptor-mecanico/main.png",
+        "partsImage": "./assets/instrumentos/litotriptor-mecanico/partes.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Morcelador de próstata",
+        "categoria": "Morcelador de próstata",
+        "variante": "Transuretral",
+        "descripcion_corta": "Tritura y aspira tejido prostático tras la enucleación.",
+        "definicion": "Dispositivo usado en cirugía mínimamente invasiva para retirar tejido prostático fibroso o hiperplásico después de la enucleación.",
+        "caracteristicas": [
+            "Se introduce por vía transuretral mediante endoscopio.",
+            "Integra aspiración para retirar fragmentos.",
+            "Utiliza cuchillas internas protegidas.",
+            "Reduce la necesidad de cirugía abierta."
+        ],
+        "partes": [
+            "Mango",
+            "Cuerpo del instrumento",
+            "Sistema de aspiración",
+            "Cuchillas internas",
+            "Vaina de trabajo"
+        ],
+        "usos": [
+            "Cirugía prostática mínimamente invasiva",
+            "Extracción de tejido tras HoLEP",
+            "Evacuación de fragmentos prostáticos"
+        ],
+        "funcionamiento": "Tras la enucleación, se introduce por el endoscopio; las cuchillas giratorias o el sistema de presión trituran el tejido y la aspiración lo extrae bajo visión directa.",
+        "mainImage": "./assets/instrumentos/morcelador-prostata/main.png",
+        "partsImage": "./assets/instrumentos/morcelador-prostata/partes.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Nefroscopio",
+        "categoria": "Nefroscopio",
+        "variante": "Percutáneo",
+        "descripcion_corta": "Permite visualizar y tratar el interior del riñón por vía percutánea.",
+        "definicion": "Instrumento médico empleado en nefroscopias para la visualización directa del interior renal, introducido generalmente por acceso percutáneo.",
+        "caracteristicas": [
+            "Diseñado para procedimientos mínimamente invasivos.",
+            "Existe en versiones estándar, mini y de gran flujo.",
+            "Ofrece buen acceso al sistema colector renal.",
+            "Compatible con litotricia y extracción de fragmentos."
+        ],
+        "partes": [
+            "Óptica",
+            "Tubo o vaina",
+            "Canal de trabajo",
+            "Sistema de irrigación",
+            "Conexión de luz"
+        ],
+        "usos": [
+            "Nefrolitotomía percutánea",
+            "Extracción de cálculos renales",
+            "Inspección del sistema colector renal"
+        ],
+        "funcionamiento": "Se accede al riñón por vía percutánea guiada por imagen; el tracto se dilata y se introduce el nefroscopio para visualizar, fragmentar y extraer cálculos por su canal de trabajo.",
+        "mainImage": "./assets/instrumentos/nefroscopio/main.jpg",
+        "partsImage": "./assets/instrumentos/nefroscopio/partes.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Resectoscopio",
+        "categoria": "Resectoscopio",
+        "variante": "Endoscópico",
+        "descripcion_corta": "Instrumento para resecar o coagular tejido con irrigación y visión directa.",
+        "definicion": "Instrumento quirúrgico delgado en forma de tubo que se introduce en el cuerpo para extraer o destruir tejido y controlar sangrado.",
+        "caracteristicas": [
+            "Óptica integrada para visualización en tiempo real.",
+            "Canal de trabajo para asas y electrodos.",
+            "Sistema de irrigación para distender y limpiar la cavidad.",
+            "Compatible con corriente eléctrica para corte y coagulación."
+        ],
+        "partes": [
+            "Óptica",
+            "Mango",
+            "Vaina",
+            "Asa de resección",
+            "Sistema de irrigación"
+        ],
+        "usos": [
+            "Resección transuretral",
+            "Coagulación de tejido",
+            "Tratamiento de hiperplasia prostática benigna y otras lesiones"
+        ],
+        "funcionamiento": "Se introduce por la uretra con irrigación continua; a través del canal de trabajo se insertan electrodos o asas que cortan o coagulan el tejido bajo visión directa.",
+        "mainImage": "./assets/instrumentos/resectoscopio/main.png",
+        "partsImage": "./assets/instrumentos/resectoscopio/partes.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Ureteroscopio flexible",
+        "categoria": "Ureteroscopio",
+        "variante": "Flexible",
+        "descripcion_corta": "Acceso a uréter y pelvis renal con máxima maniobrabilidad.",
+        "definicion": "Instrumento delgado en forma de tubo con luz y lente para observar desde la uretra hasta el uréter y la pelvis renal.",
+        "caracteristicas": [
+            "Alta flexibilidad para áreas de difícil acceso.",
+            "Diámetro reducido para menor trauma.",
+            "Canal de trabajo para pinzas, láser o sondas.",
+            "Mejor maniobrabilidad en el uréter superior y la pelvis renal."
+        ],
+        "partes": [
+            "Mango",
+            "Vaina flexible",
+            "Sistema óptico/cámara",
+            "Canal de trabajo",
+            "Fuente de luz"
+        ],
+        "usos": [
+            "Ureteroscopia diagnóstica",
+            "Litotricia endoscópica",
+            "Extracción de cálculos ureterales",
+            "Exploración de pelvis renal"
+        ],
+        "funcionamiento": "Se introduce por la uretra hasta la vejiga y luego al uréter; la imagen se transmite por fibras ópticas o cámara digital mientras el canal de trabajo permite maniobrar instrumentos.",
+        "mainImage": "./assets/instrumentos/ureteroscopio-flexible/main.jpg",
+        "partsImage": "./assets/instrumentos/ureteroscopio-flexible/partes.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Ureteroscopio rígido",
+        "categoria": "Ureteroscopio",
+        "variante": "Rígido",
+        "descripcion_corta": "Visión directa y estable para procedimientos ureterales seleccionados.",
+        "definicion": "Instrumento rígido y alargado que permite explorar el interior del tracto urinario, especialmente los uréteres.",
+        "caracteristicas": [
+            "Visión directa y estable.",
+            "Estructura más firme que el flexible.",
+            "Suele ser útil en ureteroscopia distal.",
+            "Disponible en diferentes calibres según el paciente."
+        ],
+        "partes": [
+            "Mango",
+            "Tubo rígido",
+            "Sistema óptico",
+            "Canal de trabajo",
+            "Conector de luz"
+        ],
+        "usos": [
+            "Exploración ureteral",
+            "Extracción de cálculos",
+            "Procedimientos endoscópicos sobre uréter distal"
+        ],
+        "funcionamiento": "Se introduce bajo visión endoscópica para explorar el uréter; su rigidez aporta estabilidad y permite actuar con precisión sobre cálculos o lesiones.",
+        "mainImage": "./assets/instrumentos/ureteroscopio-rigido/main.jpg",
+        "partsImage": "./assets/instrumentos/ureteroscopio-rigido/partes.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Uretrotomo",
+        "categoria": "Uretrotomo",
+        "variante": "Endoscópico",
+        "descripcion_corta": "Sirve para cortar estenosis uretrales con precisión controlada.",
+        "definicion": "Instrumento quirúrgico utilizado en procedimientos de uretrotomía para realizar cortes controlados dentro de la uretra.",
+        "caracteristicas": [
+            "Diseñado para áreas estrechas de la uretra.",
+            "Precisión en el corte de tejido fibroso.",
+            "Fabricado en acero inoxidable quirúrgico.",
+            "Puede ser compatible con sistemas endoscópicos."
+        ],
+        "partes": [
+            "Mango",
+            "Cuerpo del instrumento",
+            "Cuchilla o sistema de corte",
+            "Sistema óptico o guía",
+            "Mecanismo de avance"
+        ],
+        "usos": [
+            "Uretrotomía interna",
+            "Tratamiento de estenosis uretral",
+            "Apertura de conductos uretrales estrechos"
+        ],
+        "funcionamiento": "Bajo visión endoscópica, el instrumento se sitúa en la zona de estenosis; la cuchilla se desliza y corta el tejido fibroso para restablecer el calibre uretral.",
+        "mainImage": "./assets/instrumentos/uretrotomo/main.jpg",
+        "partsImage": "./assets/instrumentos/uretrotomo/partes.png"
+    }
+]

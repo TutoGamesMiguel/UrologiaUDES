@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Panel administrativo para gestionar equipos y planeamientos quirúrgicos en urología.">
+    <title>Admin | UroInstrumentación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+</head>
+    <body>
+    <header class="header">
+        <nav class="navbar container" aria-label="Navegación principal">
+        <a class="brand" href="index.html" aria-label="Ir a inicio">
+            <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img" aria-label="Logo del proyecto">
+                <circle cx="32" cy="32" r="30" fill="var(--azul-pastel)"></circle>
+                <path d="M20 37L37 20c1-1 2.5-1 3.5 0l3.5 3.5c1 1 1 2.5 0 3.5L27.5 43.5 20 44l1-7Z" fill="var(--rosa-acento)"></path>
+                <path d="M24.5 40.5l-1.5 1.5c-.4.4-.4 1 0 1.4l2.1 2.1c.4.4 1 .4 1.4 0l1.5-1.5" fill="none" stroke="var(--rosa-acento)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            </span>
+            <span class="brand-text"><strong>UroInstrumentación</strong></span>
+        </a>
+
+        <button class="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation">
+            <i data-lucide="menu"></i>
+        </button>
+
+        <div class="nav-panel" id="primary-navigation">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="planeamientos.html">Plannings</a>
+            <a class="nav-link" href="equipos.html">Equipment</a>
+            <a class="nav-link" href="videos.html">Videos</a>
+            <a class="nav-link" href="portafolio.html">Portfolio</a>
+            <a class="nav-link active" href="admin.html">Admin</a>
+
+            <div class="nav-session" data-session-menu hidden>
+            <button class="btn btn-secondary nav-session-toggle" type="button" data-session-toggle aria-expanded="false" aria-haspopup="true" aria-controls="nav-session-panel">
+                <i data-lucide="circle-user-round" aria-hidden="true"></i>
+                <span data-session-label>Sesión activa</span>
+                <i data-lucide="chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="nav-session-panel" id="nav-session-panel">
+                <p class="nav-session-email" data-session-label>Sesión activa</p>
+                <button class="btn btn-secondary" type="button" data-logout-button>
+                <i data-lucide="log-out" aria-hidden="true"></i>
+                Cerrar sesión
+                </button>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero page-hero-soft admin-hero">
+        <div class="container page-hero-content fade-in">
+            <h1>Panel administrativo</h1>
+            <p>Gestiona equipos y planeamientos desde una sola vista. El formulario está preparado para conectar login, creación, edición y eliminación contra Firestore/Firebase.</p>
+        </div>
+        </section>
+
+        <section class="section admin-section">
+        <div class="container admin-layout">
+            <article class="card admin-auth-card fade-in">
+            <div class="admin-card-header">
+                <div>
+                <p class="admin-eyebrow">Acceso</p>
+                <h2 class="section-title">Formulario de login</h2>
+                </div>
+                <span class="admin-badge" data-auth-status>Sesión local</span>
+            </div>
+
+            <form class="admin-login-form" data-login-form method="post" action="javascript:void(0);">
+                <label class="admin-field">
+                    <span>Correo</span>
+                    <input type="email" name="email" placeholder="admin@correo.com" autocomplete="email" required>
+                </label>
+
+                <label class="admin-field">
+                    <span>Contraseña</span>
+                    <input type="password" name="password" placeholder="••••••••" autocomplete="current-password" required>
+                </label>
+
+                <div class="admin-actions">
+                    <button class="btn btn-primary" type="submit">
+                        <i data-lucide="log-in" aria-hidden="true"></i>
+                        Iniciar sesión
+                    </button>
+                </div>
+            </form>
+
+            <p class="admin-helper" data-login-message>
+                Este acceso está listo para integrarse con Firebase Auth. Mientras tanto, puedes trabajar en modo local de edición.
+            </p>
+            </article>
+
+            <div class="admin-workspace" hidden aria-hidden="true">
+            <aside class="card admin-list-card fade-in">
+                <div class="admin-card-header">
+                <div>
+                    <p class="admin-eyebrow">Inventario</p>
+                    <h2 class="section-title">Lista de registros</h2>
+                </div>
+                <span class="admin-count" data-equipos-count>0 registros</span>
+                </div>
+
+                <div class="admin-list-toolbar">
+                <button class="btn btn-secondary" type="button" data-refresh-button>
+                    <i data-lucide="refresh-cw" aria-hidden="true"></i>
+                    Recargar
+                </button>
+                <button class="btn btn-secondary" type="button" data-new-button>
+                    <i data-lucide="plus" aria-hidden="true"></i>
+                    Nuevo
+                </button>
+                </div>
+
+                <div class="admin-type-switch" role="tablist" aria-label="Tipo de registro">
+                <button class="btn btn-secondary admin-type-btn is-active" type="button" data-admin-type="equipos" aria-pressed="true">Equipos</button>
+                <button class="btn btn-secondary admin-type-btn" type="button" data-admin-type="planeamientos" aria-pressed="false">Planeamientos</button>
+                </div>
+
+                <div class="admin-list" data-equipos-list role="list" aria-label="Lista de equipos"></div>
+                <div class="admin-list" data-planeamientos-list role="list" aria-label="Lista de planeamientos" hidden></div>
+                <p class="admin-empty" data-empty-state hidden>No hay registros cargados todavía.</p>
+            </aside>
+
+            <article class="card admin-form-card fade-in">
+                <div class="admin-card-header">
+                <div>
+                    <p class="admin-eyebrow">Edición</p>
+                    <h2 class="section-title">Formulario de edición</h2>
+                </div>
+                <span class="admin-badge admin-badge-soft" data-save-status>Sin cambios</span>
+                </div>
+
+                <form class="admin-form" data-admin-form>
+                <input type="hidden" name="docId">
+                <input type="hidden" name="recordType" value="equipos">
+
+                <section class="admin-form-section" data-form-section="equipos">
+                <div class="admin-form-grid admin-form-grid-2">
+                    <label class="admin-field">
+                    <span>Nombre</span>
+                    <input type="text" name="nombre" placeholder="Nombre del equipo">
+                    </label>
+
+                    <label class="admin-field">
+                    <span>Categoría</span>
+                    <input type="text" name="categoria" placeholder="Categoría del equipo">
+                    </label>
+
+                    <label class="admin-field">
+                    <span>Variante</span>
+                    <input type="text" name="variante" placeholder="Variante o tipo">
+                    </label>
+
+                    <label class="admin-field">
+                    <span>Orden</span>
+                    <input type="number" name="orden" min="0" step="1" placeholder="0">
+                    </label>
+                </div>
+
+                <label class="admin-field">
+                    <span>Descripción corta</span>
+                    <textarea name="descripcion_corta" rows="3" placeholder="Resumen breve"></textarea>
+                </label>
+
+                <label class="admin-field">
+                    <span>Definición</span>
+                    <textarea name="definicion" rows="4" placeholder="Definición completa"></textarea>
+                </label>
+
+                <div class="admin-form-grid admin-form-grid-2">
+                    <label class="admin-field">
+                    <span>Características</span>
+                    <textarea name="caracteristicas" rows="8" placeholder="Una línea por ítem"></textarea>
+                    </label>
+
+                    <label class="admin-field">
+                    <span>Usos</span>
+                    <textarea name="usos" rows="8" placeholder="Una línea por ítem"></textarea>
+                    </label>
+                </div>
+
+                <div class="admin-form-grid admin-form-grid-2">
+                    <label class="admin-field">
+                    <span>Partes</span>
+                    <textarea name="partes" rows="8" placeholder="Una línea por ítem"></textarea>
+                    </label>
+
+                    <label class="admin-field">
+                    <span>Funcionamiento</span>
+                    <textarea name="funcionamiento" rows="8" placeholder="Describe cómo funciona"></textarea>
+                    </label>
+                </div>
+                </section>
+
+                <div data-form-section="planeamientos" hidden>
+    <div class="admin-form-grid admin-form-grid-2">
+        <label class="admin-field">
+            <span>ID</span>
+            <input type="number" name="id" min="1" step="1" placeholder="1" readonly>
+        </label>
+
+        <label class="admin-field">
+            <span>Título</span>
+            <input type="text" name="titulo" placeholder="Nombre del procedimiento">
+        </label>
+
+        <label class="admin-field">
+            <span>Órgano</span>
+            <input type="text" name="organo" placeholder="Riñón, Vejiga, Próstata...">
+        </label>
+
+        <label class="admin-field">
+            <span>Tipo</span>
+            <input type="text" name="tipo" placeholder="planeamiento-complejo">
+        </label>
+    </div>
+
+    <h3 class="admin-subtitle">Planeación</h3>
+
+    <label class="admin-field">
+        <span>Objetivo</span>
+        <textarea name="planeacion_objetivo" rows="4" placeholder="Objetivo del procedimiento"></textarea>
+    </label>
+
+    <div class="admin-form-grid admin-form-grid-2">
+        <label class="admin-field">
+            <span>Título de anatomía</span>
+            <input type="text" name="anatomia_titulo" placeholder="Anatomía del órgano">
+        </label>
+
+        <label class="admin-field">
+            <span>Imagen de anatomía</span>
+            <input type="text" name="anatomia_imagen" placeholder="./assets/..." readonly>
+        </label>
+    </div>
+
+    <label class="admin-field">
+        <span>Contenido de anatomía</span>
+        <textarea name="anatomia_contenido" rows="6" placeholder="Descripción anatómica"></textarea>
+    </label>
+
+    <label class="admin-field">
+        <span>Partes del órgano</span>
+        <textarea name="partes_items" rows="8" placeholder="Formato por línea: Nombre | Descripción | Imagen(opcional)"></textarea>
+    </label>
+
+    <div class="admin-form-grid admin-form-grid-2">
+        <label class="admin-field">
+            <span>Título irrigación</span>
+            <input type="text" name="irrigacion_titulo" placeholder="Irrigación e inervación">
+        </label>
+
+        <label class="admin-field">
+            <span>Imagen irrigación</span>
+            <input type="text" name="irrigacion_imagen" placeholder="./assets/..." readonly>
+        </label>
+    </div>
+
+    <label class="admin-field">
+        <span>Contenido irrigación</span>
+        <textarea name="irrigacion_contenido" rows="5" placeholder="Descripción de irrigación e inervación"></textarea>
+    </label>
+
+    <label class="admin-field">
+        <span>Funciones fisiológicas</span>
+        <textarea name="fisiologia_funciones" rows="8" placeholder="Formato por línea: Nombre | Descripción"></textarea>
+    </label>
+
+    <label class="admin-field">
+        <span>Checklist instrumental</span>
+        <textarea name="checklist_instrumental" rows="5" placeholder="Un ítem por línea"></textarea>
+    </label>
+
+    <label class="admin-field">
+        <span>Checklist equipos</span>
+        <textarea name="checklist_equipos" rows="5" placeholder="Un ítem por línea"></textarea>
+    </label>
+
+    <label class="admin-field">
+        <span>Checklist suturas</span>
+        <textarea name="checklist_suturas" rows="5" placeholder="Un ítem por línea"></textarea>
+    </label>
+
+    <label class="admin-field">
+        <span>Checklist fármacos</span>
+        <textarea name="checklist_farmacos" rows="4" placeholder="Un ítem por línea"></textarea>
+    </label>
+
+    <h3 class="admin-subtitle">Organización</h3>
+
+    <div class="admin-form-grid admin-form-grid-2">
+        <label class="admin-field">
+            <span>Imagen mesa de Mayo</span>
+            <input type="text" name="mesa_mayo_imagen" placeholder="./assets/..." readonly>
+        </label>
+
+        <label class="admin-field">
+            <span>Imagen mesa de reserva</span>
+            <input type="text" name="mesa_reserva_imagen" placeholder="./assets/..." readonly>
+        </label>
+    </div>
+
+    <div class="admin-form-grid admin-form-grid-2">
+        <label class="admin-field">
+            <span>Nombre posición paciente</span>
+            <input type="text" name="posicion_nombre" placeholder="Decúbito lateral">
+        </label>
+
+        <label class="admin-field">
+            <span>Imagen posición paciente</span>
+            <input type="text" name="posicion_imagen" placeholder="./assets/..." readonly>
+        </label>
+    </div>
+
+    <label class="admin-field">
+        <span>Descripción posición paciente</span>
+        <textarea name="posicion_descripcion" rows="4" placeholder="Descripción de la posición"></textarea>
+    </label>
+
+    <label class="admin-field">
+        <span>Roles del equipo quirúrgico</span>
+        <textarea name="equipo_roles" rows="8" placeholder="Formato por línea: Rol | Posición"></textarea>
+    </label>
+
+    <label class="admin-field">
+        <span>Imagen equipo quirúrgico</span>
+        <input type="text" name="equipo_imagen" placeholder="./assets/..." readonly>
+    </label>
+
+    <h3 class="admin-subtitle">Ejecución</h3>
+
+    <div class="admin-form-grid admin-form-grid-2">
+        <label class="admin-field">
+            <span>Anestesia</span>
+            <input type="text" name="anestesia" placeholder="Anestesia General">
+        </label>
+
+        <label class="admin-field">
+            <span>Imagen anestesia</span>
+            <input type="text" name="anestesia_imagen" placeholder="./assets/..." readonly>
+        </label>
+    </div>
+
+    <div class="admin-form-grid admin-form-grid-2">
+        <label class="admin-field">
+            <span>Nombre incisión</span>
+            <input type="text" name="incision_nombre" placeholder="Incisión subcostal">
+        </label>
+
+        <label class="admin-field">
+            <span>Tipo incisión</span>
+            <input type="text" name="incision_tipo" placeholder="Lumbotomía">
+        </label>
+    </div>
+
+    <label class="admin-field">
+        <span>Descripción incisión</span>
+        <textarea name="incision_descripcion" rows="4" placeholder="Descripción de la incisión"></textarea>
+    </label>
+
+    <label class="admin-field">
+        <span>Imagen incisión</span>
+        <input type="text" name="incision_imagen" placeholder="./assets/..." readonly>
+    </label>
+
+    <label class="admin-field">
+        <span>Pasos quirúrgicos</span>
+        <textarea name="ejecucion_pasos" rows="12" placeholder="Formato por bloque:
+Paso: 1
+Tecnica: ...
+Instrumental: item 1, item 2, item 3
+
+Paso: 2
+Tecnica: ...
+Instrumental: item 1, item 2"></textarea>
+    </label>
+</div>
+
+                <div class="admin-actions admin-actions-bottom">
+                    <button class="btn btn-secondary" type="button" data-new-button>
+                    <i data-lucide="file-plus" aria-hidden="true"></i>
+                    Nuevo
+                    </button>
+                    <button class="btn btn-primary" type="submit">
+                    <i data-lucide="save" aria-hidden="true"></i>
+                    Guardar
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-delete-button>
+                    <i data-lucide="trash-2" aria-hidden="true"></i>
+                    Eliminar
+                    </button>
+                </div>
+
+                <p class="admin-helper" data-action-message>
+                    Selecciona un registro de la lista para editarlo o usa Nuevo para crear uno desde cero.
+                </p>
+                </form>
+            </article>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+        <p>Equipos Quirúrgicos en Urología · Instrumentación Quirúrgica · 2026</p>
+        <p>UDES - Universidad de Santander</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Volver arriba">
+        <i data-lucide="arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script type="module" src="admin.js"></script>
+    </body>
+</html>
