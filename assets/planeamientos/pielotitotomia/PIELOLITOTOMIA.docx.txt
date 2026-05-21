@@ -1,0 +1,366 @@
+﻿PROGRAMA DE INSTRUMENTACION QUIRURGICA
+	PLANEAMIENTO QUIRURGICO PRACTICA FORMATIVA
+IQX-FT-003-BUC
+	Versión: 01
+	
+
+
+
+
+
+
+
+
+
+ NOMBRE DEL ESTUDIANTE
+4to SEMESTRE 2025A
+	CÓDIGO:
+	NIVEL DE PRÁCTICA:
+	NOMBRE DEL DOCENTE :
+Samuel Humberto Palacio Peña
+	ESCENARIO DE PRÁCTICA:
+	NOTA:
+
+
+	ESPECIALIDAD:
+
+
+	CIRUJANO:
+	FECHA:
+	NOMBRE DEL PACIENTE:
+	NÚMERO HISTORIA CLÍNICA:
+
+
+	EDAD DEL PX:
+	PROCEDIMIENTO QUIRÚRGICO A REALIZAR:     PIELOLITOTOMIA
+	PROCESO DE INSTRUMENTACIÓN QUIRÚRGICA
+
+
+	* ETAPA DE PLANEACIÓN:
+
+
+	
+
+1.1. Objetivo Quirúrgico: (Hacer descripción)
+
+
+Resecar la porción estrecha de la unión pieloureteral para realizar una anastomosis que permita el adecuado paso de la orina desde el riñón hacia la vejiga por medio del uréter. En este procedimiento se expone el riñón más exactamente la unión pieloureteral a través de la fascia de gerota después se realiza la escisión del segmento estenosado y posteriormente se realiza colocación de un catéter doble J para finalizar con una anastomosis término terminal entre la pelvis renal y el uréter espatulado.
+
+
+1.2. Anatomía y fisiología: (Hacer gráfico y descripción).
+ANATOMÍA  
+
+
+  
+
+
+
+
+
+
+
+La pelvis renal es una estructura anatómica del sistema urinario situada en el hilio del riñón, tiene forma de un embudo, con una amplia base que recibe la orina de los cálices mayores y una punta estrecha que se continúa con el uréter. Está compuesta por: cáliz mayor, cáliz menor y uréter. 
+
+
+
+
+  
+
+
+
+Estructuralmente está constituida por una mucosa, una túnica muscular lisa, dispuesta en una capa interna circular que ayuda en el movimiento de la orina hacia el uréter por medio de contracciones peristálticas y una capa externa longitudinal, y una adventicia. La pelvis renal está revestida por un epitelio de transición, llamado UROTELIO, que es flexible y resistente a la orina.
+
+
+IRRIGACIÓN
+
+
+
+
+  
+
+
+
+Se encuentra irrigado anteriormente por la Arteria Renal de manera posterior con la rama posterior que medialmente se prolonga hasta los vasos pre vertébrales, gonadal, ilíaca común, vesical y uterina.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INERVACIÓN 
+
+
+  
+
+
+
+Recibe inervación parasimpática de los nervios Esplénicos Pélvicos y del plexo hipogástrico inferior.
+
+
+
+
+
+
+
+
+DRENAJE VENOSO
+
+
+
+
+Su drenaje venoso consta de las ramas de la Vena Renal  
+La sangre de la pelvis renal drena hacia las venas renales, que luego desembocan en la vena cava inferior. 
+* Los plexos venosos de la pelvis rodean los órganos pélvicos. 
+* La mayoría de los plexos venosos desembocan en la vena ilíaca interna. 
+* La vena ilíaca interna recibe afluentes de las venas rectal media, obturatriz, sacra lateral, glútea inferior y glútea superior. 
+
+
+
+
+
+
+
+
+FISIOLOGÍA
+  
+
+Su función principal es actuar como embudo que recoge la orina producida en el riñón y la dirige hacia el uréter, desde donde se transporta a la vejiga para su almacenamiento y posterior eliminación.
+
+
+* Recogida y canalización: La orina producida en las nefronas se recoge en los túbulos colectores y luego se drena hacia los cálices menores. Desde allí, la orina fluye hacia los cálices mayores y finalmente a la pelvis.
+* Perístalsis: Las contracciones peristálticas del músculo liso en la pared de la pelvis renal ayudan a propulsar la orina hacia el uréter.
+* Prevención del reflujo: La anatomía de la unión pieloureteral (donde la pelvis renal se conecta con el uréter) ayuda a prevenir el reflujo de orina hacia los riñones, lo cual es esencial para evitar infecciones y daño renal. 
+* Adaptabilidad: El urotelio tiene la capacidad de expandirse y contraerse, permitiendo a la pelvis manejar diferentes volúmenes de orina sin sufrir daño.
+* Protección Inmunológica: La pelvis renal posee una mucosa que actúa como barrera defensiva contra patógenos y sustancias tóxicas presentes en la orina.
+
+
+
+
+1.3. Lista de chequeo:
+
+
+
+
+
+
+INSTRUMENTAL 
+	EQUIPOS /  DISPOSITIVOS MEDICO
+	
+
+SUTURAS Y AGUJAS
+	FÁRMACOS Y SOLUCIONES
+	
+
+* Canasta General
+*  Canasta Vascular
+* Canasta de Tórax
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+* Paquete de ropa general
+* Sabana accesoria
+* HB #20-15
+* Compresas
+* Torundas
+* Apósitos
+* Gasas
+* Aseptojeringa
+* Guantes
+* Lapicero del electrobisturí
+* Pala mediana o
+larga del electro
+* Caucho de succión
+* Equipo de macrogoteo
+* Sonda de Nelaton 10
+* Dren de cigarrillo
+* Dren de Blake 19
+*  Catéter doble J 6x26 Adultos 4x18 Niños
+* Vessel Loop
+* Reservorio 100cc
+* Jeringa 20 cc
+
+
+	
+
+* Piel:
+Polipropileno 3/0 ACC
+3/8.
+Polidioxanona 4/0
+ACC para niños.
+
+
+* Tejido celular subcutáneo:
+Poliglactin 910 3/0 ACR ½ círculo
+
+
+* Fascia - Músculo:
+Poliglactin 910 1 o 0 ACR ½ círculo
+
+
+*  Pielorrafia:
+Poliglactin 910 4/0 ACR
+1⁄2 círculo
+Polidioxanona 4/0 ACR
+
+
+* Fijación del
+Dren:
+Seda 2/0 ACC 1⁄2 círculo
+Y catéter doble J
+	
+
+
+
+* Solución salina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+* ETAPA DE ORGANIZACIÓN:
+
+
+   * Arreglos de mesas de mayo y reserva (realizar esquema).
+ 
+
+
+  
+
+
+
+2.2. Posición del paciente (Nombre y gráfico):
+
+
+  
+
+DECÚBITO LATERAL
+	
+
+2.3. Ubicación del Equipo Quirúrgico (realizar gráfico):
+
+
+  
+
+
+
+	
+
+* ETAPA DE EJECUCIÓN:
+
+
+a )         Anestesia (escribir el tipo de anestesia):
+-         Anestesia General.
+ b)          Incisión (escribir el tipo de abordaje y el nombre de la incisión):
+* Abordaje abierto con incisión de lumbotomía
+
+
+
+
+
+
+
+
+
+
+c)      Proceso Quirúrgico (Describir los pasos principales de la técnica médico-quirúrgica con el instrumental a usar).
+TÉCNICA QUIRÚRGICA
+	INSTRUMENTAL
+	Se realiza incisión de lumbotomía, piel, tejido celular
+subcutáneo
+	Mango de bisturi 4 hoja # 20
+	Hemostasia
+	Kelly Curva y Lapicero del electrobisturí
+	Se hace visualización de la fascia muscular del músculo
+oblicuo
+	Separadores de farabeuf y electro bisturi
+	Incisión de los músculos oblicuo interno , oblicuo
+transverso,cuadrado lumbar y psoas.
+	Electrobisturi
+	Se llega a la cavidad retroperitoneal y se visualiza el riñón Separadores de Deaver
+	Separadores de Deaver
+	Se hace una incisión en la fascia Gerota y se disecciona la grasa peri nefrótica
+	Tijeras de Metzembaum y pinza de disección larga
+	Disección del uréter hasta la pelvis renal y se repara con disección roma.
+	Tijeras de Metzembaum , disección vascular, pinza cístico,pinza kelly recta y curva , pinza rochester recta y vessel loop.
+	Se separa la pelvis renal
+	Separador de vena
+	Se realiza incisión en la pelvis renal
+	Mango de Bisturí 3 largo HB#15
+	Se drena la orina acumulada 
+	Canula de yankauer
+	Reparo de la pelvis renal y se hace la extracción de los cálculos
+	Pinza cístico, pinza kelly recta , Pinza randall, Vessel loop y coca.
+	Lavado de la pelvis renal , se comprueba la permeabilidad de
+esta misma
+	Sonda nelaton 10 , Jeringa de 20cc Solución Salina
+	Colocacion de cateter doble J
+	Pinza vascular , guía del catéter y catéter
+	Cierre de la pelvis renal
+	Porta agujas largo, pinza de disección vascular , Poliglactin 910 4/0 ACR 1⁄2 círculo.
+
+
+	Retiro del reparo del uréter y revisión de la cavidad
+Dren por contraventura
+	Pinza Kelly Adson curva , porta agujas , disección con garra y sutura seda 2/0 ACC
+	Recuento de compresas y lavado de la cavidad
+	Pinza foerster y solución salina tibia
+	Cierre por planos y curación.
+	Porta Agujas mediano, pinzas de disección con garra , separadores de farabeuf y Poliglactin 910 1 aguja 1⁄2 circulo ACR y Polipropileno 3/0 ACC 3⁄8 círculo.
+	
+
+	FORMATO DE INFORME SEMANAL DE LA PRACTICA FORMATIVA
+  FORMATO RECORD DE ASISTENCIA A CIRUGIA - PRACTICA FORMATIVA                                                                                                                                                                                          IQX-FT-024-UDES

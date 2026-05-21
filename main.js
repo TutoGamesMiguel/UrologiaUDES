@@ -20,6 +20,20 @@ const IMAGE_VIEWER_MIN_SCALE = 1;
 const IMAGE_VIEWER_MAX_SCALE = 4;
 const IMAGE_VIEWER_SCALE_STEP = 0.25;
 
+const organDisplayNames = {
+    "Riñón": "Kidney",
+    "Pelvis renal": "Renal pelvis",
+    "Uréter": "Ureter",
+    "Vejiga": "Bladder",
+    "Testículo": "Testicle",
+    "Pene": "Penis",
+    "Próstata": "Prostate"
+};
+
+function getOrganDisplayName(organ) {
+    return organDisplayNames[organ] || organ || "";
+}
+
 const planeamientosData = {
     "Riñón": [
         {
@@ -431,6 +445,176 @@ La anatomía vascular del área de la UPU es crucial durante la cirugía para ev
                     ]
                 }
             }
+        },
+        {
+            id: 39,
+            titulo: "Pielolitotomia",
+            tipo: "planeamiento-complejo",
+            etapas: {
+                planeacion: {
+                    objetivo: "Resecar la porción estrecha de la unión pieloureteral para realizar una anastomosis que permita el adecuado paso de la orina desde el riñón hacia la vejiga por medio del uréter. En este procedimiento se expone el riñón más exactamente la unión pieloureteral a través de la fascia de gerota después se realiza la escisión del segmento estenosado y posteriormente se realiza colocación de un catéter doble J para finalizar con una anastomosis término terminal entre la pelvis renal y el uréter espatulado.",
+                    anatomia: {
+                        titulo: "Anatomía de la pelvis renal",
+                        contenido: `La pelvis renal es una estructura anatómica del sistema urinario situada en el hilio del riñón, tiene forma de un embudo, con una amplia base que recibe la orina de los cálices mayores y una punta estrecha que se continúa con el uréter. Está compuesta por: cáliz mayor, cáliz menor y uréter.
+
+Estructuralmente está constituida por una mucosa, una túnica muscular lisa, dispuesta en una capa interna circular que ayuda en el movimiento de la orina hacia el uréter por medio de contracciones peristálticas y una capa externa longitudinal, y una adventicia. La pelvis renal está revestida por un epitelio de transición, llamado UROTELIO, que es flexible y resistente a la orina.`,
+                        imagenes: [
+                            "./assets/planeamientos/pielotitotomia/images/image5.png",
+                            "./assets/planeamientos/pielotitotomia/images/image11.png"
+                        ],
+                        imagenDebajo: "./assets/planeamientos/pielotitotomia/images/image4.png"
+                    },
+                    irrigacion: {
+                        titulo: "Irrigación, inervación y drenaje venoso",
+                        contenido: `IRRIGACIÓN
+Se encuentra irrigado anteriormente por la Arteria Renal de manera posterior con la rama posterior que medialmente se prolonga hasta los vasos pre vertébrales, gonadal, ilíaca común, vesical y uterina.
+
+INERVACIÓN
+Recibe inervación parasimpática de los nervios Esplénicos Pélvicos y del plexo hipogástrico inferior.
+
+DRENAJE VENOSO
+Su drenaje venoso consta de las ramas de la Vena Renal.
+La sangre de la pelvis renal drena hacia las venas renales, que luego desembocan en la vena cava inferior.
+Los plexos venosos de la pelvis rodean los órganos pélvicos.
+La mayoría de los plexos venosos desembocan en la vena ilíaca interna.
+La vena ilíaca interna recibe afluentes de las venas rectal media, obturatriz, sacra lateral, glútea inferior y glútea superior.`,
+                        imagenes: [
+                            "./assets/planeamientos/pielotitotomia/images/image7.png",
+                            "./assets/planeamientos/pielotitotomia/images/image6.png",
+                            "./assets/planeamientos/pielotitotomia/images/image10.png"
+                        ]
+                    },
+                    fisiologia: {
+                        titulo: "Fisiología",
+                        contenido: "Su función principal es actuar como embudo que recoge la orina producida en el riñón y la dirige hacia el uréter, desde donde se transporta a la vejiga para su almacenamiento y posterior eliminación.",
+                        funciones: [
+                            { nombre: "Recogida y canalización", descripcion: "La orina producida en las nefronas se recoge en los túbulos colectores y luego se drena hacia los cálices menores. Desde allí, la orina fluye hacia los cálices mayores y finalmente a la pelvis." },
+                            { nombre: "Perístalsis", descripcion: "Las contracciones peristálticas del músculo liso en la pared de la pelvis renal ayudan a propulsar la orina hacia el uréter." },
+                            { nombre: "Prevención del reflujo", descripcion: "La anatomía de la unión pieloureteral (donde la pelvis renal se conecta con el uréter) ayuda a prevenir el reflujo de orina hacia los riñones, lo cual es esencial para evitar infecciones y daño renal." },
+                            { nombre: "Adaptabilidad", descripcion: "El urotelio tiene la capacidad de expandirse y contraerse, permitiendo a la pelvis manejar diferentes volúmenes de orina sin sufrir daño." },
+                            { nombre: "Protección Inmunológica", descripcion: "La pelvis renal posee una mucosa que actúa como barrera defensiva contra patógenos y sustancias tóxicas presentes en la orina." }
+                        ],
+                        imagenes: ["./assets/planeamientos/pielotitotomia/images/image9.png"]
+                    },
+                    checklist: {
+                        titulo: "Lista de chequeo",
+                        categorias: {
+                            instrumental: ["Canasta General", "Canasta Vascular", "Canasta de Tórax"],
+                            equipos: ["Paquete de ropa general", "Sabana accesoria", "HB #20-15", "Compresas", "Torundas", "Apósitos", "Gasas", "Aseptojeringa", "Guantes", "Lapicero del electrobisturí", "Pala mediana o larga del electro", "Caucho de succión", "Equipo de macrogoteo", "Sonda de Nelaton 10", "Dren de cigarrillo", "Dren de Blake 19", "Catéter doble J 6x26 Adultos 4x18 Niños", "Vessel Loop", "Reservorio 100cc", "Jeringa 20 cc"],
+                            suturas: ["Piel: Polipropileno 3/0 ACC 3/8. Polidioxanona 4/0 ACC para niños.", "Tejido celular subcutáneo: Poliglactin 910 3/0 ACR 1/2 círculo", "Fascia - Músculo: Poliglactin 910 1 o 0 ACR 1/2 círculo", "Pielorrafia: Poliglactin 910 4/0 ACR 1/2 círculo. Polidioxanona 4/0 ACR", "Fijación del Dren: Seda 2/0 ACC 1/2 círculo y catéter doble J"],
+                            farmacos: ["Solución salina"]
+                        }
+                    }
+                },
+                organizacion: {
+                    mesaMayo: { titulo: "Mesa de Mayo y de Reserva", items: [] },
+                    mesaReserva: { titulo: "", items: [], imagen: "", large: false },
+                    posicionPaciente: { titulo: "Posición del paciente", nombre: "Decúbito lateral", descripcion: "Decúbito lateral", imagen: "./assets/planeamientos/pielotitotomia/images/image8.jpg", large: true },
+                    equipoQuirurgico: { titulo: "Ubicación del equipo quirúrgico", roles: [], imagen: "./assets/planeamientos/pielotitotomia/images/image3.png", large: true }
+                },
+                ejecucion: {
+                    anestesia: "Anestesia General.",
+                    incision: { nombre: "Incisión de lumbotomía", tipo: "Abordaje abierto", descripcion: "Abordaje abierto con incisión de lumbotomía" },
+                    pasos: [
+                        { paso: 1, tecnica: "Se realiza incisión de lumbotomía, piel, tejido celular subcutáneo", instrumental: ["Mango de bisturi 4 hoja # 20"] },
+                        { paso: 2, tecnica: "Hemostasia", instrumental: ["Kelly Curva", "Lapicero del electrobisturí"] },
+                        { paso: 3, tecnica: "Se hace visualización de la fascia muscular del músculo oblicuo", instrumental: ["Separadores de farabeuf", "Electro bisturi"] },
+                        { paso: 4, tecnica: "Incisión de los músculos oblicuo interno, oblicuo transverso, cuadrado lumbar y psoas.", instrumental: ["Electrobisturi"] },
+                        { paso: 5, tecnica: "Se llega a la cavidad retroperitoneal y se visualiza el riñón", instrumental: ["Separadores de Deaver"] },
+                        { paso: 6, tecnica: "Se hace una incisión en la fascia Gerota y se disecciona la grasa peri nefrótica", instrumental: ["Tijeras de Metzembaum", "Pinza de disección larga"] },
+                        { paso: 7, tecnica: "Disección del uréter hasta la pelvis renal y se repara con disección roma.", instrumental: ["Tijeras de Metzembaum", "Disección vascular", "Pinza cístico", "Pinza kelly recta y curva", "Pinza rochester recta", "Vessel loop"] },
+                        { paso: 8, tecnica: "Se separa la pelvis renal", instrumental: ["Separador de vena"] },
+                        { paso: 9, tecnica: "Se realiza incisión en la pelvis renal", instrumental: ["Mango de Bisturí 3 largo", "HB#15"] },
+                        { paso: 10, tecnica: "Se drena la orina acumulada", instrumental: ["Canula de yankauer"] },
+                        { paso: 11, tecnica: "Reparo de la pelvis renal y se hace la extracción de los cálculos", instrumental: ["Pinza cístico", "Pinza kelly recta", "Pinza randall", "Vessel loop", "Coca"] },
+                        { paso: 12, tecnica: "Lavado de la pelvis renal, se comprueba la permeabilidad de esta misma", instrumental: ["Sonda nelaton 10", "Jeringa de 20cc", "Solución Salina"] },
+                        { paso: 13, tecnica: "Colocacion de cateter doble J", instrumental: ["Pinza vascular", "Guía del catéter", "Catéter"] },
+                        { paso: 14, tecnica: "Cierre de la pelvis renal", instrumental: ["Porta agujas largo", "Pinza de disección vascular", "Poliglactin 910 4/0 ACR 1/2 círculo"] },
+                        { paso: 15, tecnica: "Retiro del reparo del uréter y revisión de la cavidad. Dren por contraventura", instrumental: ["Pinza Kelly Adson curva", "Porta agujas", "Disección con garra", "Sutura seda 2/0 ACC"] },
+                        { paso: 16, tecnica: "Recuento de compresas y lavado de la cavidad", instrumental: ["Pinza foerster", "Solución salina tibia"] },
+                        { paso: 17, tecnica: "Cierre por planos y curación.", instrumental: ["Porta Agujas mediano", "Pinzas de disección con garra", "Separadores de farabeuf", "Poliglactin 910 1 aguja 1/2 circulo ACR", "Polipropileno 3/0 ACC 3/8 círculo"] }
+                    ]
+                }
+            }
+        },
+        {
+            id: 40,
+            titulo: "Nefrostomia",
+            tipo: "planeamiento-complejo",
+            etapas: {
+                planeacion: {
+                    objetivo: "Procedimiento para drenar la orina desde el riñón mediante un catéter a través de la piel",
+                    anatomia: {
+                        titulo: "Anatomía de la pelvis renal",
+                        contenido: `La pelvis renal es una estructura anatómica del sistema urinario situada en el hilio del riñón, tiene forma de un embudo, con una amplia base que recibe la orina de los cálices mayores y una punta estrecha que se continúa con el uréter. Está compuesta por: cáliz mayor, cáliz menor y uréter.
+
+Estructuralmente está constituida por una mucosa, una túnica muscular lisa, dispuesta en una capa interna circular que ayuda en el movimiento de la orina hacia el uréter por medio de contracciones peristálticas y una capa externa longitudinal, y una adventicia. La pelvis renal está revestida por un epitelio de transición, llamado UROTELIO, que es flexible y resistente a la orina.`,
+                        imagenes: [
+                            "./assets/planeamientos/nefrostomia/images/image4.png",
+                            "./assets/planeamientos/nefrostomia/images/image9.png"
+                        ],
+                        imagenDebajo: "./assets/planeamientos/nefrostomia/images/image3.png"
+                    },
+                    irrigacion: {
+                        titulo: "Irrigación, inervación y drenaje venoso",
+                        contenido: `Se encuentra irrigado anteriormente por la Arteria Renal de manera posterior con la rama posterior que medialmente se prolonga hasta los vasos pre vertébrales, gonadal, ilíaca común, vesical y uterina.
+
+Recibe inervación parasimpática de los nervios Esplénicos Pélvicos y del plexo hipogástrico inferior.
+
+Su drenaje venoso consta de las ramas de la Vena Renal.
+La sangre de la pelvis renal drena hacia las venas renales, que luego desembocan en la vena cava inferior.
+Los plexos venosos de la pelvis rodean los órganos pélvicos.
+La mayoría de los plexos venosos desembocan en la vena ilíaca interna.
+La vena ilíaca interna recibe afluentes de las venas rectal media, obturatriz, sacra lateral, glútea inferior y glútea superior.`,
+                        imagenes: [
+                            "./assets/planeamientos/nefrostomia/images/image6.png",
+                            "./assets/planeamientos/nefrostomia/images/image5.png",
+                            "./assets/planeamientos/nefrostomia/images/image8.png"
+                        ]
+                    },
+                    fisiologia: {
+                        titulo: "Fisiología",
+                        contenido: "Su función principal es actuar como embudo que recoge la orina producida en el riñón y la dirige hacia el uréter, desde donde se transporta a la vejiga para su almacenamiento y posterior eliminación.",
+                        funciones: [
+                            { nombre: "Recogida y canalización", descripcion: "La orina producida en las nefronas se recoge en los túbulos colectores y luego se drena hacia los cálices menores. Desde allí, la orina fluye hacia los cálices mayores y finalmente a la pelvis." },
+                            { nombre: "Perístalsis", descripcion: "Las contracciones peristálticas del músculo liso en la pared de la pelvis renal ayudan a propulsar la orina hacia el uréter." },
+                            { nombre: "Prevención del reflujo", descripcion: "La anatomía de la unión pieloureteral (donde la pelvis renal se conecta con el uréter) ayuda a prevenir el reflujo de orina hacia los riñones, lo cual es esencial para evitar infecciones y daño renal." },
+                            { nombre: "Adaptabilidad", descripcion: "El urotelio tiene la capacidad de expandirse y contraerse, permitiendo a la pelvis manejar diferentes volúmenes de orina sin sufrir daño." },
+                            { nombre: "Protección Inmunológica", descripcion: "La pelvis renal posee una mucosa que actúa como barrera defensiva contra patógenos y sustancias tóxicas presentes en la orina." }
+                        ],
+                        imagenes: ["./assets/planeamientos/nefrostomia/images/image7.png"]
+                    },
+                    checklist: {
+                        titulo: "Lista de chequeo",
+                        categorias: {
+                            instrumental: ["Canasta general", "Cistoscopio", "Canasta de nefrolitotomía percutánea", "Dilatadores Amplatz", "Pinza de tres garra o coágulos", "Lente de nefroscopio", "Litotriptor mecánico", "Catéter doble J"],
+                            equipos: ["Torre de laparoscopia", "Paquete de ropa general", "Fundas de laparoscopia", "Fundas de intensificador", "Sábanas plásticas", "Micropore", "Equipo de irrigación en Y", "Frasco de patología", "Jeringas de 10cc y 20cc", "Jeringa de 50cc punta rosca", "Sonda Foley 18 y 16 de 2 vías", "Equipo de macrogoteo", "Cistoflo"],
+                            suturas: ["Piel: Polipropileno 2/0 o 3/0 con aguja ⅜ de circulo cortante con aguja de 27 mm.", "Seda 2/0 o 3/0 con aguja ⅜ de circulo cortante con aguja 27 mm"],
+                            farmacos: ["Azul de metileno"]
+                        }
+                    }
+                },
+                organizacion: {
+                    mesaMayo: { titulo: "Mesa de Mayo y de Reserva", items: [] },
+                    mesaReserva: { titulo: "", items: [], imagen: "", large: false },
+                    posicionPaciente: { titulo: "Posición del paciente", nombre: "Decúbito supino o decúbito lateral", descripcion: "Decúbito supino o decúbito lateral. Muy rara vez decubito prono.", imagen: "./assets/planeamientos/nefrostomia/images/image1.png", large: true },
+                    equipoQuirurgico: { titulo: "Ubicación del equipo quirúrgico", roles: [], imagen: "./assets/planeamientos/nefrostomia/images/image10.png", large: true }
+                },
+                ejecucion: {
+                    anestesia: "Anestesia General.",
+                    incision: { nombre: "Pequeña incisión cutánea", tipo: "Incisión", descripcion: "Se realiza una pequeña incisión cutánea" },
+                    pasos: [
+                        { paso: 1, tecnica: "Se hace una cistoscopia donde se va a introducir el catéter ureteral, luego se le conecta una jeringa al cistoscopio para inyectarle el medio de contraste: azul de metileno.", instrumental: ["Cistoscopio", "Catéter doble J", "Jeringas de 10cc y 20cc", "Azul de metileno"] },
+                        { paso: 2, tecnica: "Punción con aguja de chiba", instrumental: ["Aguja de chiba"] },
+                        { paso: 3, tecnica: "Se pasa la aguja sensor o hidrofílica", instrumental: ["Aguja sensor o hidrofílica"] },
+                        { paso: 4, tecnica: "Se dilata utilizando dilatadores de amplatz (pasta) o alken (acero inoxidable) desde el número más pequeño hasta el número del nefroscopio. Se debe pasar un mango de bisturí número 3 con hoja #10 o #15 para ampliar la incisión de la piel y una pinza Kelly.", instrumental: ["Dilatadores Amplatz", "Dilatadores Alken", "Mango de bisturí número 3", "Hoja #10 o #15", "Pinza Kelly"] },
+                        { paso: 5, tecnica: "Introducir el nefroscopio para mirar en donde está ubicado el cálculo.", instrumental: ["Lente de nefroscopio", "Torre de laparoscopia"] },
+                        { paso: 6, tecnica: "Una vez ubicado se hace uso del litotriptor mecánico: es una varilla de acero que fragmenta el cálculo; o se pasa la fibra del láser: el cual pulveriza el cálculo.", instrumental: ["Litotriptor mecánico", "Fibra del láser"] },
+                        { paso: 7, tecnica: "Se utiliza la pinza de coágulos o la pinza de tres garras (indicada para los cálculos) para retirar los fragmentos que quedaron del cálculo.", instrumental: ["Pinza de tres garra o coágulos"] },
+                        { paso: 8, tecnica: "Una vez acabado se retira el nefroscopio. Opcional el dejar un catéter doble Jota. Se coloca un punto de seda para suturar la piel.", instrumental: ["Lente de nefroscopio", "Catéter doble J", "Seda 2/0 o 3/0 con aguja ⅜ de circulo cortante con aguja 27 mm"] }
+                    ]
+                }
+            }
         }
     ],
 
@@ -658,9 +842,29 @@ Los uréteres empujan cada pequeña cantidad de orina en forma de ondas de contr
                 checklist: {
                     titulo: "Lista de chequeo",
                     categorias: {
-                        instrumental: ["Canasta general", "Canasta vascular", "Canasta de tórax", "Separadores de vena", "Lima"],
-                        equipos: ["Paquete de ropa", "Electrobisturí Pera", "Caucho de succión", "Dren en cigarrillo", "Compresas Guantes", "Sonda nasogástrica 6 y 8", "Torundas", "Hojas de bisturí 15 y 20", "Gasas", "Apósitos"],
-                        suturas: ["Piel: Polipropileno 2/0 o 3/0 con aguja ⅜ de circulo cortante con aguja de 27 mm.", "TCS: Poliglactina 910 2/0 con aguja ½ circulo redonda de 27 mm", "Fascia y musculo: Poliglactina 910 1 o 0 con aguja ½ circulo redonda de 37 mm. Catgut cromado 4/0 o 5/0 con aguja 1⁄2 circulo redonda."],
+                        instrumental: ["Canasta general", "Canasta vascular", "Separadores de vena"],
+                        equipos: [
+                            "Paquete de ropa",
+                            "Electrobisturí",
+                            "Pera",
+                            "Caucho de succión",
+                            "Dren en cigarrillo",
+                            "Compresas",
+                            "Guantes",
+                            "Sonda nasogástrica 6 y 8",
+                            "Torundas",
+                            "Hojas de bisturí 15 y 20",
+                            "Gasas",
+                            "Apósitos",
+                            "Sonda Foley",
+                            "Aseptojeringa"
+                        ],
+                        suturas: [
+                            "Piel: Polipropileno 2/0 o 3/0 con aguja ⅜ de círculo cortante de 27 mm",
+                            "TCS: Poliglactina 910 2/0 con aguja ½ círculo redonda de 27 mm",
+                            "Fascia y músculo: Poliglactina 910 1 o 0 con aguja ½ círculo redonda de 37 mm; Catgut cromado 4/0 o 5/0 con aguja ½ círculo redonda",
+                            "Fijación ureteral: Poliglactina 910 o Polidioxanona 5/0 o 6/0 con aguja ½ círculo redonda"
+                        ],
                         farmacos: ["Solución salina"]
                     }
                 }
@@ -692,6 +896,96 @@ Los uréteres empujan cada pequeña cantidad de orina en forma de ondas de contr
                     { paso: 15, tecnica: "Técnica de cohen: 1) Incisión del collarete mucoso 2) Disección ureteral 3) Creación del trayecto submucoso 4) Colocación del uréter 5) Reimplantación unilateral 6) Reimplantación bilateral", instrumental: ["Canasta general", "Canasta vascular"] },
                     { paso: 16, tecnica: "Técnica de transposición técnica de Glenn Anderson: 1) Técnica Glenn Anderson 2) Disección ureteral por vía endovesical 3) Disección de la mucosa alrededor del antiguo meato 4) El uréter se coloca en el ángulo superior del hiato que se ha ampliado de forma intencionada 5) Creación de un trayecto submucoso en dirección al cuello Aspecto final", instrumental: ["Canasta general", "Canasta vascular", "Separadores de vena"] },
                     { paso: 17, tecnica: "Técnica de politano - leadbetter: 1) Incisión del collarete mucoso 2) Disección ureteral 3) Creación del trayecto submucoso 4) Colocación del uréter 5) Reimplantación unilateral 6) Reimplantación bilateral", instrumental: ["Canasta general", "Canasta vascular"] }
+                ]
+            }
+        }
+    },
+    {
+        id: 38,
+        titulo: "Ureterolitotomia endoscópica",
+        tipo: "planeamiento-complejo",
+        etapas: {
+            planeacion: {
+                objetivo: "Consiste en la extracción de cálculos urinarios localizados en el uréter, mediante técnica quirúrgica mínimamente invasiva.",
+                anatomia: {
+                    titulo: "Anatomía y fisiología del uréter",
+                    secciones: [
+                        {
+                            titulo: "Anatomía y fisiología",
+                            contenido: `Los uréteres son tubos largos y delgados formados de músculo liso. En los adultos, los uréteres miden 25-30 cm de largo, aproximadamente la longitud de una regla de 12 pulgadas.
+
+Los uréteres empujan cada pequeña cantidad de orina en forma de ondas de contracción, a baja presión. En la vejiga, cada uréter atraviesa la pared de la vejiga por una abertura que se cierra cuando la vejiga se contrae para evitar que la orina retroceda.`,
+                            imagen: "./assets/planeamientos/ureterolitotomia-endoscopica/images/image3.jpg"
+                        },
+                        {
+                            titulo: "Capas",
+                            contenido: `El uréter está compuesto por tres capas principales organizadas de adentro hacia afuera. La capa más interna es la mucosa, formada por un epitelio de transición (urotelio) que permite la distensión, y una lámina propia de tejido conectivo. Esta capa está en contacto directo con la orina.
+
+La siguiente es la capa muscular, compuesta por músculo liso dispuesto en dos capas: una longitudinal interna y una circular externa; en el tercio inferior del uréter puede haber una tercera capa longitudinal externa. Esta capa es responsable del movimiento peristáltico que impulsa la orina hacia la vejiga.
+
+Finalmente, la capa más externa es la adventicia, constituida por tejido conectivo laxo que contiene vasos sanguíneos, linfáticos y nervios, y que fija el uréter a las estructuras circundantes.`,
+                            imagen: "./assets/planeamientos/ureterolitotomia-endoscopica/images/image6.png",
+                            large: true
+                        },
+                        {
+                            titulo: "Irrigación uréter",
+                            contenido: `La irrigación del uréter es segmentaria y proviene de varias arterias a lo largo de su trayecto desde el riñón hasta la vejiga.
+
+En el tercio superior, el uréter recibe ramas de la arteria renal; en el tercio medio, es irrigado por ramas de la arteria gonadal (testicular u ovárica), de la aorta abdominal y, en algunos casos, de la arteria iliaca común; en el tercio inferior, la irrigación proviene principalmente de ramas de la arteria iliaca interna, como la arteria vesical superior, arteria uterina en mujeres o la arteria vesical inferior en hombres.
+
+Las ramas arteriales forman una red en la adventicia del uréter antes de penetrar hacia las capas internas. Esta irrigación segmentaria es importante clínicamente, especialmente en cirugías, ya que el uréter depende de múltiples fuentes vasculares a lo largo de su trayecto.`,
+                            imagen: "./assets/planeamientos/ureterolitotomia-endoscopica/images/image4.png"
+                        },
+                        {
+                            titulo: "Inervación",
+                            contenido: `La inervación del uréter es proporcionada por fibras nerviosas del sistema nervioso autónomo, tanto simpáticas como parasimpáticas. Las fibras simpáticas provienen de los plexos renal, aórtico, hipogástrico superior e inferior, y tienen un papel en la modulación del dolor y del tono del músculo liso ureteral.
+
+Las fibras parasimpáticas se originan principalmente en el nervio vago (para la parte superior del uréter) y en los nervios esplácnicos pélvicos (S2-S4) para el tercio inferior. La transmisión del dolor ureteral viaja a través de las fibras simpáticas hasta los ganglios espinales toracolumbares (T10-L2), lo que explica por qué el dolor por cólico renal puede irradiarse a la espalda, flanco, abdomen o incluso a los genitales.`,
+                            imagen: "./assets/planeamientos/ureterolitotomia-endoscopica/images/image8.png"
+                        },
+                        {
+                            titulo: "Drenaje Linfático uréter",
+                            contenido: "",
+                            imagen: "./assets/planeamientos/ureterolitotomia-endoscopica/images/image7.png"
+                        },
+                        {
+                            titulo: "FISIOLOGÍA",
+                            contenido: `La fisiología del uréter se basa en su función principal de transportar la orina desde la pelvis renal hasta la vejiga urinaria de manera continua y controlada. Este proceso se realiza mediante contracciones peristálticas del músculo liso ureteral, las cuales son rítmicas y espontáneas, iniciadas por células marcapaso ubicadas cerca de la pelvis renal.
+
+Las ondas peristálticas se producen entre 1 y 5 veces por minuto, dependiendo del volumen de orina. El uréter está compuesto por una capa muscular con disposición longitudinal interna y circular externa (y una capa longitudinal externa en el tercio distal), lo que permite un movimiento eficaz de la orina. Su control es autónomo, con inervación simpática que regula el tono del músculo liso y transmite el dolor, e inervación parasimpática que estimula la actividad contráctil.
+
+Además, el urotelio, un epitelio de transición que recubre el interior del uréter, actúa como barrera impermeable y detecta el estiramiento, ayudando a regular las contracciones. Finalmente, en su porción terminal, el uréter atraviesa de forma oblicua la pared de la vejiga, formando un mecanismo valvular que evita el reflujo de orina hacia los uréteres cuando la vejiga se llena.`
+                        }
+                    ]
+                },
+                checklist: {
+                    titulo: "Lista de chequeo",
+                    categorias: {
+                        instrumental: ["Ureteroscopio flexible", "Torre de laparoscopia", "Intensificador de imagen con estribos", "Mesa radiolúcida", "Cistoscopio", "Canastilla Láser Holmium", "Fibras de láser", "Dilatadores de vanbiuren", "Cámara", "Fuente de luz"],
+                        equipos: ["Paquete de ropa", "Compresas", "Guantes", "Coca con solución salina", "Sonda foley con cistoflo", "Jeringas", "Catéter doble J", "Caucho de succión", "Camisa ureteral", "Fundas del intensificador de imagen", "Frasco de patología", "Platón", "Guías de nitinol", "Torre de laparoscopia", "Mesa radiolúcida"],
+                        suturas: ["Piel: Polipropileno 2/0 o 3/0 con aguja 3/8 de circulo cortante con aguja de 27 mm.", "Seda 2/0 o 3/0 con aguja 3/8 de circulo cortante con aguja 27 mm"],
+                        farmacos: ["Lidocaína jalea", "LR-Glicina", "Medio de contraste", "Solución salina"]
+                    }
+                }
+            },
+            organizacion: {
+                mesaMayo: null,
+                mesaReserva: { titulo: "Mesa de Reserva", items: [], imagen: "./assets/planeamientos/ureterolitotomia-endoscopica/images/image2.png", large: true },
+                posicionPaciente: { titulo: "Posición del paciente", nombre: "Litotomía", descripcion: "Litotomía", imagen: "./assets/planeamientos/ureterolitotomia-endoscopica/images/image9.png", large: true },
+                equipoQuirurgico: { titulo: "Ubicación del equipo quirúrgico", roles: [], imagen: "./assets/planeamientos/ureterolitotomia-endoscopica/images/image1.png", large: true }
+            },
+            ejecucion: {
+                anestesia: "anestesia regional o local.",
+                incision: { descripcion: "Se pasa un tubo/sonda a través de la uretra, por la cual ingresara y demás instrumental para poder llegar al uréter." },
+                pasos: [
+                    { paso: 1, tecnica: "Se coloca lidocaína uretral o intrauretral.", instrumental: ["Lidocaína jalea"] },
+                    { paso: 2, tecnica: "Se dilata con los dilatadores de Hegar en mujeres o dilatadores de Vanbiuren o Beniques en hombres.", instrumental: ["Dilatadores de vanbiuren"] },
+                    { paso: 3, tecnica: "Se pasa el cistoscopio y se identifican los meatos.", instrumental: ["Cistoscopio", "Cámara", "Fuente de luz"] },
+                    { paso: 4, tecnica: "Se pasa la guía de nitinol por el meato.", instrumental: ["Guías de nitinol"] },
+                    { paso: 5, tecnica: "Se saca el cistoscopio y se pasa el ureteroscopio para ver en donde esta el calculo.", instrumental: ["Ureteroscopio flexible", "Torre de laparoscopia", "Intensificador de imagen con estribos"] },
+                    { paso: 6, tecnica: "Se para la fibra del láser para pulverizar el calculo.", instrumental: ["Canastilla Láser Holmium", "Fibras de láser"] },
+                    { paso: 7, tecnica: "Se revisa que no hayan quedado fragmentos y si si los hay re retiran con la canastilla.", instrumental: ["Canastilla Láser Holmium"] },
+                    { paso: 8, tecnica: "Luego se coloca el catéter doble jota, para esto se debe pasar la guía que viene con el catéter, se toma una radiografía para verificar la posición y se pasa el catéter doble jota a través del cistoscopio o ureteroscopio con ayuda del empujador.", instrumental: ["Catéter doble J", "Cistoscopio", "Ureteroscopio flexible", "Guías de nitinol"] }
                 ]
             }
         }
@@ -783,7 +1077,7 @@ Primero, como la pared vesical se estira cuando está llena o próxima a su máx
                 organizacion: {
                     mesaMayo: { titulo: "Mesa de Mayo", items: [], imagen: "./assets/planeamientos/cistopexia/images/image1.png", large: true },
                     mesaReserva: { titulo: "Mesa de Reserva", items: [], imagen: "./assets/planeamientos/cistopexia/images/image6.png", large: true },
-                    posicionPaciente: { titulo: "Posición del paciente", nombre: "Litotomía o Decúbito supino", descripcion: "", imagen: "./assets/planeamientos/cistopexia/images/image9.png", large: true },
+                    posicionPaciente: { titulo: "Posición del paciente", nombre: "Decúbito supino", descripcion: "", imagen: "./assets/planeamientos/cistopexia/images/image9.png", large: true },
                     equipoQuirurgico: { titulo: "Ubicación del equipo quirúrgico", roles: [], imagen: "./assets/planeamientos/cistopexia/images/image14.jpg", large: true }
                 },
                 ejecucion: {
@@ -905,13 +1199,16 @@ Primero, como la pared vesical se estira cuando está llena o próxima a su máx
                     incision: { nombre: "Incisión mediana infraumbilical", tipo: "Abordaje mediano", descripcion: "Incisión en línea media desde la sínfisis del pubis hasta la proximidad del epigastrio." },
                     pasos: [
                         { paso: 1, tecnica: "Incisión en línea media desde la sínfisis del pubis hasta la proximidad del epigastrio", instrumental: ["Mango de bisturí 3", "Hoja de bisturí 15"] },
-                        { paso: 2, tecnica: "Se incide el peritoneo y se levanta en tienda de campaña para acceder a la cavidad peritoneal", instrumental: ["Tijera de Metzenbaum", "Pinzas", "Electrobisturí"] },
-                        { paso: 3, tecnica: "El peritoneo posterior es abierto sobre los vasos ilíacos para exponer los uréteres", instrumental: ["Separador Deaver"] },
-                        { paso: 4, tecnica: "Se disecan ambos uréteres hacia la pelvis hasta su entrada en vejiga", instrumental: ["Electrobisturí"] },
-                        { paso: 5, tecnica: "Se diseca el pedículo vascular lateral vesical, distal a la arteria hipogástrica", instrumental: ["Disección vascular"] },
-                        { paso: 6, tecnica: "Se realiza una incisión horizontal sobre el saco de Douglas mientras se tracciona la vejiga en sentido anterior", instrumental: [] },
-                        { paso: 7, tecnica: "Una vez la vejiga ha sido liberada de su plano posterior, se incide a nivel del cuello vesical para su exéresis", instrumental: [] },
-                        { paso: 8, tecnica: "Se cierra la uretra y se coloca drenaje en el lecho quirúrgico", instrumental: ["Ác. poliglicólico (DEXON) del 0 y de 2/0", "Jackson-Pratt"] }
+                        { paso: 2, tecnica: "Se incide fascia muscular del recto verticalmente", instrumental: ["Tijera de Mayo"] },
+                        { paso: 3, tecnica: "Se abre el peritoneo próximo al ombligo en dirección vertical", instrumental: ["Electrobisturí"] },
+                        { paso: 4, tecnica: "Se colocan dos suturas de referencia sobre la pared vesical alejadas de la localización del tumor", instrumental: ["Sutura"] },
+                        { paso: 5, tecnica: "Se aísla la vejiga de los bordes de la herida mediante cubiertas plásticas para reducir el riesgo de un implante ureteral", instrumental: ["Cubiertas plásticas estériles"] },
+                        { paso: 6, tecnica: "Se abre la vejiga entre las suturas mediante una incisión longitudinal", instrumental: ["Electrobisturí", "Pinza Allis"] },
+                        { paso: 7, tecnica: "Se localiza el tumor en la mucosa vesical", instrumental: [] },
+                        { paso: 8, tecnica: "Se realiza una incisión circunferencial alrededor de él, con un margen de seguridad no inferior a 2 cm y abarcando la totalidad del espesor de la pared vesical", instrumental: ["Mango de bisturí 4", "Hoja de bisturí 20"] },
+                        { paso: 9, tecnica: "Si el tumor está a menos de 2 cm del meato ureteral, se reseca el mismo y se procede a realizar un reimplante con cateterización del mismo", instrumental: ["Jackson-Pratt"] },
+                        { paso: 10, tecnica: "Se cierra la vejiga en dos planos: mucosa y capa cero-muscular", instrumental: ["Ácido poliglicólico 3/0, 4/0, 5/0"] },
+                        { paso: 11, tecnica: "Se coloca una sonda uretral de 20 French y un drenaje perivesical", instrumental: ["Sonda Foley 22x30"] }
                     ]
                 }
             }
@@ -1947,11 +2244,12 @@ La inervación está dada por el plexo testicular.`,
                     anestesiaImagen: "./assets/planeamientos/priapismo/images/image2.jpg",
                     incision: { nombre: "Incisión circunferencial en la base del glande del pene", tipo: "Incisión circunferencial", descripcion: "Incisión circunferencial en la base del glande del pene", imagen: "./assets/planeamientos/priapismo/images/image6.png" },
                     pasos: [
-                        { paso: 1, tecnica: "Incisión circunferencial en la base del glande del pene", instrumental: ["Mango bisturí #3", "Hoja de bisturí #15"] },
-                        { paso: 2, tecnica: "Resecar la piel dejando descubierto el pene, se expone el cuerpo cavernoso y esponjoso", instrumental: ["Tijera de plastia"] },
-                        { paso: 3, tecnica: "Realizar una ventanilla entre el cuerpo esponjoso y cavernoso", instrumental: ["Pinza mosquito curva"] },
-                        { paso: 4, tecnica: "Realizar una fístula para que circule la sangre", instrumental: ["Pinza hemostática", "Electrobisturí"] },
-                        { paso: 5, tecnica: "Cierre y curación", instrumental: ["Porta agujas de plastia", "Adson sin garra", "Gasas", "Catgut cromado 4/0"] }
+                        { paso: 1, tecnica: "Se colocan dos agujas hipodérmicas en la basedel pene atravesando el cuerpo cavernoso y las otras dos en la parte coronal atravesando el cuerpo cavernoso", instrumental: ["Agujas Hipodérmicas 18"] },
+                        { paso: 2, tecnica: "Se lava la sangre coagulada que estaba en los cuerpos cavernosos", instrumental: ["Jeringa de 20 cc"] },
+                        { paso: 3, tecnica: "Se realiza una incisión tipo circuncisión para bajar toda la piel del pene", instrumental: ["Mango de bisturí 3", "Hoja de bisturí 15" , "Tijeras de Plastia", "Pinza de disección Adson con garra", "Pinza de disección Adson sin garra"] },
+                        { paso: 4, tecnica: "Se visualiza la ruptura de la fascia que envuelve los cuerpos cavernosos. Realizamos una sutura continua entre la fascia y los cuerpos", instrumental: ["Portaagujas de Plastia", "Poliglactina 910 2/0, aguja 1/2 círculo pequeña", "Poliglactina 910 3/0, aguja 1/2 círculo pequeña"] },
+                        { paso: 5, tecnica: "Se hace una erección artificial para verificar el cierre sin escape de la fascia", instrumental: ["Miniset 20", "Jeringa de 20", "Solución Salina Heparinizada"] },
+                        { paso: 6, tecnica: "Hemostasia", instrumental: ["Pinza de disección Adson sin garra", "Lapicero del electrobisturí"] }
                     ]
                 }
             }
@@ -2457,20 +2755,27 @@ Fisiología de la eyaculación: Tiene dos fases:
                             instrumental: ["Canasta infantil o mediana cirugía"],
                             equipos: [
                                 "Paquete de ropa",
-                                "Electrobisturi",
-                                "Hoja de bisturí #20",
-                                "Caucho de succión",
-                                "Sonda Foley",
-                                "Equipo de venoclisis",
                                 "Gasas",
-                                "Guantes"
+                                "Compresas",
+                                "Aseptojeringa",
+                                "Guantes",
+                                "Electrobisturi",
+                                "Hoja de bisturí #15",
+                                "Caucho de succión",
+                                "Jeringa 20 cc",
+                                "Dren de penrose",
+                                "Sonda nelaton",
+                                "Caucho de succión",
+                                "Sonda Foley 14 fr -18 fr",
+                                "Equipo de venoclisis",
+                                "Canula de Frazie"
                             ],
                             suturas: [
-                                "* Catgut cromado 2/0 4/0 ACR",
-                                "* Poliglactina 910 4/0 ACR",
-                                "* Nylon 3/0 ACR"
+                                "Piel: Nylon 3/0 - 4/0 ACC",
+                                "Fascia: Poliglactina 2/0 - 3/0",
+                                "Ligaduras: Catgut 2/0 - 3/0"
                             ],
-                            farmacos: ["Suero fisiológico al 0.9%", "Azul de metileno"]
+                            farmacos: ["Solución salina", "Lidocaina Jalea "]
                         }
                     }
                 },
@@ -3765,7 +4070,7 @@ const fallbackEquipos = equiposCatalogo;
         specificPlaneamiento = items.find(p => Number(p.id) === Number(planeamientoId));
     }
     
-    if (title) title.textContent = organ;
+    if (title) title.textContent = getOrganDisplayName(organ);
     if (badge) badge.textContent = 'Planeamientos';
     
     if (longDescription) {
@@ -4078,14 +4383,15 @@ const fallbackEquipos = equiposCatalogo;
     }
 
     function renderEtapaEjecucion(ejecucion) {
+    const incision = ejecucion.incision || {};
     return `
         <div class="etapa-panel" data-etapa="ejecucion" style="display: none;">
             <section style="margin-bottom: 1.5rem;">
                 <p><strong>Anestesia:</strong> ${escapeHtml(ejecucion.anestesia)}</p>
                 ${ejecucion.anestesiaImagen ? `<img src="${ejecucion.anestesiaImagen}" alt="Anestesia general" style="max-width: 100%; height: auto; margin-top: 1rem; border-radius: 0.5rem; cursor: pointer; object-fit: contain;" class="planeamiento-imagen" loading="eager">` : ''}
-                <p><strong>Incisión:</strong> ${escapeHtml(ejecucion.incision.nombre)} (${escapeHtml(ejecucion.incision.tipo)})</p>
-                <p style="font-size: 0.95rem; color: #666;">${escapeHtml(ejecucion.incision.descripcion)}</p>
-                ${ejecucion.incision.imagen ? `<img src="${ejecucion.incision.imagen}" alt="Incisión quirúrgica" style="max-width: 100%; height: auto; margin-top: 1rem; border-radius: 0.5rem; cursor: pointer; object-fit: contain;" class="planeamiento-imagen" loading="eager">` : ''}
+                ${incision.nombre || incision.tipo ? `<p><strong>Incisión:</strong> ${escapeHtml(incision.nombre || 'No definida')}${incision.tipo ? ` (${escapeHtml(incision.tipo)})` : ''}</p>` : ''}
+                ${incision.descripcion ? `<p style="font-size: 0.95rem; color: #666;">${escapeHtml(incision.descripcion)}</p>` : ''}
+                ${incision.imagen ? `<img src="${incision.imagen}" alt="Incisión quirúrgica" style="max-width: 100%; height: auto; margin-top: 1rem; border-radius: 0.5rem; cursor: pointer; object-fit: contain;" class="planeamiento-imagen" loading="eager">` : ''}
             </section>
             
             <section>
@@ -4486,3 +4792,108 @@ const fallbackEquipos = equiposCatalogo;
         window.lucide.createIcons();
     }
 });
+
+   let pdfDoc = null;
+        let currentPage = 1;
+        const pdfPath = 'assets/portafolio/Portafolio de urologia_compressed.pdf';
+
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+        // Cargar el PDF
+        async function loadPDF() {
+            try {
+                pdfDoc = await pdfjsLib.getDocument(pdfPath).promise;
+                renderPage(currentPage);
+                updatePageInfo();
+            } catch (error) {
+                console.error('Error al cargar el PDF:', error);
+                document.getElementById('pdfContainer').innerHTML = 
+                    '<p style="color: #e89aaa; padding: 2rem; text-align: center;">Error al cargar el PDF. Por favor, intenta descargar el archivo.</p>';
+            }
+        }
+
+        // Renderizar una página
+        async function renderPage(pageNum) {
+            if (!pdfDoc) return;
+
+            try {
+                const page = await pdfDoc.getPage(pageNum);
+                const viewport = page.getViewport({ scale: 1.5 });
+
+                const canvas = document.createElement('canvas');
+                canvas.className = 'pdf-page';
+                const context = canvas.getContext('2d');
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+
+                await page.render({
+                    canvasContext: context,
+                    viewport: viewport
+                }).promise;
+
+                const container = document.getElementById('pdfContainer');
+                container.innerHTML = '';
+                container.appendChild(canvas);
+
+                updatePageInfo();
+            } catch (error) {
+                console.error('Error al renderizar la página:', error);
+            }
+        }
+
+        // Actualizar información de página
+        function updatePageInfo() {
+            if (pdfDoc) {
+                document.getElementById('pageInfo').textContent = 
+                    `Página ${currentPage} de ${pdfDoc.numPages}`;
+                
+                document.getElementById('prevBtn').disabled = currentPage <= 1;
+                document.getElementById('nextBtn').disabled = currentPage >= pdfDoc.numPages;
+            }
+        }
+
+        // Navegación
+        function nextPage() {
+            if (pdfDoc && currentPage < pdfDoc.numPages) {
+                currentPage++;
+                renderPage(currentPage);
+            }
+        }
+
+        function previousPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                renderPage(currentPage);
+            }
+        }
+
+        // Descargar PDF
+        function downloadPDF() {
+            const link = document.createElement('a');
+            link.href = pdfPath;
+            link.download = 'Portafolio_de_urologia.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Pantalla completa
+        function toggleFullscreen() {
+            const viewer = document.querySelector('.portafolio-viewer');
+            if (!document.fullscreenElement) {
+                viewer.requestFullscreen().catch(err => {
+                    console.error('Error al entrar en pantalla completa:', err);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        }
+
+        // Cargar el PDF al iniciar
+        document.addEventListener('DOMContentLoaded', loadPDF);
+
+        // Permitir navegación con teclas
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextPage();
+            if (e.key === 'ArrowLeft') previousPage();
+        });

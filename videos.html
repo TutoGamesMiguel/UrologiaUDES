@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biblioteca de videos de procedimientos e instrumental urológico para apoyo académico.">
+    <title>Videos - Urology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container" aria-label="Navegación principal">
+            <a class="brand" href="index.html" aria-label="Ir a inicio">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 64 64" role="img" aria-label="Logo del proyecto">
+                        <circle cx="32" cy="32" r="30" fill="var(--azul-pastel)"></circle>
+                        <path d="M20 37L37 20c1-1 2.5-1 3.5 0l3.5 3.5c1 1 1 2.5 0 3.5L27.5 43.5 20 44l1-7Z" fill="var(--rosa-acento)"></path>
+                        <path d="M24.5 40.5l-1.5 1.5c-.4.4-.4 1 0 1.4l2.1 2.1c.4.4 1 .4 1.4 0l1.5-1.5" fill="none" stroke="var(--rosa-acento)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </span>
+                <span class="brand-text">
+                    <strong>UroInstrumentación</strong>
+                </span>
+            </a>
+
+            <button class="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <div class="nav-panel" id="primary-navigation">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="planeamientos.html">Plannings</a>
+                <a class="nav-link" href="equipos.html">Equipment</a>
+                <a class="nav-link active" href="videos.html">Videos</a>
+                <a class="nav-link" href="portafolio.html">Portfolio</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero page-hero-soft">
+            <div class="container page-hero-content fade-in">
+                <h1>Video Library</h1>
+                <p>
+                    Collection of visual material on urological instrumentation and procedures for classroom support and guided review.
+                </p>
+            </div>
+        </section>
+
+        <section class="section videos-section">
+            <div class="container">
+                <div class="videos-grid fade-in" role="region" aria-label="Videos de procedimientos e instrumental">
+                    <article class="card video-card fade-in">
+                        <h3>Cistoscopio</h3>
+                        <div class="video-frame">
+                            <video class="video-player" controls preload="metadata" src="./assets/videos/cistoscopio.mp4"></video>
+                        </div>
+                    </article>
+
+                    <article class="card video-card fade-in">
+                        <h3>Laser Holmium</h3>
+                        <div class="video-frame">
+                            <video class="video-player" controls preload="metadata" src="./assets/videos/laser holmium ing.mp4"></video>
+                        </div>
+                    </article>
+
+                    <article class="card video-card fade-in">
+                        <h3>Litotricia Intracorporea Ureteral</h3>
+                        <div class="video-frame">
+                            <video class="video-player" controls preload="metadata" src="./assets/videos/LITOTRICIA INTRACORPOREA URETERAL.mp4"></video>
+                        </div>
+                    </article>
+
+                    <article class="card video-card fade-in">
+                        <h3>Morceloscopio</h3>
+                        <div class="video-frame">
+                            <video class="video-player" controls preload="metadata" src="./assets/videos/Morceloscopio.mp4"></video>
+                        </div>
+                    </article>
+
+                    <article class="card video-card fade-in">
+                        <h3>Nefrolitotomia Percutanea</h3>
+                        <div class="video-frame">
+                            <video class="video-player" controls preload="metadata" src="./assets/videos/Nefrolitotomía Percutánea.mp4"></video>
+                        </div>
+                    </article>
+
+                    <article class="card video-card fade-in">
+                        <h3>Prostatica con Laser Thulium</h3>
+                        <div class="video-frame">
+                            <video class="video-player" controls preload="metadata" src="./assets/videos/Prostática con Laser Thulium.mp4"></video>
+                        </div>
+                    </article>
+
+                    <article class="card video-card fade-in">
+                        <h3>Resectoscopio Laser</h3>
+                        <div class="video-frame">
+                            <video class="video-player" controls preload="metadata" src="./assets/videos/Resectoscopio Laser.mp4"></video>
+                        </div>
+                    </article>
+
+                    <article class="card video-card fade-in">
+                        <h3>Uretrotomia</h3>
+                        <div class="video-frame">
+                            <video class="video-player" controls preload="metadata" src="./assets/videos/Uretrotomía.mp4"></video>
+                        </div>
+                    </article>
+
+                    <article class="card video-card fade-in">
+                        <h3>Ureteroscopio</h3>
+                        <div class="video-frame">
+                            <video class="video-player" controls preload="metadata" src="./assets/videos/urreteroscopio.mp4"></video>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Equipos Quirúrgicos en Urología · Instrumentación Quirúrgica · 2026</p>
+            <p>UDES - Universidad de Santander</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Volver arriba">
+        <i data-lucide="arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+</html>

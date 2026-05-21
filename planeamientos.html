@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Estructura preliminar de la sección de planeamientos quirúrgicos en urología.">
-	<title>Planeamientos Quirúrgicos</title>
+	<title>Surgical Plannings</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -32,20 +32,21 @@
 			</button>
 
 			<div class="nav-panel" id="primary-navigation">
-				<a class="nav-link" href="index.html">Inicio</a>
-				<a class="nav-link active" href="planeamientos.html">Planeamientos</a>
-				<a class="nav-link" href="equipos.html">Equipos</a>
-				<a class="nav-link" href="portafolio.html">Portafolio</a>
-			</div>
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="planeamientos.html">Plannings</a>
+                <a class="nav-link" href="equipos.html">Equipment</a>
+				<a class="nav-link" href="videos.html">Videos</a>
+                <a class="nav-link" href="portafolio.html">Portfolio</a>
+            </div>
 		</nav>
 	</header>
 
 	<main>
 		<section class="page-hero page-hero-soft">
 			<div class="container page-hero-content fade-in">
-				<h1>Planeamientos Quirúrgicos</h1>
+				<h1>Surgical Plannings</h1>
 				<p>
-					Explora los planeamientos quirúrgicos organizados por órgano para entender las etapas de preparación, ejecución y cuidado postoperatorio en urología.
+					An interactive section dedicated to surgical plannings in urology. Explore detailed guides, step-by-step processes, and essential considerations for various urological procedures.
 				</p>
 			</div>
 		</section>
@@ -53,28 +54,28 @@
 		<section class="section">
 			<div class="container content-stack">
 				<article class="card fade-in">
-					<h2 class="section-title">Introducción</h2>
+					<h2 class="section-title">Introduction</h2>
 					<p>
-						<strong>Planeamiento quirúrgico en urología</strong> es un proceso sistemático que involucra la planificación detallada de intervenciones quirúrgicas específicas para tratar condiciones urológicas.
+						<strong>Surgical planning in urology</strong> is a systematic process that involves the detailed planning of specific surgical interventions to treat urological conditions.
 					</p>
 					<p>
-						<strong> </strong>Este proceso abarca desde la evaluación preoperatoria, la selección de técnicas y abordajes, hasta la organización de recursos y el manejo postoperatorio, con el objetivo de optimizar los resultados clínicos y garantizar la seguridad del paciente.
+						<strong> </strong> This process encompasses from preoperative evaluation, the selection of techniques and approaches, to the organization of resources and postoperative management, with the objective of optimizing clinical outcomes and ensuring patient safety.
 					</p>
 				</article>
 
 				<section class="sections-grid section" aria-label="Planeamientos por órgano">
 					<div class="container">
-						<h2 class="section-title fade-in">Planeamientos por órgano</h2>
+						<h2 class="section-title fade-in">Plannigs by Organ</h2>
 
 						<div class="filter-row fade-in" role="tablist" aria-label="Filtrar por órgano">
-							<button class="filter-btn active" type="button" data-organ="Todos">Todos</button>
-							<button class="filter-btn" type="button" data-organ="Riñón">Riñón</button>
-							<button class="filter-btn" type="button" data-organ="Pelvis renal">Pelvis renal</button>
-							<button class="filter-btn" type="button" data-organ="Uréter">Uréter</button>
-							<button class="filter-btn" type="button" data-organ="Vejiga">Vejiga</button>
-							<button class="filter-btn" type="button" data-organ="Testículo">Testículo</button>
-							<button class="filter-btn" type="button" data-organ="Pene">Pene</button>
-							<button class="filter-btn" type="button" data-organ="Próstata">Próstata</button>
+							<button class="filter-btn active" type="button" data-organ="Todos">All</button>
+							<button class="filter-btn" type="button" data-organ="Riñón">Kidney</button>
+							<button class="filter-btn" type="button" data-organ="Pelvis renal">Renal pelvis</button>
+							<button class="filter-btn" type="button" data-organ="Uréter">Ureter</button>
+							<button class="filter-btn" type="button" data-organ="Vejiga">Bladder</button>
+							<button class="filter-btn" type="button" data-organ="Testículo">Testicle</button>
+							<button class="filter-btn" type="button" data-organ="Pene">Penis</button>
+							<button class="filter-btn" type="button" data-organ="Próstata">Prostate</button>
 						</div>
 
 						<div class="equipos-grid fade-in" role="region" aria-live="polite">
@@ -102,6 +103,18 @@
 								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
 							</article>
 
+							<article class="card organ-card fade-in" data-organ="Pelvis renal" data-planeamiento-id="39">
+								<h3>Pielolitotomia</h3>
+								<p class="muted">Extracción de cálculos de pelvis renal con abordaje abierto, colocación de catéter doble J y cierre por planos.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Pelvis renal" data-planeamiento-id="40">
+								<h3>Nefrostomia</h3>
+								<p class="muted">Procedimiento para drenar la orina desde el riñón mediante un catéter a través de la piel.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
 							<article class="card organ-card fade-in" data-organ="Uréter" data-planeamiento-id="22">
 								<h3>Pieloplastia</h3>
 								<p class="muted">Resolución de estenosis pieloureteral mediante resección, espatulación y anastomosis laparoscópica.</p>
@@ -117,6 +130,12 @@
 							<article class="card organ-card fade-in" data-organ="Uréter" data-planeamiento-id="23">
 								<h3>Reimplante ureteral</h3>
 								<p class="muted">Reimplantación del uréter en la vejiga mediante técnica de neocistoplastia con incisión de Pfannestiel y anastomosis ureteral para corregir estenosis o daño ureteral.</p>
+								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
+							</article>
+
+							<article class="card organ-card fade-in" data-organ="Uréter" data-planeamiento-id="38">
+								<h3>Ureterolitotomia endoscópica</h3>
+								<p class="muted">Extracción de cálculos urinarios localizados en el uréter mediante técnica quirúrgica mínimamente invasiva.</p>
 								<a class="btn btn-secondary" href="#">Ver planeamiento</a>
 							</article>
 

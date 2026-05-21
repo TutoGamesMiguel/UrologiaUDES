@@ -645,6 +645,127 @@ input {
     color: var(--texto);
 }
 
+.portafolio-hero {
+            padding: 60px 20px;
+            background: var(--fondo-hero);
+        }
+
+        .portafolio-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin: 3rem auto;
+            max-width: 1100px;
+        }
+
+        .portafolio-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .portafolio-viewer {
+            background: #f5f5f5;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            min-height: 600px;
+        }
+
+        #pdfContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            padding: 20px;
+        }
+
+        .pdf-page {
+            max-width: 100%;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .pdf-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: var(--gris-claro);
+            border-top: 1px solid #e0e0e0;
+            flex-wrap: wrap;
+        }
+
+        .pdf-info {
+            font-size: 0.9rem;
+            color: var(--texto-muted);
+            min-width: 150px;
+            text-align: center;
+        }
+
+        .pdf-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1.2rem;
+            background: var(--azul-pastel);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: var(--texto);
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .pdf-btn:hover {
+            background: var(--azul-acento);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(122, 174, 232, 0.3);
+        }
+
+        .pdf-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .portafolio-info {
+            background: var(--gris-claro);
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem auto;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .portafolio-info h3 {
+            color: var(--azul-acento);
+            margin-top: 0;
+        }
+
+        @media (max-width: 768px) {
+            .portafolio-viewer {
+                min-height: 400px;
+            }
+
+            .pdf-controls {
+                flex-direction: column;
+            }
+
+            .pdf-info {
+                min-width: auto;
+            }
+
+            #pdfContainer {
+                padding: 10px;
+            }
+        }
+
+
 /* vertical separators between columns */
 .planeamiento-checklist-table th:not(:first-child),
 .planeamiento-checklist-table td:not(:first-child) {
@@ -861,6 +982,41 @@ input {
     padding-left: 1.1rem;
     color: var(--texto-muted);
     display: grid;
+
+.videos-section {
+    padding-top: 2.4rem;
+}
+
+.videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.4rem;
+}
+
+.video-card {
+    padding: 1rem;
+}
+
+.video-card h3 {
+    margin: 0 0 0.75rem;
+    color: var(--azul-acento);
+    font-size: 1.02rem;
+}
+
+.video-frame {
+    border-radius: 10px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.video-player {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background: #000;
+}
     gap: 0.45rem;
 }
 
