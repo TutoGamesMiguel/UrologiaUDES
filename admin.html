@@ -205,7 +205,7 @@
     <div class="admin-form-grid admin-form-grid-2">
         <label class="admin-field">
             <span>ID</span>
-            <input type="number" name="id" min="1" step="1" placeholder="1" >
+            <input type="number" name="id" min="1" step="1" placeholder="1" readonly>
         </label>
 
         <label class="admin-field">
@@ -239,7 +239,7 @@
 
         <label class="admin-field">
             <span>Imagen de anatomía</span>
-            <input type="text" name="anatomia_imagen" placeholder="./assets/..." >
+            <input type="text" name="anatomia_imagen" placeholder="./assets/..." readonly>
         </label>
     </div>
 
@@ -300,12 +300,12 @@
     <div class="admin-form-grid admin-form-grid-2">
         <label class="admin-field">
             <span>Imagen mesa de Mayo</span>
-            <input type="text" name="mesa_mayo_imagen" placeholder="./assets/..." >
+            <input type="text" name="mesa_mayo_imagen" placeholder="./assets/..." readonly>
         </label>
 
         <label class="admin-field">
             <span>Imagen mesa de reserva</span>
-            <input type="text" name="mesa_reserva_imagen" placeholder="./assets/..." >
+            <input type="text" name="mesa_reserva_imagen" placeholder="./assets/..." readonly>
         </label>
     </div>
 
@@ -317,7 +317,7 @@
 
         <label class="admin-field">
             <span>Imagen posición paciente</span>
-            <input type="text" name="posicion_imagen" placeholder="./assets/..." >
+            <input type="text" name="posicion_imagen" placeholder="./assets/..." readonly>
         </label>
     </div>
 
@@ -333,7 +333,7 @@
 
     <label class="admin-field">
         <span>Imagen equipo quirúrgico</span>
-        <input type="text" name="equipo_imagen" placeholder="./assets/..." >
+        <input type="text" name="equipo_imagen" placeholder="./assets/..." readonly>
     </label>
 
     <h3 class="admin-subtitle">Ejecución</h3>
@@ -346,7 +346,7 @@
 
         <label class="admin-field">
             <span>Imagen anestesia</span>
-            <input type="text" name="anestesia_imagen" placeholder="./assets/..." >
+            <input type="text" name="anestesia_imagen" placeholder="./assets/..." readonly>
         </label>
     </div>
 
@@ -394,7 +394,7 @@ Instrumental: item 1, item 2"></textarea>
                     <i data-lucide="save" aria-hidden="true"></i>
                     Guardar
                     </button>
-                    <button class="btn btn-secondary" type="button" data-delete-button>
+                    <button class="btn btn-secondary" type="button" data-delete-button hidden>
                     <i data-lucide="trash-2" aria-hidden="true"></i>
                     Eliminar
                     </button>
