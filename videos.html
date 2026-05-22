@@ -9,6 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .videos-section .video-player {
+            display: block !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            min-width: 0 !important;
+            height: auto !important;
+            aspect-ratio: 16 / 9;
+        }
+    </style>
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
 </head>
 <body>
@@ -37,6 +47,7 @@
                 <a class="nav-link" href="equipos.html">Equipment</a>
                 <a class="nav-link active" href="videos.html">Videos</a>
                 <a class="nav-link" href="portafolio.html">Portfolio</a>
+                <a class="nav-link" href="bibliografías.html">Bibliografías</a>
                 <a class="nav-link" href="admin.html">Admin</a>
             </div>
         </nav>
@@ -53,71 +64,285 @@
         </section>
 
         <section class="section videos-section">
-            <div class="container">
-                <div class="videos-grid fade-in" role="region" aria-label="Videos de procedimientos e instrumental">
-                    <article class="card video-card fade-in">
-                        <h3>Cistoscopio</h3>
-                        <div class="video-frame">
-                            <video class="video-player" controls preload="metadata" src="./assets/videos/cistoscopio.mp4"></video>
-                        </div>
-                    </article>
+            <div class="container content-stack" role="region" aria-label="Videos de procedimientos e instrumental">
+                <article class="card fade-in">
+                    <h2 class="section-title">Equipos</h2>
+                    <div class="videos-grid">
+                        <article class="card video-card fade-in">
+                            <h3>Cistoscopio</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/cistoscopio.mp4"></video>
+                            </div>
+                        </article>
 
-                    <article class="card video-card fade-in">
-                        <h3>Laser Holmium</h3>
-                        <div class="video-frame">
-                            <video class="video-player" controls preload="metadata" src="./assets/videos/laser holmium ing.mp4"></video>
-                        </div>
-                    </article>
+                        <article class="card video-card fade-in">
+                            <h3>Morceloscopio</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Morceloscopio.mp4"></video>
+                            </div>
+                        </article>
 
-                    <article class="card video-card fade-in">
-                        <h3>Litotricia Intracorporea Ureteral</h3>
-                        <div class="video-frame">
-                            <video class="video-player" controls preload="metadata" src="./assets/videos/LITOTRICIA INTRACORPOREA URETERAL.mp4"></video>
-                        </div>
-                    </article>
+                        <article class="card video-card fade-in">
+                            <h3>Resectoscopio láser</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Resectoscopio Laser.mp4"></video>
+                            </div>
+                        </article>
 
-                    <article class="card video-card fade-in">
-                        <h3>Morceloscopio</h3>
-                        <div class="video-frame">
-                            <video class="video-player" controls preload="metadata" src="./assets/videos/Morceloscopio.mp4"></video>
-                        </div>
-                    </article>
+                        <article class="card video-card fade-in">
+                            <h3>Ureteroscopio flexible con láser Holmium</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Ureteroscopia flexible con láser Holmium.mp4"></video>
+                            </div>
+                        </article>
 
-                    <article class="card video-card fade-in">
-                        <h3>Nefrolitotomia Percutanea</h3>
-                        <div class="video-frame">
-                            <video class="video-player" controls preload="metadata" src="./assets/videos/Nefrolitotomía Percutánea.mp4"></video>
-                        </div>
-                    </article>
+                        <article class="card video-card fade-in">
+                            <h3>Ureteroscopio</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/urreteroscopio.mp4"></video>
+                            </div>
+                        </article>
+                    </div>
+                </article>
 
-                    <article class="card video-card fade-in">
-                        <h3>Prostatica con Laser Thulium</h3>
-                        <div class="video-frame">
-                            <video class="video-player" controls preload="metadata" src="./assets/videos/Prostática con Laser Thulium.mp4"></video>
-                        </div>
-                    </article>
+                <article class="card fade-in">
+                    <h2 class="section-title">Riñón</h2>
+                    <div class="videos-grid">
+                        <article class="card video-card fade-in">
+                            <h3>Nefrectomía parcial</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/nefrectomia parcial.mp4"></video>
+                            </div>
+                        </article>
 
-                    <article class="card video-card fade-in">
-                        <h3>Resectoscopio Laser</h3>
-                        <div class="video-frame">
-                            <video class="video-player" controls preload="metadata" src="./assets/videos/Resectoscopio Laser.mp4"></video>
-                        </div>
-                    </article>
+                        <article class="card video-card fade-in">
+                            <h3>Nefrectomía radical laparoscópica</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/nefrectomia radical lap.mp4"></video>
+                            </div>
+                        </article>
 
-                    <article class="card video-card fade-in">
-                        <h3>Uretrotomia</h3>
-                        <div class="video-frame">
-                            <video class="video-player" controls preload="metadata" src="./assets/videos/Uretrotomía.mp4"></video>
-                        </div>
-                    </article>
+                        <article class="card video-card fade-in">
+                            <h3>Nefrostomía</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Nefrostomia.mp4"></video>
+                            </div>
+                        </article>
+                    </div>
+                </article>
 
-                    <article class="card video-card fade-in">
-                        <h3>Ureteroscopio</h3>
-                        <div class="video-frame">
-                            <video class="video-player" controls preload="metadata" src="./assets/videos/urreteroscopio.mp4"></video>
-                        </div>
-                    </article>
-                </div>
+                <article class="card fade-in">
+                    <h2 class="section-title">Pelvis renal</h2>
+                    <div class="videos-grid">
+                        <article class="card video-card fade-in">
+                            <h3>Pieloplastia</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/pieloplastia.mp4"></video>
+                            </div>
+                        </article>
+                    </div>
+                </article>
+
+                <article class="card fade-in">
+                    <h2 class="section-title">Uréter</h2>
+                    <div class="videos-grid">
+                        <article class="card video-card fade-in">
+                            <h3>Estenosis ureteral</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/estenosis ureteral.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Reimplante ureteral</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Reimplante ureteral.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Ureterolitotomia endoscópica</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Ureterolitotomia endoscópica.mp4"></video>
+                            </div>
+                        </article>
+
+                    </div>
+                </article>
+
+                <article class="card fade-in">
+                    <h2 class="section-title">Vejiga</h2>
+                    <div class="videos-grid">
+                        <article class="card video-card fade-in">
+                            <h3>Cistopexia</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/cistopexia.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Cistostomía</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/cistostomia.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Cistectomía</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Cistectomía.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Cistectomía parcial</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/cistectomia parcial.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Cistectomía total</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/cistectomia total.mp4"></video>
+                            </div>
+                        </article>
+                    </div>
+                </article>
+
+                <article class="card fade-in">
+                    <h2 class="section-title">Próstata</h2>
+                    <div class="videos-grid">
+                        <article class="card video-card fade-in">
+                            <h3>Prostatectomía radical</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Prostatectomia radical.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Prostatectomía abierta transvesical</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Prostatectomía abierta transvesical.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Prostatectomía convencional y bipolar</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Prostatectomía convencional y bipola.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Prostatectomía suprapúbica</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Prostatectomía suprapúbica.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Prostatectomía suprapúbica 2</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Prostatectomía suprapúbica (1).mp4"></video>
+                            </div>
+                        </article>
+                    </div>
+                </article>
+
+                <article class="card fade-in">
+                    <h2 class="section-title">Pene</h2>
+                    <div class="videos-grid">
+                        <article class="card video-card fade-in">
+                            <h3>Circuncisión</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Circuncisión.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Cáncer de pene</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Cáncer de pene cirugia.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Enfermedad de Peyronie</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Enfermedad de Peyronie.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Hipospadias</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Hipospadias.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Priapismo</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/priapismo.mp4"></video>
+                            </div>
+                        </article>
+                    </div>
+                </article>
+
+                <article class="card fade-in">
+                    <h2 class="section-title">Testículo y escroto</h2>
+                    <div class="videos-grid">
+                        <article class="card video-card fade-in">
+                            <h3>Epididectomía</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Epididectomía.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Hidrocelectomía</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Hidrocelectomía.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Orquidopexia</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Orquidopexia.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Orquiectomía</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/Orquiectomía.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Torsión testicular</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/torsion test.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Varicocele</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/varicocele.mp4"></video>
+                            </div>
+                        </article>
+
+                        <article class="card video-card fade-in">
+                            <h3>Vasectomía</h3>
+                            <div class="video-frame">
+                                <video class="video-player" controls preload="metadata" src="./assets/videos/vasectomia.mp4"></video>
+                            </div>
+                        </article>
+                    </div>
+                </article>
             </div>
         </section>
     </main>

@@ -317,13 +317,15 @@ input {
 }
 
 .content-stack {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
 }
 
 .content-stack > .card,
 .content-stack > .accordion {
     width: 100%;
+    min-width: 0;
 }
 
 .equipos-section {
@@ -1030,10 +1032,28 @@ input {
     padding-top: 2.4rem;
 }
 
+.videos-section .content-stack {
+    width: min(1120px, calc(100% - 2rem));
+    margin: 0 auto;
+}
+
+.videos-section .content-stack > .card {
+    width: 100%;
+    max-width: 100%;
+}
+
 .videos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 1.4rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.videos-grid > .video-card {
+    min-width: 0;
+    max-width: 100%;
 }
 
 .video-card {
@@ -1044,6 +1064,7 @@ input {
     margin: 0 0 0.75rem;
     color: var(--azul-acento);
     font-size: 1.02rem;
+    overflow-wrap: anywhere;
 }
 
 .video-frame {
@@ -1055,7 +1076,9 @@ input {
 
 .video-player {
     display: block;
-    width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0;
     height: auto;
     aspect-ratio: 16 / 9;
     background: #000;
