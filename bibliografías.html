@@ -130,24 +130,28 @@
     </main>
 
     <script>
-        lucide.createIcons();
+        document.addEventListener("DOMContentLoaded", () => {
+            if (typeof lucide !== "undefined") {
+                lucide.createIcons();
+            }
 
-        const hamburger = document.querySelector(".hamburger");
-        const navPanel = document.querySelector(".nav-panel");
+            const hamburger = document.querySelector(".hamburger");
+            const navPanel = document.querySelector(".nav-panel");
 
-        if (hamburger && navPanel) {
-            hamburger.addEventListener("click", () => {
-                const isOpen = navPanel.classList.toggle("nav-open");
-                hamburger.setAttribute("aria-expanded", String(isOpen));
-            });
-
-            navPanel.querySelectorAll("a").forEach((link) => {
-                link.addEventListener("click", () => {
-                    navPanel.classList.remove("nav-open");
-                    hamburger.setAttribute("aria-expanded", "false");
+            if (hamburger && navPanel) {
+                hamburger.addEventListener("click", () => {
+                    const isOpen = navPanel.classList.toggle("nav-open");
+                    hamburger.setAttribute("aria-expanded", String(isOpen));
                 });
-            });
-        }
+
+                navPanel.querySelectorAll("a").forEach((link) => {
+                    link.addEventListener("click", () => {
+                        navPanel.classList.remove("nav-open");
+                        hamburger.setAttribute("aria-expanded", "false");
+                    });
+                });
+            }
+        });
     </script>
 </body>
 </html>
